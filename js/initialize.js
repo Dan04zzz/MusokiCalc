@@ -897,6 +897,12 @@ $(document).ready(async function() {
     return
   }
   if (backupFiles[TITLE]) {
+    if (TITLE === "Soon...") {
+      const blankSlateData = buildBlankSlateData();
+      prepareDynamicCalcData(blankSlateData, { skipGameSettings: true });
+      loadDataSource(blankSlateData);
+      return;
+    }
     // Load hardcoded calc data if present
     checkAndLoadScript(`./backups/${backupFiles[TITLE]}.js`, {
             onLoad: (src) => {
