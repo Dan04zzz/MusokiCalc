@@ -23,8 +23,22 @@
         if (!titleEl) {
             return;
         }
-        titleEl.textContent = title || "";
-        titleEl.style.display = title ? "block" : "none";
+        const selectEl = titleEl.querySelector("select");
+        if (selectEl) {
+            const params = new URLSearchParams(window.location.search);
+            const dataVal = params.get('data');
+            if (dataVal) {
+                const opt = Array.from(selectEl.options).find(o => o.getAttribute('data-source') && o.getAttribute('data-source').includes(dataVal));
+                if (opt) {
+                    opt.selected = true;
+                }
+            } else {
+                selectEl.selectedIndex = 0;
+            }
+        } else {
+            titleEl.textContent = title || "";
+        }
+        titleEl.style.display = "block";
         renderGameVersionTabs(title);
         updateDashboardLink(title);
     }
@@ -315,6 +329,15 @@
 
         const settings = options && typeof options === "object" ? options : {};
         const nextView = normalizeRequestedView(viewName);
+        if (nextView !== "home" && nextView !== "settings") {
+            const params = new URLSearchParams(window.location.search);
+            if (!params.get('data')) {
+                params.set('data', 'hgimproved');
+                params.set('view', nextView);
+                window.location.search = params.toString();
+                return null;
+            }
+        }
         ensureFragsheetShellInitialized();
 
         if (nextView === "fragsheet") {

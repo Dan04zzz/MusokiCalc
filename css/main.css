@@ -5568,7 +5568,7 @@ table.field {
         display: none;
     }
 */
-    #footer, #met-loc, #frag-count {
+    #met-loc, #frag-count {
         display: none !important;
     }
 
@@ -6801,5 +6801,13 @@ body {
 
 body {
     padding-bottom: 60px !important;
+}
+
+#rom-title select.calc-select:hover {
+    border-color: rgba(187, 134, 252, 0.5) !important;
+}
+#rom-title select.calc-select:focus {
+    border-color: #bb86fc !important;
+    box-shadow: 0 0 0 2px rgba(187, 134, 252, 0.2);
 }
 

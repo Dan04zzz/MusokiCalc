@@ -22,15 +22,21 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->    
     <script>
         params = new URLSearchParams(window.location.search)
-        if (!params.get('data')) {
-            window.location.search = "?data=hgimproved";
+        const currentView = params.get('view') || 'home';
+        if (!params.get('data') && currentView !== 'home') {
+            // Only redirect if they try to access a sub-view without choosing a game version
+            var searchParams = new URLSearchParams(window.location.search);
+            searchParams.set('data', 'hgimproved');
+            window.location.search = searchParams.toString();
         }
         SOURCES = window.romhackSourceTitles || {}
        
         if (SOURCES[params.get('data')]) {
             TITLE = SOURCES[params.get('data')] || "NONE"
             document.title = TITLE + " Calculator"
-            
+        } else {
+            TITLE = "Musoki"
+            document.title = "Musoki Calculator"
         }
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-3"></script>
@@ -84,11 +90,13 @@
                 <img src="./img/logo.jpg" id="app-logo" alt="Logo" style="cursor: pointer;">
                 <span id="branding-musoki" style="font-weight: bold; font-size: 18px; color: #fff; cursor: pointer;">Musoki</span>
             </a>
-            <select class="calc-select" style="background: rgba(24, 24, 24, 0.85); color: #fff; border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 10px; padding: 8px 12px; font-size: 16px; font-weight: 600; cursor: pointer; transition: border-color 0.2s; outline: none; margin-left: 8px;">
-                <option disabled value="">Seleziona Gioco</option>
-                <option selected="selected" data-source="?data=hgimproved">Heart Gold Migliorato</option>
-                <option disabled>Soon...</option>
-            </select>
+            <div id="rom-title" style="display: block;">
+                <select class="calc-select" style="background: rgba(24, 24, 24, 0.85); color: #fff; border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 10px; padding: 8px 12px; font-size: 16px; font-weight: 600; cursor: pointer; transition: border-color 0.2s; outline: none; margin-left: 8px;">
+                    <option value="" disabled selected>Seleziona Versione</option>
+                    <option data-source="?data=hgimproved">Heart Gold Migliorato</option>
+                    <option disabled>Soon...</option>
+                </select>
+            </div>
         </div>
         
         <img src="./img/menu.svg" id="open-menu" aria-label="Open settings" style="cursor: pointer;">
@@ -98,7 +106,6 @@
         <div id="apply-cap">Right click lvl cap to apply to box</div>
 
         </span>
-        <div id="rom-title" style="display: none !important;"></div>
         <div id="main-view-tabs" aria-label="Main views" role="tablist">
             <div class="main-view-tabs-primary">
                 <button type="button" class="main-view-tab active" data-view="home">Home</button>
