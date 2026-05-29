@@ -401,8 +401,28 @@
         mainNavInitialized = true;
 
         document.querySelectorAll(".main-view-tab[data-view]").forEach((tab) => {
-            tab.addEventListener("click", function () {
-                setMainPageView(this.getAttribute("data-view"));
+            tab.addEventListener("click", function (event) {
+                const view = this.getAttribute("data-view");
+
+                // Special handling for Calculator tab: toggle ROM dropdown
+                if (view === "calculator") {
+                    event.stopPropagation();
+                    const dropdown = document.getElementById("calculator-rom-dropdown");
+                    const btn = document.getElementById("calculator-tab-btn");
+                    if (!dropdown) return;
+                    const isOpen = dropdown.style.display !== "none";
+                    dropdown.style.display = isOpen ? "none" : "block";
+                    if (btn) btn.setAttribute("aria-expanded", isOpen ? "false" : "true");
+                    return;
+                }
+
+                // Close calculator dropdown if open
+                const calcDropdown = document.getElementById("calculator-rom-dropdown");
+                if (calcDropdown) calcDropdown.style.display = "none";
+                const calcBtn = document.getElementById("calculator-tab-btn");
+                if (calcBtn) calcBtn.setAttribute("aria-expanded", "false");
+
+                setMainPageView(view);
                 setMainViewMenuOpen(false);
             });
         });
@@ -416,6 +436,18 @@
         }
 
         document.addEventListener("click", function (event) {
+            // Close calculator ROM dropdown if clicking outside
+            const calcWrapper = document.getElementById("calculator-tab-wrapper");
+            const calcDropdown = document.getElementById("calculator-rom-dropdown");
+            const calcBtn = document.getElementById("calculator-tab-btn");
+            if (calcDropdown && calcDropdown.style.display !== "none") {
+                if (!calcWrapper || !calcWrapper.contains(event.target)) {
+                    calcDropdown.style.display = "none";
+                    if (calcBtn) calcBtn.setAttribute("aria-expanded", "false");
+                }
+            }
+
+            // Close mobile nav menu if clicking outside
             const mainTabs = document.getElementById("main-view-tabs");
             const menuToggle = document.getElementById("main-view-menu-toggle");
             if (!mainTabs || !menuToggle || menuToggle.getAttribute("aria-expanded") !== "true") {
@@ -430,6 +462,11 @@
         document.addEventListener("keydown", function (event) {
             if (event.key === "Escape") {
                 setMainViewMenuOpen(false);
+                // Also close calculator dropdown
+                const calcDropdown = document.getElementById("calculator-rom-dropdown");
+                const calcBtn = document.getElementById("calculator-tab-btn");
+                if (calcDropdown) calcDropdown.style.display = "none";
+                if (calcBtn) calcBtn.setAttribute("aria-expanded", "false");
             }
         });
 

@@ -103,13 +103,20 @@
         <div id="main-view-tabs" aria-label="Main views" role="tablist">
             <div class="main-view-tabs-primary">
                 <button type="button" class="main-view-tab active" data-view="home">Home</button>
-                <div class="main-view-tab-dropdown-wrapper" style="position: relative; display: inline-flex; align-items: center; border-radius: 10px; transition: background-color 0.2s ease;">
-                    <button type="button" class="main-view-tab" data-view="calculator" style="border-top-right-radius: 0; border-bottom-right-radius: 0; padding-right: 8px;">Calculator</button>
-                    <select class="calc-select" style="background: rgba(30, 30, 30, 0.9); color: #fff; border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 6px; padding: 4px 8px; font-size: 13px; font-weight: 500; cursor: pointer; outline: none; margin-right: 8px; height: 28px; line-height: 20px;">
-                        <option value="" disabled selected>Seleziona Versione</option>
-                        <option data-source="?data=hgimproved">Heart Gold Migliorato</option>
-                        <option data-source="?data=soon">Soon...</option>
-                    </select>
+                <div class="main-view-tab-dropdown-wrapper" id="calculator-tab-wrapper" style="position: relative; display: inline-flex; align-items: center;">
+                    <button type="button" class="main-view-tab" data-view="calculator" id="calculator-tab-btn" aria-haspopup="true" aria-expanded="false">
+                        Calculator <span style="font-size: 10px; margin-left: 4px; opacity: 0.7;">▼</span>
+                    </button>
+                    <div id="calculator-rom-dropdown" class="calculator-rom-dropdown" style="display: none;" role="menu">
+                        <a href="?data=hgimproved" class="calculator-rom-option" role="menuitem">
+                            <span class="rom-option-icon">🎮</span>
+                            Heart Gold Migliorato
+                        </a>
+                        <a href="?data=soon" class="calculator-rom-option soon-option" role="menuitem">
+                            <span class="rom-option-icon">⏳</span>
+                            Soon...
+                        </a>
+                    </div>
                 </div>
                 <button type="button" class="main-view-tab" id="main-nav-dex" data-view="dex">Encounters</button>
                 <button type="button" class="main-view-tab" data-view="box">Box</button>

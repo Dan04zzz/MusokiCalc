@@ -1427,6 +1427,61 @@ input[type="file"] {
     background: rgba(187, 134, 252, 0.28);
 }
 
+/* Custom calculator ROM dropdown */
+.calculator-rom-dropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    min-width: 220px;
+    background: rgba(22, 22, 32, 0.97);
+    border: 1px solid rgba(187, 134, 252, 0.3);
+    border-radius: 12px;
+    padding: 6px;
+    z-index: 9999;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(187, 134, 252, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    animation: dropdown-in 0.15s ease;
+}
+
+@keyframes dropdown-in {
+    from { opacity: 0; transform: translateY(-6px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.calculator-rom-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background 0.15s ease, color 0.15s ease;
+    cursor: pointer;
+}
+
+.calculator-rom-option:hover {
+    background: rgba(187, 134, 252, 0.18);
+    color: #fff;
+}
+
+.calculator-rom-option.soon-option {
+    color: #888;
+}
+
+.calculator-rom-option.soon-option:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: #aaa;
+}
+
+.rom-option-icon {
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
 .main-view-version-link {
     box-sizing: border-box;
     display: inline-flex;
