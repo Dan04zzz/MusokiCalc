@@ -1,0 +1,18 @@
+/node_modules
+*sheet_files/
+cypress/screenshots
+tools
+pokeemerald/
+data/analytics/
+
+# Build artifacts
+dist/
+build/
+*.exe
+*.pkg
+*.spec
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo

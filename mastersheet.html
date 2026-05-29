@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="utf-8" />
+
+	<head>
+		<script type="text/javascript" src="./js/vendor/jquery-1.9.1.min.js"></script> 
+
+    	<link type="text/css" rel="stylesheet" href="./css/mastersheet/main.css?2f51c9690" />
+        <link type="text/css" rel="stylesheet" href="./css/mastersheet/mastersheet.css?2f51c969e" />
+		<link type="text/css" rel="stylesheet" href="./css/mastersheet/external.css?2f51c9699" />
+
+		<script src="./js/calc_ui/utility_functions.js"></script>
+		<script src="./js/calc_ui/dex_box_bridge.js"></script>
+        <script>
+            (function () {
+                const DEFAULT_MASTERSHEET_SOURCE = "cascadewhite";
+                const MASTERSHEET_SOURCE_CONFIGS = {
+                    cascadewhite: {
+                        gameDataSlug: "casc",
+                        dexDataSlug: "cascadewhite"
+                    },
+                    cascadewhite2: {
+                        gameDataSlug: "casc2",
+                        dexDataSlug: "cascadewhite"
+                    },
+                    vintagewhiteplus: {
+                        gameDataSlug: "vwplus",
+                        dexDataSlug: "vintagewhiteplus"
+                    }
+                };
+
+                function normalizeMastersheetSource(rawSource) {
+                    const normalizedSource = String(rawSource || DEFAULT_MASTERSHEET_SOURCE)
+                        .trim()
+                        .toLowerCase()
+                        .replace(/\.js$/i, "");
+
+                    if (!/^[a-z0-9_-]+$/.test(normalizedSource)) {
+                        return DEFAULT_MASTERSHEET_SOURCE;
+                    }
+
+                    return normalizedSource;
+                }
+
+                function appendScript(src, onLoad, onError) {
+                    const script = document.createElement("script");
+                    script.src = src;
+                    script.onload = onLoad;
+                    script.onerror = onError;
+                    document.head.appendChild(script);
+                }
+
+                function applySourceConfig(sourceName) {
+                    const sourceConfig = MASTERSHEET_SOURCE_CONFIGS[sourceName] || {};
+                    window.mastersheetDataSource = sourceName;
+                    window.gameDataSlug = sourceConfig.gameDataSlug || sourceName;
+                    window.dexDataSlug = sourceConfig.dexDataSlug || sourceName;
+                }
+
+                function loadMastersheet(sourceName, allowFallback) {
+                    applySourceConfig(sourceName);
+
+                    appendScript(
+                        `./js/mastersheet/data/${sourceName}.js?1`,
+                        function () {
+                            appendScript("./js/mastersheet/render.js?b");
+                        },
+                        function () {
+                            if (allowFallback && sourceName !== DEFAULT_MASTERSHEET_SOURCE) {
+                                loadMastersheet(DEFAULT_MASTERSHEET_SOURCE, false);
+                                return;
+                            }
+
+                            console.error(`[Mastersheet] Failed to load data source "${sourceName}".`);
+                        }
+                    );
+                }
+
+                const urlParams = new URLSearchParams(window.location.search);
+                const requestedSource = normalizeMastersheetSource(urlParams.get("data"));
+                loadMastersheet(requestedSource, true);
+            })();
+        </script>
+	</head>
+
+	<body>
+		
+		<div id="content-container">
+			<div class="pokemon-filter master-sidebar" style="top: 0px">
+				<div id="filter-tabs">
+					<div class="filter-title toc-tab active">ToC</div>
+					<div class="filter-title dex-tab">Dex</div>
+					<div class="filter-title calc-tab">Calc</div>
+				</div>
+				
+				<div id="toc">
+				</div>	
+			</div>
+
+
+			<div class="pokemon-list spreadsheet" id="mastersheet">
+				
+			</div>			
+		</div>
+	</body>
+
+
+	<script>
+	</script>
+
+</html>
