@@ -6561,3 +6561,229 @@ table.field {
         margin-left: auto;
     }
 }
+
+/* Custom Scizor Theme and Saved Mons Styles */
+body {
+    background: linear-gradient(135deg, #1b0000 0%, #080000 100%) !important;
+    color: #f7f7f7 !important;
+}
+
+.main-view-tab.active, .main-view-version-link.active {
+    background-color: #c8102e !important;
+    border-color: #c8102e !important;
+    color: #fff !important;
+}
+
+.main-view-tab:hover, .main-view-version-link:hover {
+    background-color: #9e0b22 !important;
+    color: #fff !important;
+}
+
+.header-settings.app-header-shell {
+    background: rgba(30, 0, 0, 0.6) !important;
+    border: 1px solid #c8102e !important;
+    backdrop-filter: blur(10px);
+}
+
+.header-left-branding {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+#app-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #c8102e;
+    object-fit: cover;
+}
+
+#credits-dan {
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-weight: 700;
+    color: #c8102e;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-shadow: 0 0 10px rgba(200, 16, 46, 0.4);
+}
+
+.saved-mons-container {
+    padding: 20px;
+    background: rgba(30, 0, 0, 0.3);
+    border: 1px solid #404040;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.saved-mons-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-bottom: 2px solid #c8102e;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.saved-mons-header h2 {
+    margin: 0;
+    color: #f7f7f7;
+}
+
+.saved-mons-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.saved-mons-btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.saved-mons-btn.primary {
+    background-color: #c8102e;
+    color: #fff;
+}
+
+.saved-mons-btn.primary:hover {
+    background-color: #9e0b22;
+}
+
+.saved-mons-btn.secondary {
+    background-color: #2b2b2b;
+    color: #fff;
+    border: 1px solid #404040;
+}
+
+.saved-mons-btn.secondary:hover {
+    background-color: #404040;
+}
+
+.saved-mons-btn.danger {
+    background-color: #e53e3e;
+    color: #fff;
+}
+
+.saved-mons-btn.danger:hover {
+    background-color: #c53030;
+}
+
+.saved-mons-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .saved-mons-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+.saved-mons-editor-section textarea {
+    width: 100%;
+    height: 300px;
+    background: #111;
+    color: #00ff66;
+    font-family: monospace;
+    padding: 15px;
+    border: 1px solid #404040;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.saved-mons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 15px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.saved-mon-card {
+    background: rgba(40, 10, 10, 0.4);
+    border: 1px solid #404040;
+    border-radius: 8px;
+    padding: 12px;
+    position: relative;
+}
+
+.saved-mon-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.saved-mon-sprite {
+    width: 56px;
+    height: 56px;
+}
+
+.saved-mon-meta {
+    flex-grow: 1;
+}
+
+.saved-mon-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #f7f7f7;
+}
+
+.saved-mon-species {
+    font-size: 12px;
+    color: #a0aec0;
+}
+
+.saved-mon-level {
+    font-size: 12px;
+    color: #c8102e;
+    font-weight: 600;
+}
+
+.saved-mon-delete-btn {
+    background: none;
+    border: none;
+    color: #e53e3e;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.saved-mon-details {
+    font-size: 13px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 8px;
+}
+
+.saved-mon-moves-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.saved-mon-move {
+    background: rgba(0,0,0,0.2);
+    padding: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 11px;
+    color: #a0aec0;
+}
+
+.saved-mons-placeholder {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px;
+    color: #a0aec0;
+}
+

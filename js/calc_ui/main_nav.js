@@ -163,7 +163,8 @@
             "main-page-dex-view",
             "main-page-box-view",
             "main-page-fragsheet-view",
-            "main-page-battle-log-view"
+            "main-page-battle-log-view",
+            "main-page-saved-mons-view"
         );
         document.body.classList.add(`main-page-${viewName}-view`);
     }
@@ -190,6 +191,7 @@
         const dexView = document.getElementById("dex-view");
         const fragsheetShell = document.getElementById("fragsheet-shell");
         const boxView = document.getElementById("box-view");
+        const savedMonsView = document.getElementById("saved-mons-view");
 
         if (calculatorView) {
             calculatorView.style.display = viewName === "calculator" ? "block" : "none";
@@ -202,6 +204,9 @@
         }
         if (boxView) {
             boxView.style.display = viewName === "box" ? "block" : "none";
+        }
+        if (savedMonsView) {
+            savedMonsView.style.display = viewName === "saved-mons" ? "block" : "none";
         }
     }
 
@@ -236,7 +241,7 @@
         if (requested === "battle-log" && !isBattleLogAvailable()) {
             return "fragsheet";
         }
-        if (["calculator", "dex", "box", "fragsheet", "battle-log"].includes(requested)) {
+        if (["calculator", "dex", "box", "fragsheet", "saved-mons", "battle-log"].includes(requested)) {
             return requested;
         }
         return "calculator";
@@ -314,6 +319,10 @@
         } else if (nextView === "box") {
             if (typeof window.renderBoxView === "function") {
                 window.renderBoxView(true);
+            }
+        } else if (nextView === "saved-mons") {
+            if (typeof window.renderSavedMons === "function") {
+                window.renderSavedMons();
             }
         } else if (document.body.classList.contains("battle-log-mode")) {
             setEmbeddedMode("fragsheet");

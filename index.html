@@ -79,6 +79,10 @@
 
 <div class="wrapper app-shell" style="margin-top: 20px;">
     <div aria-label="Settings" role="region" class="header-settings app-header-shell">
+        <div class="header-left-branding">
+            <img src="./img/logo.jpg" id="app-logo" alt="Logo">
+            <span id="credits-dan">Made by Dan04zzz</span>
+        </div>
         
         <img src="./img/menu.svg" id="open-menu">
 
@@ -383,7 +387,7 @@
                 <button type="button" class="main-view-tab" id="main-nav-dex" data-view="dex">Encounters</button>
                 <button type="button" class="main-view-tab" data-view="box">Box</button>
                 <button type="button" class="main-view-tab" data-view="fragsheet">Move Set</button>
-                <button type="button" class="main-view-tab" id="main-nav-battle-log" data-view="battle-log">Battle Log</button>
+                <button type="button" class="main-view-tab" id="main-nav-saved-mons" data-view="saved-mons">Saved Mons</button>
             </div>
             <div id="main-view-version-tabs" aria-label="Game versions"></div>
             <div id="dev-data-controls" class="dev-data-controls" hidden>
@@ -2376,6 +2380,33 @@
         </div>
         <div id="box-card-grid"></div>
     </div>
+    <div id="saved-mons-view" class="main-page-view" style="display: none;">
+        <div class="saved-mons-container">
+            <div class="saved-mons-header">
+                <h2>Saved Pokémon (Local Storage)</h2>
+                <div class="saved-mons-actions">
+                    <button type="button" id="save-active-box" class="saved-mons-btn primary">Save Current Box</button>
+                    <button type="button" id="load-saved-box" class="saved-mons-btn secondary">Load Saved Box</button>
+                    <button type="button" id="clear-saved-mons" class="saved-mons-btn danger">Clear Saved Box</button>
+                </div>
+            </div>
+            <div class="saved-mons-content">
+                <div class="saved-mons-editor-section">
+                    <h3>Showdown Format</h3>
+                    <textarea id="saved-mons-showdown" placeholder="Here you will see the showdown format of your saved pokemon. You can also paste showdown sets here and click 'Save Showdown Text' to store them."></textarea>
+                    <div style="margin-top: 10px;">
+                        <button type="button" id="save-showdown-text" class="saved-mons-btn primary">Save Showdown Text</button>
+                    </div>
+                </div>
+                <div class="saved-mons-list-section">
+                    <h3>Currently Saved</h3>
+                    <div id="saved-mons-cards-grid" class="saved-mons-grid">
+                        <div class="saved-mons-placeholder">No Pokémon saved yet. Click &quot;Save Current Box&quot; or paste Showdown format sets.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript">
         var linkExtension = '.html';
     </script>
@@ -2429,6 +2460,7 @@
     <script type="text/javascript" src="./js/initialize.js?8a24c417"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?2c3f9b01"></script>
+    <script type="text/javascript" src="./js/calc_ui/saved_mons.js"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?aefe330f"></script>
