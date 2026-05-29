@@ -764,7 +764,7 @@ function prepareDynamicCalcData(data, options = {}) {
         }
     }
     if ($titleEl.length) {
-        $titleEl.text(TITLE).show();
+        $titleEl.text("Made by Dan04zzz").show();
     }
     setCascadeFieldEffectsEnabled(TITLE.includes("Cascade"))
 }
@@ -805,7 +805,7 @@ function applyUploadedDataTitle(data) {
         }
     }
     if ($titleEl.length) {
-        $titleEl.text(TITLE).show();
+        $titleEl.text("Made by Dan04zzz").show();
     }
 
     if (typeof window.updateMainPageTitle === "function") {
@@ -1369,7 +1369,7 @@ function setBaseGame(title) {
         }
     }
     if ($titleEl.length) {
-        $titleEl.text(TITLE).show();
+        $titleEl.text("Made by Dan04zzz").show();
     }
 
     if ( title.includes("Cascade")) {

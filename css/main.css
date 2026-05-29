@@ -1409,6 +1409,11 @@ input[type="file"] {
     background: rgba(187, 134, 252, 0.28) !important;
 }
 
+.main-view-tab-dropdown-wrapper {
+    border-radius: 10px;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
 .main-view-tab-dropdown-wrapper:hover {
     background: rgba(255, 255, 255, 0.05);
 }

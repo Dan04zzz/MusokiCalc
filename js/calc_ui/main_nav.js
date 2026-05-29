@@ -21,7 +21,7 @@
     function updateMainPageTitle(title) {
         const titleEl = document.getElementById("rom-title");
         if (titleEl) {
-            titleEl.textContent = title || "";
+            titleEl.textContent = "Made by Dan04zzz";
             titleEl.style.display = "block";
         }
         const selectEl = document.querySelector("select.calc-select");
