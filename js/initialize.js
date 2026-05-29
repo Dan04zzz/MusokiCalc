@@ -778,6 +778,11 @@ function applyUploadedDataTitle(data) {
 }
 
 async function loadTrainerOrderFallbackForCurrentTitle() {
+    if (typeof backup_data !== "undefined" && backup_data && typeof backup_data.order !== "undefined") {
+        console.log("using preexisting trainer orders in calc data");
+        return;
+    }
+
     const backupFileName = getCurrentBackupFileName();
     if (!backupFileName) {
         return;
