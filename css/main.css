@@ -6788,3 +6788,22 @@ body {
     color: #a0aec0;
 }
 
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2400;
+    background: rgba(18, 18, 18, 0.9);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 10px 16px;
+    box-sizing: border-box;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+}
+
+body {
+    padding-bottom: 60px !important;
+}
+

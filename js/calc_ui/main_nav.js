@@ -1,5 +1,5 @@
 (function () {
-    let currentMainPageView = "calculator";
+    let currentMainPageView = "home";
     let mainNavInitialized = false;
     const MAIN_PAGE_VIEW_QUERY_PARAM = "view";
     const usageStatsBaseUrl = window.USAGE_STATS_BASE_URL || "https://hzla.github.io/romhack-usage-statistics";
@@ -159,6 +159,7 @@
 
     function updateBodyViewClasses(viewName) {
         document.body.classList.remove(
+            "main-page-home-view",
             "main-page-calculator-view",
             "main-page-dex-view",
             "main-page-box-view",
@@ -188,6 +189,7 @@
     }
 
     function setViewVisibility(viewName) {
+        const homeView = document.getElementById("home-view");
         const calculatorView = document.getElementById("calculator-view");
         const dexView = document.getElementById("dex-view");
         const fragsheetShell = document.getElementById("fragsheet-shell");
@@ -195,6 +197,9 @@
         const savedMonsView = document.getElementById("saved-mons-view");
         const settingsView = document.getElementById("settings-view");
 
+        if (homeView) {
+            homeView.style.display = viewName === "home" ? "block" : "none";
+        }
         if (calculatorView) {
             calculatorView.style.display = viewName === "calculator" ? "block" : "none";
         }
@@ -242,14 +247,14 @@
     }
 
     function normalizeRequestedView(viewName) {
-        const requested = String(viewName || "calculator");
+        const requested = String(viewName || "home");
         if (requested === "battle-log" && !isBattleLogAvailable()) {
             return "fragsheet";
         }
-        if (["calculator", "dex", "box", "fragsheet", "saved-mons", "battle-log", "settings"].includes(requested)) {
+        if (["home", "calculator", "dex", "box", "fragsheet", "saved-mons", "battle-log", "settings"].includes(requested)) {
             return requested;
         }
-        return "calculator";
+        return "home";
     }
 
     function getMainPageViewUrl(viewName) {
@@ -300,7 +305,7 @@
         const stateView = window.history && window.history.state && typeof window.history.state === "object"
             ? window.history.state.mainPageView
             : null;
-        return stateView || "calculator";
+        return stateView || "home";
     }
 
     function setMainPageView(viewName, options) {
