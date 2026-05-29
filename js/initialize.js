@@ -746,7 +746,26 @@ function prepareDynamicCalcData(data, options = {}) {
 
     document.title = TITLE + " Calculator"
     setBaseGame(TITLE)
-    $('#rom-title').text(TITLE).show()
+    const $titleEl = $('#rom-title');
+    const $selectEl = $titleEl.find('select');
+    if ($selectEl.length) {
+        const params = new URLSearchParams(window.location.search);
+        const dataVal = params.get('data');
+        if (dataVal) {
+            const opt = $selectEl.find('option').filter(function() {
+                const src = $(this).attr('data-source');
+                return src && src.includes(dataVal);
+            });
+            if (opt.length) {
+                opt.prop('selected', true);
+            }
+        } else {
+            $selectEl.prop('selectedIndex', 0);
+        }
+    } else {
+        $titleEl.text(TITLE);
+    }
+    $titleEl.show()
     setCascadeFieldEffectsEnabled(TITLE.includes("Cascade"))
 }
 
@@ -768,7 +787,26 @@ function getCurrentBackupFileName() {
 function applyUploadedDataTitle(data) {
     TITLE = getDynamicCalcTitle(data);
     document.title = TITLE + " Calculator";
-    $('#rom-title').text(TITLE).show();
+    const $titleEl = $('#rom-title');
+    const $selectEl = $titleEl.find('select');
+    if ($selectEl.length) {
+        const params = new URLSearchParams(window.location.search);
+        const dataVal = params.get('data');
+        if (dataVal) {
+            const opt = $selectEl.find('option').filter(function() {
+                const src = $(this).attr('data-source');
+                return src && src.includes(dataVal);
+            });
+            if (opt.length) {
+                opt.prop('selected', true);
+            }
+        } else {
+            $selectEl.prop('selectedIndex', 0);
+        }
+    } else {
+        $titleEl.text(TITLE);
+    }
+    $titleEl.show();
 
     if (typeof window.updateMainPageTitle === "function") {
         window.updateMainPageTitle(TITLE);
@@ -1293,7 +1331,26 @@ function setBaseGame(title) {
     if (title.includes("Radical Red") || title.includes("Emerald Imperium")) {
         $("#lvl-cap").show()
     }
-    $('#rom-title').text(TITLE).show()
+    const $titleEl = $('#rom-title');
+    const $selectEl = $titleEl.find('select');
+    if ($selectEl.length) {
+        const params = new URLSearchParams(window.location.search);
+        const dataVal = params.get('data');
+        if (dataVal) {
+            const opt = $selectEl.find('option').filter(function() {
+                const src = $(this).attr('data-source');
+                return src && src.includes(dataVal);
+            });
+            if (opt.length) {
+                opt.prop('selected', true);
+            }
+        } else {
+            $selectEl.prop('selectedIndex', 0);
+        }
+    } else {
+        $titleEl.text(TITLE);
+    }
+    $titleEl.show()
 
     if ( title.includes("Cascade")) {
         setCascadeFieldEffectsEnabled(true)
