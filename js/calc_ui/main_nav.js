@@ -400,27 +400,87 @@
         }
         mainNavInitialized = true;
 
+        // Track currently selected ROM (from URL or default)
+        let selectedRom = (function() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get("data") || null;
+        })();
+
+        // Update the ROM selector label to reflect current selection
+        function updateRomSelectorLabel() {
+            const label = document.getElementById("rom-selector-label");
+            if (!label) return;
+            if (selectedRom === "hgimproved") {
+                label.textContent = "Heart Gold Migliorato";
+            } else if (selectedRom === "soon") {
+                label.textContent = "Soon...";
+            } else {
+                label.textContent = "Seleziona Versione";
+            }
+        }
+        updateRomSelectorLabel();
+
+        function closeRomDropdown() {
+            const dropdown = document.getElementById("calculator-rom-dropdown");
+            const btn = document.getElementById("rom-selector-btn");
+            if (dropdown) dropdown.style.display = "none";
+            if (btn) btn.setAttribute("aria-expanded", "false");
+        }
+
+        // ROM selector button: opens/closes the dropdown
+        const romSelectorBtn = document.getElementById("rom-selector-btn");
+        if (romSelectorBtn) {
+            romSelectorBtn.addEventListener("click", function (event) {
+                event.stopPropagation();
+                const dropdown = document.getElementById("calculator-rom-dropdown");
+                if (!dropdown) return;
+                const isOpen = dropdown.style.display !== "none";
+                dropdown.style.display = isOpen ? "none" : "block";
+                this.setAttribute("aria-expanded", isOpen ? "false" : "true");
+            });
+        }
+
+        // ROM option click: update selected ROM label, navigate
+        document.querySelectorAll(".calculator-rom-option").forEach((option) => {
+            option.addEventListener("click", function () {
+                const rom = this.getAttribute("data-rom");
+                if (rom) {
+                    selectedRom = rom;
+                    updateRomSelectorLabel();
+                }
+                closeRomDropdown();
+                // Navigation happens via the href attribute naturally
+            });
+        });
+
+        // Calculator tab: navigate to the currently selected ROM
         document.querySelectorAll(".main-view-tab[data-view]").forEach((tab) => {
             tab.addEventListener("click", function (event) {
                 const view = this.getAttribute("data-view");
 
-                // Special handling for Calculator tab: toggle ROM dropdown
-                if (view === "calculator") {
-                    event.stopPropagation();
-                    const dropdown = document.getElementById("calculator-rom-dropdown");
-                    const btn = document.getElementById("calculator-tab-btn");
-                    if (!dropdown) return;
-                    const isOpen = dropdown.style.display !== "none";
-                    dropdown.style.display = isOpen ? "none" : "block";
-                    if (btn) btn.setAttribute("aria-expanded", isOpen ? "false" : "true");
-                    return;
-                }
+                closeRomDropdown();
 
-                // Close calculator dropdown if open
-                const calcDropdown = document.getElementById("calculator-rom-dropdown");
-                if (calcDropdown) calcDropdown.style.display = "none";
-                const calcBtn = document.getElementById("calculator-tab-btn");
-                if (calcBtn) calcBtn.setAttribute("aria-expanded", "false");
+                if (view === "calculator") {
+                    if (!selectedRom) {
+                        // No ROM selected: open the ROM picker instead
+                        const dropdown = document.getElementById("calculator-rom-dropdown");
+                        const btn = document.getElementById("rom-selector-btn");
+                        if (dropdown) {
+                            dropdown.style.display = "block";
+                            if (btn) btn.setAttribute("aria-expanded", "true");
+                        }
+                        setMainViewMenuOpen(false);
+                        return;
+                    }
+                    // ROM selected: navigate to it
+                    const params = new URLSearchParams(window.location.search);
+                    if (params.get("data") !== selectedRom) {
+                        params.set("data", selectedRom);
+                        params.delete("view");
+                        window.location.search = params.toString();
+                        return;
+                    }
+                }
 
                 setMainPageView(view);
                 setMainViewMenuOpen(false);
@@ -436,24 +496,22 @@
         }
 
         document.addEventListener("click", function (event) {
-            // Close calculator ROM dropdown if clicking outside
-            const calcWrapper = document.getElementById("calculator-tab-wrapper");
+            // Close ROM dropdown if clicking outside
+            const romWrapper = document.getElementById("rom-selector-wrapper");
             const calcDropdown = document.getElementById("calculator-rom-dropdown");
-            const calcBtn = document.getElementById("calculator-tab-btn");
             if (calcDropdown && calcDropdown.style.display !== "none") {
-                if (!calcWrapper || !calcWrapper.contains(event.target)) {
-                    calcDropdown.style.display = "none";
-                    if (calcBtn) calcBtn.setAttribute("aria-expanded", "false");
+                if (!romWrapper || !romWrapper.contains(event.target)) {
+                    closeRomDropdown();
                 }
             }
 
             // Close mobile nav menu if clicking outside
             const mainTabs = document.getElementById("main-view-tabs");
-            const menuToggle = document.getElementById("main-view-menu-toggle");
-            if (!mainTabs || !menuToggle || menuToggle.getAttribute("aria-expanded") !== "true") {
+            const menuToggleEl = document.getElementById("main-view-menu-toggle");
+            if (!mainTabs || !menuToggleEl || menuToggleEl.getAttribute("aria-expanded") !== "true") {
                 return;
             }
-            if (mainTabs.contains(event.target) || menuToggle.contains(event.target)) {
+            if (mainTabs.contains(event.target) || menuToggleEl.contains(event.target)) {
                 return;
             }
             setMainViewMenuOpen(false);
@@ -462,11 +520,7 @@
         document.addEventListener("keydown", function (event) {
             if (event.key === "Escape") {
                 setMainViewMenuOpen(false);
-                // Also close calculator dropdown
-                const calcDropdown = document.getElementById("calculator-rom-dropdown");
-                const calcBtn = document.getElementById("calculator-tab-btn");
-                if (calcDropdown) calcDropdown.style.display = "none";
-                if (calcBtn) calcBtn.setAttribute("aria-expanded", "false");
+                closeRomDropdown();
             }
         });
 
