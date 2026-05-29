@@ -90,13 +90,7 @@
                 <img src="./img/logo.jpg" id="app-logo" alt="Logo" style="cursor: pointer;">
                 <span id="branding-musoki" style="font-weight: bold; font-size: 18px; color: #fff; cursor: pointer;">Musoki</span>
             </a>
-            <div id="rom-title" style="display: block;">
-                <select class="calc-select" style="background: rgba(24, 24, 24, 0.85); color: #fff; border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 10px; padding: 8px 12px; font-size: 16px; font-weight: 600; cursor: pointer; transition: border-color 0.2s; outline: none; margin-left: 8px;">
-                    <option value="" disabled selected>Seleziona Versione</option>
-                    <option data-source="?data=hgimproved">Heart Gold Migliorato</option>
-                    <option data-source="?data=soon">Soon...</option>
-                </select>
-            </div>
+            <div id="rom-title" style="display: block;"></div>
         </div>
         
         <img src="./img/menu.svg" id="open-menu" aria-label="Open settings" style="cursor: pointer;">
@@ -109,7 +103,14 @@
         <div id="main-view-tabs" aria-label="Main views" role="tablist">
             <div class="main-view-tabs-primary">
                 <button type="button" class="main-view-tab active" data-view="home">Home</button>
-                <button type="button" class="main-view-tab" data-view="calculator">Calculator</button>
+                <div class="main-view-tab-dropdown-wrapper" style="position: relative; display: inline-flex; align-items: center;">
+                    <button type="button" class="main-view-tab" data-view="calculator">Calculator</button>
+                    <select class="calc-select" style="background: rgba(24, 24, 24, 0.9); color: #fff; border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 6px; padding: 4px 8px; font-size: 13px; font-weight: 500; cursor: pointer; outline: none; margin-left: 6px; margin-right: 6px;">
+                        <option value="" disabled selected>Seleziona Versione</option>
+                        <option data-source="?data=hgimproved">Heart Gold Migliorato</option>
+                        <option data-source="?data=soon">Soon...</option>
+                    </select>
+                </div>
                 <button type="button" class="main-view-tab" id="main-nav-dex" data-view="dex">Encounters</button>
                 <button type="button" class="main-view-tab" data-view="box">Box</button>
                 <button type="button" class="main-view-tab" data-view="fragsheet">Move Set</button>

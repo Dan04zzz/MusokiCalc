@@ -747,7 +747,7 @@ function prepareDynamicCalcData(data, options = {}) {
     document.title = TITLE + " Calculator"
     setBaseGame(TITLE)
     const $titleEl = $('#rom-title');
-    const $selectEl = $titleEl.find('select');
+    const $selectEl = $('select.calc-select');
     if ($selectEl.length) {
         const params = new URLSearchParams(window.location.search);
         const dataVal = params.get('data');
@@ -762,10 +762,10 @@ function prepareDynamicCalcData(data, options = {}) {
         } else {
             $selectEl.prop('selectedIndex', 0);
         }
-    } else {
-        $titleEl.text(TITLE);
     }
-    $titleEl.show()
+    if ($titleEl.length) {
+        $titleEl.text(TITLE).show();
+    }
     setCascadeFieldEffectsEnabled(TITLE.includes("Cascade"))
 }
 
@@ -788,7 +788,7 @@ function applyUploadedDataTitle(data) {
     TITLE = getDynamicCalcTitle(data);
     document.title = TITLE + " Calculator";
     const $titleEl = $('#rom-title');
-    const $selectEl = $titleEl.find('select');
+    const $selectEl = $('select.calc-select');
     if ($selectEl.length) {
         const params = new URLSearchParams(window.location.search);
         const dataVal = params.get('data');
@@ -803,10 +803,10 @@ function applyUploadedDataTitle(data) {
         } else {
             $selectEl.prop('selectedIndex', 0);
         }
-    } else {
-        $titleEl.text(TITLE);
     }
-    $titleEl.show();
+    if ($titleEl.length) {
+        $titleEl.text(TITLE).show();
+    }
 
     if (typeof window.updateMainPageTitle === "function") {
         window.updateMainPageTitle(TITLE);
@@ -1338,7 +1338,7 @@ function setBaseGame(title) {
         $("#lvl-cap").show()
     }
     const $titleEl = $('#rom-title');
-    const $selectEl = $titleEl.find('select');
+    const $selectEl = $('select.calc-select');
     if ($selectEl.length) {
         const params = new URLSearchParams(window.location.search);
         const dataVal = params.get('data');
@@ -1353,10 +1353,10 @@ function setBaseGame(title) {
         } else {
             $selectEl.prop('selectedIndex', 0);
         }
-    } else {
-        $titleEl.text(TITLE);
     }
-    $titleEl.show()
+    if ($titleEl.length) {
+        $titleEl.text(TITLE).show();
+    }
 
     if ( title.includes("Cascade")) {
         setCascadeFieldEffectsEnabled(true)

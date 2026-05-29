@@ -20,10 +20,11 @@
 
     function updateMainPageTitle(title) {
         const titleEl = document.getElementById("rom-title");
-        if (!titleEl) {
-            return;
+        if (titleEl) {
+            titleEl.textContent = title || "";
+            titleEl.style.display = "block";
         }
-        const selectEl = titleEl.querySelector("select");
+        const selectEl = document.querySelector("select.calc-select");
         if (selectEl) {
             const params = new URLSearchParams(window.location.search);
             const dataVal = params.get('data');
@@ -35,10 +36,7 @@
             } else {
                 selectEl.selectedIndex = 0;
             }
-        } else {
-            titleEl.textContent = title || "";
         }
-        titleEl.style.display = "block";
         renderGameVersionTabs(title);
         updateDashboardLink(title);
     }
@@ -329,15 +327,6 @@
 
         const settings = options && typeof options === "object" ? options : {};
         const nextView = normalizeRequestedView(viewName);
-        if (nextView !== "home" && nextView !== "settings") {
-            const params = new URLSearchParams(window.location.search);
-            if (!params.get('data')) {
-                params.set('data', 'hgimproved');
-                params.set('view', nextView);
-                window.location.search = params.toString();
-                return null;
-            }
-        }
         ensureFragsheetShellInitialized();
 
         if (nextView === "fragsheet") {
