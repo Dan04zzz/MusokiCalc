@@ -260,7 +260,7 @@
                 </div>
                 <script>
                 (function() {
-                    var CHANNEL_ID = 'UCC624QGk-5T4G8c8f-p7DSw';
+                    var CHANNEL_ID = 'UCQKmfW92YOpNtpZqKP9ZUkw';
                     var rssUrl = 'https://www.youtube.com/feeds/videos.xml?channel_id=' + CHANNEL_ID;
                     var proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
 
@@ -277,9 +277,41 @@
                             var parser = new DOMParser();
                             var xml = parser.parseFromString(data.contents, 'text/xml');
                             var entries = xml.querySelectorAll('entry');
-                            if (!entries.length) { showFallback(); return; }
-                            var videoIdEl = entries[0].querySelector('videoId');
-                            var videoId = videoIdEl ? videoIdEl.textContent.trim() : null;
+                            if (!entries || !entries.length) { showFallback(); return; }
+                            
+                            // Try to get video ID. Since <yt:videoId> is namespaced, querySelector('videoId') won't work in all browsers.
+                            var videoId = null;
+                            var firstEntry = entries[0];
+                            
+                            // 1. Try getElementsByTagNameNS
+                            if (typeof firstEntry.getElementsByTagNameNS === 'function') {
+                                var ytVideoIds = firstEntry.getElementsByTagNameNS('http://www.youtube.com/xml/schemas/2015', 'videoId');
+                                if (ytVideoIds && ytVideoIds.length > 0) {
+                                    videoId = ytVideoIds[0].textContent;
+                                }
+                            }
+                            
+                            // 2. Fallback to parsing <id> (e.g. yt:video:VIDEO_ID)
+                            if (!videoId) {
+                                var idEl = firstEntry.querySelector('id');
+                                if (idEl && idEl.textContent) {
+                                    var idText = idEl.textContent.trim();
+                                    var match = idText.match(/yt:video:([a-zA-Z0-9_-]+)/);
+                                    if (match) videoId = match[1];
+                                }
+                            }
+                            
+                            // 3. Fallback to parsing <link rel="alternate" href="...v=VIDEO_ID">
+                            if (!videoId) {
+                                var linkEl = firstEntry.querySelector('link[rel="alternate"]');
+                                if (!linkEl) linkEl = firstEntry.querySelector('link');
+                                if (linkEl && linkEl.getAttribute('href')) {
+                                    var href = linkEl.getAttribute('href');
+                                    var match = href.match(/[?&]v=([^&#]+)/);
+                                    if (match) videoId = match[1];
+                                }
+                            }
+
                             if (!videoId) { showFallback(); return; }
                             var iframe = document.getElementById('yt-latest-iframe');
                             var loading = document.getElementById('yt-loading');
