@@ -961,7 +961,7 @@ function setGameSettings(title) {
   $('.unbound-effects').hide()
   $('#maxL').next().remove()
   $('#maxR').next().remove() 
-  if (title == "Renegade Platinum" || title == "Heart Gold Migliorato By Musoki") {
+  if (title == "Renegade Platinum" || title == "Heart Gold Migliorato" || title == "Heart Gold Migliorato By Musoki") {
     gameGen = 4
     settings.damageGen = 4
     if (!settings.noSwitch) {
@@ -970,6 +970,20 @@ function setGameSettings(title) {
     }
     settings.sourceType = "full"
     settings.typeChart = title == "Renegade Platinum" ? 6 : 4;
+    settings.critGen = 5;
+    save_expansion = false
+    showDex = true;
+    showAI = true;
+    $('label[for="snow"]').hide()
+  } else if (title == "Rosso Fuoco Migliorato" || title == "Rosso Fuoco Migliorato By Musoki") {
+    gameGen = 3
+    settings.damageGen = 3
+    if (!settings.noSwitch) {
+      settings.gameSwitchIn = 3;
+      settings.switchIn = 3;  
+    }
+    settings.sourceType = "full"
+    settings.typeChart = 3;
     settings.critGen = 5;
     save_expansion = false
     showDex = true;

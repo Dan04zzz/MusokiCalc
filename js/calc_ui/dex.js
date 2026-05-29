@@ -458,7 +458,14 @@
         if (!contentSlot) return;
 
         // Fetch database
-        const db = window.hgimproved_encounters || { routes: [], gifts: [], statics: [], trades: [], game_corner: [] };
+        let db = { routes: [], gifts: [], statics: [], trades: [], game_corner: [] };
+        const params = new URLSearchParams(window.location.search);
+        const selectedRom = params.get("data");
+        if (selectedRom === "fireredimproved") {
+            db = window.fireredimproved_encounters || db;
+        } else {
+            db = window.hgimproved_encounters || db;
+        }
         const query = searchTerm.toLowerCase().trim();
 
         contentSlot.innerHTML = '';

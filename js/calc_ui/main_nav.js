@@ -412,8 +412,8 @@
             if (!label) return;
             if (selectedRom === "hgimproved") {
                 label.textContent = "Heart Gold Migliorato";
-            } else if (selectedRom === "soon") {
-                label.textContent = "Soon...";
+            } else if (selectedRom === "fireredimproved") {
+                label.textContent = "Rosso Fuoco Migliorato";
             } else {
                 label.textContent = "Seleziona Versione";
             }

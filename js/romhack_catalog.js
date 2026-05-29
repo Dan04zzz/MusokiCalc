@@ -15,6 +15,22 @@
                     sourceTitle: "Heart Gold Migliorato By Musoki"
                 }
             ]
+        },
+        "fireredimproved": {
+            id: "fireredimproved",
+            title: "Rosso Fuoco Migliorato",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Rosso Fuoco Migliorato By Musoki",
+            variants: [
+                {
+                    label: "Rosso Fuoco Migliorato",
+                    source: "?data=fireredimproved",
+                    coverImage: "",
+                    description: "",
+                    sourceTitle: "Rosso Fuoco Migliorato By Musoki"
+                }
+            ]
         }
     };
 
@@ -23,7 +39,8 @@
             id: "featured",
             title: "Featured",
             gameIds: [
-                "hgimproved"
+                "hgimproved",
+                "fireredimproved"
             ]
         }
     ];
