@@ -5,7 +5,7 @@
 
 #settings-menu {
     border: 2px solid #f1f1f1;
-    z-index: 100;
+    z-index: 2000;
     position: absolute;
     top: calc(100% + 8px);
     right: 0;
