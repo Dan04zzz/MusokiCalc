@@ -462,6 +462,7 @@ input[type="file"] {
 
 .header-settings.app-header-shell {
     position: relative;
+    z-index: 2500;
     box-sizing: border-box;
     display: flex;
     align-items: center;
