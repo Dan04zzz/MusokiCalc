@@ -5,13 +5,14 @@
             title: "Heart Gold Migliorato",
             coverImage: "",
             description: "",
-            sourceTitle: "Heart Gold Migliorato",
+            sourceTitle: "Heart Gold Migliorato By Musoki",
             variants: [
                 {
                     label: "Heart Gold Migliorato",
                     source: "?data=hgimproved",
                     coverImage: "",
-                    description: ""
+                    description: "",
+                    sourceTitle: "Heart Gold Migliorato By Musoki"
                 }
             ]
         }
