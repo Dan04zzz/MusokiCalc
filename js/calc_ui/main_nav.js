@@ -164,7 +164,8 @@
             "main-page-box-view",
             "main-page-fragsheet-view",
             "main-page-battle-log-view",
-            "main-page-saved-mons-view"
+            "main-page-saved-mons-view",
+            "main-page-settings-view"
         );
         document.body.classList.add(`main-page-${viewName}-view`);
     }
@@ -192,6 +193,7 @@
         const fragsheetShell = document.getElementById("fragsheet-shell");
         const boxView = document.getElementById("box-view");
         const savedMonsView = document.getElementById("saved-mons-view");
+        const settingsView = document.getElementById("settings-view");
 
         if (calculatorView) {
             calculatorView.style.display = viewName === "calculator" ? "block" : "none";
@@ -207,6 +209,9 @@
         }
         if (savedMonsView) {
             savedMonsView.style.display = viewName === "saved-mons" ? "block" : "none";
+        }
+        if (settingsView) {
+            settingsView.style.display = viewName === "settings" ? "block" : "none";
         }
     }
 
@@ -241,7 +246,7 @@
         if (requested === "battle-log" && !isBattleLogAvailable()) {
             return "fragsheet";
         }
-        if (["calculator", "dex", "box", "fragsheet", "saved-mons", "battle-log"].includes(requested)) {
+        if (["calculator", "dex", "box", "fragsheet", "saved-mons", "battle-log", "settings"].includes(requested)) {
             return requested;
         }
         return "calculator";

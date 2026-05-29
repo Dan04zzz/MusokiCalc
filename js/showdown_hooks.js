@@ -361,7 +361,9 @@ $(document).ready(function() {
    })
 
    $(document).on('click', '#open-menu', function() {
-        $('#settings-menu').toggle()
+        if (typeof setMainPageView === "function") {
+            setMainPageView("settings")
+        }
    })
 
    $(document).on('keyup', '#search-box', filter_box)
