@@ -27,10 +27,20 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Prepare site (remove non-web files)
+        run: |
+          # Remove Node/test-only directories that don't belong in the browser
+          rm -rf calc/test
+          rm -rf cypress
+          rm -rf node_modules
+          rm -rf scripts
+          rm -f package.json package-lock.json
+          rm -f *.py *.spec *.lua *.rb
+          rm -f gen5_expert_ai.md README.md AGENTS.md
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Serve the entire repo root (index.html, css/, js/, calc/, etc.)
           path: '.'
 
       - name: Deploy to GitHub Pages
