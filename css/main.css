@@ -1409,6 +1409,24 @@ input[type="file"] {
     background: rgba(187, 134, 252, 0.28) !important;
 }
 
+.main-view-tab-dropdown-wrapper:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.main-view-tab-dropdown-wrapper.active {
+    background: rgba(187, 134, 252, 0.22);
+    box-shadow: inset 0 0 0 1px rgba(187, 134, 252, 0.32);
+}
+
+.main-view-tab-dropdown-wrapper.active .main-view-tab {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.main-view-tab-dropdown-wrapper.active:hover {
+    background: rgba(187, 134, 252, 0.28);
+}
+
 .main-view-version-link {
     box-sizing: border-box;
     display: inline-flex;

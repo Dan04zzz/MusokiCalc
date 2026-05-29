@@ -185,7 +185,12 @@
 
     function setActiveMainTab(viewName) {
         document.querySelectorAll(".main-view-tab[data-view]").forEach((tab) => {
-            tab.classList.toggle("active", tab.getAttribute("data-view") === viewName);
+            const isActive = tab.getAttribute("data-view") === viewName;
+            tab.classList.toggle("active", isActive);
+            const wrapper = tab.closest(".main-view-tab-dropdown-wrapper");
+            if (wrapper) {
+                wrapper.classList.toggle("active", isActive);
+            }
         });
     }
 
