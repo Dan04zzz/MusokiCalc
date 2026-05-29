@@ -4955,10 +4955,6 @@ table.field {
 
 
 
-  #footer {
-    max-width: calc(100vw - 20px);
-    margin-left: 10px;
-  }
 
   .panel.third:not(.panel-mid) {
     flex-grow: 0;

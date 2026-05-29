@@ -79,11 +79,16 @@
 
 <div class="wrapper app-shell" style="margin-top: 20px;">
     <div aria-label="Settings" role="region" class="header-settings app-header-shell">
-        <div class="header-left-branding">
+        <div class="header-left-branding" style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
             <a href="https://www.youtube.com/@MusokiYT" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
                 <img src="./img/logo.jpg" id="app-logo" alt="Logo" style="cursor: pointer;">
                 <span id="branding-musoki" style="font-weight: bold; font-size: 18px; color: #fff; cursor: pointer;">Musoki</span>
             </a>
+            <select class="calc-select" style="background: rgba(24, 24, 24, 0.85); color: #fff; border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 10px; padding: 8px 12px; font-size: 16px; font-weight: 600; cursor: pointer; transition: border-color 0.2s; outline: none; margin-left: 8px;">
+                <option disabled value="">Seleziona Gioco</option>
+                <option selected="selected" data-source="?data=hgimproved">Heart Gold Migliorato</option>
+                <option disabled>Soon...</option>
+            </select>
         </div>
         
         <img src="./img/menu.svg" id="open-menu" aria-label="Open settings" style="cursor: pointer;">
@@ -93,7 +98,7 @@
         <div id="apply-cap">Right click lvl cap to apply to box</div>
 
         </span>
-        <div id="rom-title"></div>
+        <div id="rom-title" style="display: none !important;"></div>
         <div id="main-view-tabs" aria-label="Main views" role="tablist">
             <div class="main-view-tabs-primary">
                 <button type="button" class="main-view-tab active" data-view="home">Home</button>
@@ -128,11 +133,6 @@
             <input class="gen visually-hidden" type="radio" name="gen" value="7" id="gen7" /><label class="btn btn-small btn-mid" for="gen7">S/M</label>
             <input class="gen visually-hidden" type="radio" name="gen" value="8" id="gen8" checked="checked" /><label class="btn btn-small btn-right" for="gen8">S/S</label>
         </span>
-        <select class="calc-select">
-            <option disabled value="">Seleziona Gioco</option>
-            <option selected="selected" data-source="?data=hgimproved">Heart Gold Migliorato</option>
-            <option disabled>Soon...</option>
-        </select>
     </div>
     <div id="box-filter-colors-modal" class="romhack-browser-modal box-filter-colors-modal" role="dialog" aria-modal="true" aria-labelledby="box-filter-colors-title" hidden>
         <div class="romhack-browser-backdrop" data-close-box-filter-colors></div>
@@ -241,7 +241,7 @@
                     Ultimi Video di Musoki
                 </h2>
                 <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.05); background: #000;">
-                    <iframe src="https://www.youtube.com/embed?listType=playlist&list=UU-q72L0m1xZ3nC1W7vG6j6A" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=UU-q72L0m1xZ3nC1W7vG6j6A" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
