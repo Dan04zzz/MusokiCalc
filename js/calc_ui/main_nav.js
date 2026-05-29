@@ -453,35 +453,11 @@
             });
         });
 
-        // Calculator tab: navigate to the currently selected ROM
+        // All tabs: simple navigation
         document.querySelectorAll(".main-view-tab[data-view]").forEach((tab) => {
-            tab.addEventListener("click", function (event) {
+            tab.addEventListener("click", function () {
                 const view = this.getAttribute("data-view");
-
                 closeRomDropdown();
-
-                if (view === "calculator") {
-                    if (!selectedRom) {
-                        // No ROM selected: open the ROM picker instead
-                        const dropdown = document.getElementById("calculator-rom-dropdown");
-                        const btn = document.getElementById("rom-selector-btn");
-                        if (dropdown) {
-                            dropdown.style.display = "block";
-                            if (btn) btn.setAttribute("aria-expanded", "true");
-                        }
-                        setMainViewMenuOpen(false);
-                        return;
-                    }
-                    // ROM selected: navigate to it
-                    const params = new URLSearchParams(window.location.search);
-                    if (params.get("data") !== selectedRom) {
-                        params.set("data", selectedRom);
-                        params.delete("view");
-                        window.location.search = params.toString();
-                        return;
-                    }
-                }
-
                 setMainPageView(view);
                 setMainViewMenuOpen(false);
             });

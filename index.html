@@ -22,13 +22,6 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->    
     <script>
         params = new URLSearchParams(window.location.search)
-        const currentView = params.get('view') || 'home';
-        if (!params.get('data') && currentView !== 'home') {
-            // Only redirect if they try to access a sub-view without choosing a game version
-            var searchParams = new URLSearchParams(window.location.search);
-            searchParams.set('data', 'hgimproved');
-            window.location.search = searchParams.toString();
-        }
         SOURCES = window.romhackSourceTitles || {}
        
         if (SOURCES[params.get('data')]) {
@@ -103,7 +96,7 @@
         <div id="main-view-tabs" aria-label="Main views" role="tablist">
             <div class="main-view-tabs-primary">
                 <button type="button" class="main-view-tab active" data-view="home">Home</button>
-                <button type="button" class="main-view-tab" data-view="calculator" id="calculator-tab-btn">Calculator</button>
+                <button type="button" class="main-view-tab" data-view="calculator">Calculator</button>
                 <button type="button" class="main-view-tab" id="main-nav-dex" data-view="dex">Encounters</button>
                 <button type="button" class="main-view-tab" data-view="box">Box</button>
                 <button type="button" class="main-view-tab" data-view="fragsheet">Move Set</button>
