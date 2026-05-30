@@ -107,8 +107,9 @@ function get_next_in_g4() {
     }
 
     for (var i = 0; i < trainer_poks.length; i++) {
-        var pok_name = trainer_poks[i].split(" (")[0]
-        var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
+        var setMatch = trainer_poks[i].match(/^(.+?)\s+\((.+)\)\[(\d+)\]$/) || []
+        var pok_name = setMatch[1] || trainer_poks[i].split(" (")[0]
+        var tr_name = setMatch[2] || trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
         if (!pokedex[pok_name]) {
             continue
         }
@@ -122,7 +123,7 @@ function get_next_in_g4() {
         var type2 = pokedex[pok_name]["types"][1] || type1
 
         var pok_data = SETDEX_BW[pok_name][tr_name]
-        var sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
+        var sub_index = setMatch[3] ? parseInt(setMatch[3]) : parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
 
         var expYield = Math.floor(Math.floor(expYields[cleanString(pok_name)] * pok_data.level / 7) * 1.5);
 
@@ -287,13 +288,14 @@ function get_next_in_g4() {
     var checked_first_phase2_mon = false
 
     for (var i = 0; i < trainer_poks.length; i++) {
-        var pok_name = trainer_poks[i].split(" (")[0]
-        var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
+        var setMatch = trainer_poks[i].match(/^(.+?)\s+\((.+)\)\[(\d+)\]$/) || []
+        var pok_name = setMatch[1] || trainer_poks[i].split(" (")[0]
+        var tr_name = setMatch[2] || trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
         console.log(pok_name)
         var type1 = pokedex[pok_name]["types"][0]
         var type2 = pokedex[pok_name]["types"][1] || type1
         var pok_data = SETDEX_BW[pok_name][tr_name]
-        var sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
+        var sub_index = setMatch[3] ? parseInt(setMatch[3]) : parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
 
         expYield = Math.floor(Math.floor(expYields[cleanString(pok_name)] * pok_data.level / 7) * 1.5);
 

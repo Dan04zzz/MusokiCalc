@@ -126,9 +126,10 @@ function g5BuildCascadeContext(player, playerType1, playerType2) {
 }
 
 function g5GetCascadeTrainerPreviewInfo(trainerPok, player) {
-    var pokName = trainerPok.split(" (")[0]
-    var trName = trainerPok.split(" (")[1].replace(")", "").split("[")[0]
-    var subIndex = trainerPok.split(" (")[1].replace(")", "").split("[")[1].replace("]", "")
+    var setMatch = trainerPok.match(/^(.+?)\s+\((.+)\)\[(\d+)\]$/) || []
+    var pokName = setMatch[1] || trainerPok.split(" (")[0]
+    var trName = setMatch[2] || trainerPok.split(" (")[1].replace(")", "").split("[")[0]
+    var subIndex = setMatch[3] ? parseInt(setMatch[3]) : trainerPok.split(" (")[1].replace(")", "").split("[")[1].replace("]", "")
     var types = pokedex[pokName].types
     var pokData = SETDEX_BW[pokName][trName]
     var opposing = createPokemon(pokName + " (" + trName + ")")
@@ -611,11 +612,12 @@ function get_next_in_g5() {
     }
 
     for (var i = 0; i < trainer_poks.length; i++) {
-        var pok_name = trainer_poks[i].split(" (")[0]
-        var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
+        var setMatch = trainer_poks[i].match(/^(.+?)\s+\((.+)\)\[(\d+)\]$/) || []
+        var pok_name = setMatch[1] || trainer_poks[i].split(" (")[0]
+        var tr_name = setMatch[2] || trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
         var strongest_move_bp = 0
         var strongest_move = "None"
-        var sub_index = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", "")
+        var sub_index = setMatch[3] ? parseInt(setMatch[3]) : trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", "")
         var pok_data = SETDEX_BW[pok_name][tr_name]
         var opposing = createPokemon(pok_name + " (" + tr_name + ")")
         var expYield = g5CalcTrainerPreviewExpYield(player, pok_name, opposing.level)

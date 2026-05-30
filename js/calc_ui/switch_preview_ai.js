@@ -587,11 +587,11 @@ function get_next_in() {
         }
        
 
-        let pok_name = trainer_poks[subIndex].split(" (")[0]
-        let tr_name = trainer_poks[subIndex].split(" (")[1].replace(")", "").split("[")[0]
+        let setMatch = trainer_poks[subIndex].match(/^(.+?)\s+\((.+)\)\[(\d+)\]$/) || []
+        let pok_name = setMatch[1] || trainer_poks[subIndex].split(" (")[0]
+        let tr_name = setMatch[2] || trainer_poks[subIndex].split(" (")[1].replace(")", "").split("[")[0]
         let pok_data = SETDEX_BW[pok_name][tr_name]
-
-        let sub_index = parseInt(trainer_poks[subIndex].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
+        let sub_index = setMatch[3] ? parseInt(setMatch[3]) : parseInt(trainer_poks[subIndex].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
         let types = pokedex[pok_name].types
         let type_matchup = getTypeMatchup([player_type1, player_type2], types)
 

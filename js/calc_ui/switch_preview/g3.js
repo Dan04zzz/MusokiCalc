@@ -408,9 +408,10 @@ function get_next_in_g3() {
     }
 
     for (var i = 0; i < trainer_poks.length; i++) {
-        var pok_name = trainer_poks[i].split(" (")[0];
-        var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0];
-        var sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""));
+        var setMatch = trainer_poks[i].match(/^(.+?)\s+\((.+)\)\[(\d+)\]$/) || [];
+        var pok_name = setMatch[1] || trainer_poks[i].split(" (")[0];
+        var tr_name = setMatch[2] || trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0];
+        var sub_index = setMatch[3] ? parseInt(setMatch[3]) : parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""));
 
         if (!pokedex[pok_name] || !setdex[pok_name] || !setdex[pok_name][tr_name]) {
             continue;
