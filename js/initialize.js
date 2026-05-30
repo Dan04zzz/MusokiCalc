@@ -1867,6 +1867,31 @@ function loadMovesData() {
 }
 
 function loadDataSource(data) {
+    // Ensure gen-specific globals are initialized to prevent race conditions
+    if (typeof gen === "undefined" || !gen) {
+        gen = gameGen || settings.damageGen || 8;
+        if (typeof calc !== "undefined") {
+            if (calc.Generations) GENERATION = calc.Generations.get(gen);
+            if (calc.SPECIES) pokedex = calc.SPECIES[gen];
+            if (calc.MOVES) {
+                if (TITLE === "Ancestral X") {
+                    moves = calc.MOVES[6];
+                } else {
+                    moves = calc.MOVES[gen];
+                }
+            }
+            if (calc.ABILITIES) abilities = calc.ABILITIES[gen];
+            if (calc.ITEMS) items = calc.ITEMS[gen];
+            if (calc.TYPE_CHART && settings) typeChart = calc.TYPE_CHART[settings.typeChart];
+        }
+        if (typeof SETDEX !== "undefined") {
+            setdex = SETDEX[gen];
+        }
+        if (typeof RANDDEX !== "undefined") {
+            randdex = RANDDEX[gen];
+        }
+    }
+
     const isBlankSlateData = !!(data && data.__blankSlate)
     const blankTrainerData = isBlankSlateData ? (data.trainers || {}) : null
 
