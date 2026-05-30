@@ -80,7 +80,8 @@
     function getSpriteFilename(species) {
         if (!species) return 'default';
         return species.toLowerCase()
-            .replace(/[ :'.-]+/g, '-')
+            .replace(/['.]+/g, '')
+            .replace(/[ :-]+/g, '-')
             .replace(/-totem$/g, '')
             .replace(/^-|-glitched$|-$/g, '');
     }
