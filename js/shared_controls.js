@@ -2199,15 +2199,12 @@ $(".set-selector").change(function () {
 				}
 			}
 		} else if (setdex && setdex[pokemonName]) {
-			if (setName != "Blank Set") {
+			if (setName != "Blank Set" && setdex[pokemonName][setName]) {
 				// var sprite = setdex[pokemonName][setName]["sprite"]
 				
 				battle_type = setdex[pokemonName][setName]["battle_type"]
 				weather = setdex[pokemonName][setName]["weather"]
 				var ai = setdex[pokemonName][setName]["ai_tags"] 
-				
-
-
 				if (CURRENT_TRAINER_POKS && CURRENT_TRAINER_POKS.length > 0 && TITLE.includes("1.3")) {
 					
 					let orderInfo = emImpOrders[CURRENT_TRAINER_POKS.find(str => str.includes("[0]")).split("[")[0]]
