@@ -1750,8 +1750,9 @@ function renderTrainerPreviewPok(next_pok) {
 	var pok = `<div class="trainer-pok-container">
 	<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
 
-	var species = next_pok[0].split(" (")[0]
-	var set_name = next_pok[0].split(" (")[1].split(")")[0]
+	var setMatch = next_pok[0].match(/^(.+?)\s+\((.+)\)(?:\[\d+\])?$/) || []
+	var species = setMatch[1] || next_pok[0].split(" (")[0]
+	var set_name = setMatch[2] || next_pok[0].split(" (")[1].replace(/\)\[\d+\]$/, "").replace(/\)$/, "")
 	if (!setdex[species] || !setdex[species][set_name]) {
 		return ""
 	}
@@ -3335,8 +3336,9 @@ function getFirstValidSetOption(side="left") {
 
 	if (localStorage[side]) {
 		var setData = {}
-		setData["pokemon"] = localStorage[side].split(" (")[0]
-		setData["set"] = localStorage[side].split(" (")[1].split(")")[0]
+		var setMatch = localStorage[side].match(/^(.+?)\s+\((.+)\)(?:\[\d+\])?$/) || []
+		setData["pokemon"] = setMatch[1] || localStorage[side].split(" (")[0]
+		setData["set"] = setMatch[2] || localStorage[side].split(" (")[1].replace(/\)\[\d+\]$/, "").replace(/\)$/, "")
 		setData["nickname"] = ""
 		setData["text"] = localStorage[side]
 		setData["id"] = localStorage[side]

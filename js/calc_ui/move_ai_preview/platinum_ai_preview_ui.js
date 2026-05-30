@@ -105,10 +105,11 @@
 
     function getP2SetData(attacker) {
         var full = getSelectedSetName();
-        var species = full.split(" (")[0] || (attacker && attacker.name) || "";
+        var setMatch = full.match(/^(.+?)\s+\((.+)\)(?:\[\d+\])?$/) || [];
+        var species = setMatch[1] || full.split(" (")[0] || (attacker && attacker.name) || "";
         var setName = "";
         if (full.indexOf(" (") !== -1) {
-            setName = full.split(" (")[1].split(")")[0];
+            setName = setMatch[2] || full.split(" (")[1].replace(/\)\[\d+\]$/, "").replace(/\)$/, "");
         }
         if (!setName && attacker && attacker.setName) {
             setName = attacker.setName;
