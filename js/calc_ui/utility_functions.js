@@ -310,7 +310,7 @@ function getTrainerName(str) {
     return null;
   }
   const normalized = stripTrainerLevelDuplicateMarkers(str);
-  const m = normalized.match(/\(Lvl\s+-?\d+\s+([^)]+)\)/);
+  const m = normalized.match(/\(Lvl\s+-?\d+\s+(.*)\)/);
   return m ? m[1].trimEnd() : null;
 }
 
