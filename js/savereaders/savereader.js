@@ -611,11 +611,13 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
     }
 
     const dump = (typeof boxDumpInput === "string") ? JSON.parse(boxDumpInput) : boxDumpInput;
-    if (!dump || typeof dump.party !== "string" || typeof dump.boxes !== "string") {
-        throw new Error("Invalid PokeLua box dump JSON (expected hex strings in party/boxes)");
+    const hasPartyBytes = typeof dump.party === "string" || Array.isArray(dump.party);
+    const hasBoxesBytes = typeof dump.boxes === "string" || Array.isArray(dump.boxes);
+    if (!dump || !hasPartyBytes || !hasBoxesBytes) {
+        throw new Error("Invalid PokeLua box dump JSON (expected hex strings or byte arrays in party/boxes)");
     }
-    if (dump.partyEncoding !== "hex" || dump.boxesEncoding !== "hex") {
-        throw new Error("PokeLua box dump must use hex encoding for party/boxes");
+    if ((typeof dump.party === "string" && dump.partyEncoding !== "hex") || (typeof dump.boxes === "string" && dump.boxesEncoding !== "hex")) {
+        throw new Error("PokeLua box dump must use hex encoding for string party/boxes");
     }
 
     const partyStruct = Number(dump.partyStructSize || 236);
@@ -643,8 +645,8 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
     battleStatSize = (partyPokSize - 136) / 2;
     resetParsedPokemonGlobalsForGen4Import();
 
-    const partyBytes = uint8ArrayFromHexString(dump.party);
-    const boxBytes = uint8ArrayFromHexString(dump.boxes);
+    const partyBytes = typeof dump.party === "string" ? uint8ArrayFromHexString(dump.party) : uint8ArrayFromNumberArray(dump.party);
+    const boxBytes = typeof dump.boxes === "string" ? uint8ArrayFromHexString(dump.boxes) : uint8ArrayFromNumberArray(dump.boxes);
     const deadMons = [];
 
     let showdownImport = "";

@@ -2391,7 +2391,17 @@ function addSets(pokes, name, importOptions) {
 	var queuedSource = "import";
 	var queuedReplaceDeadMons = false;
 
+	var isLuaDump = false;
 	if (isValidJSON(pokes)) {
+		try {
+			var parsed = JSON.parse(pokes);
+			if (parsed && (parsed.party !== undefined || parsed.boxes !== undefined)) {
+				isLuaDump = true;
+			}
+		} catch (e) {}
+	}
+
+	if (isLuaDump) {
 		try {
 			const luaDumpResult = runWithImportPartyPreviewPolicy(function() {
 				return importLuaJsonDumpForCurrentTitle(pokes);
