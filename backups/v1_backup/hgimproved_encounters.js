@@ -208,92 +208,47 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Geodude",
-                        "level": "3",
-                        "rate": "35%"
+                        "level": "2-3",
+                        "rate": "40%"
                     },
                     {
                         "species": "Spearow",
-                        "level": "2",
-                        "rate": "30%"
+                        "level": "2-3",
+                        "rate": "35%"
                     },
                     {
                         "species": "Rattata",
-                        "level": "2",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Ekans",
-                        "level": "2",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Sandshrew",
-                        "level": "2",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Pichu",
-                        "level": "4",
-                        "rate": "5%"
+                        "level": "2-4",
+                        "rate": "25%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Geodude",
-                        "level": "3",
-                        "rate": "35%"
+                        "level": "2-3",
+                        "rate": "40%"
                     },
                     {
                         "species": "Spearow",
-                        "level": "2",
-                        "rate": "30%"
+                        "level": "2-3",
+                        "rate": "35%"
                     },
                     {
                         "species": "Rattata",
-                        "level": "2",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Ekans",
-                        "level": "2",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Sandshrew",
-                        "level": "2",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Pichu",
-                        "level": "4",
-                        "rate": "5%"
+                        "level": "2-4",
+                        "rate": "25%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Geodude",
-                        "level": "3",
-                        "rate": "35%"
-                    },
-                    {
                         "species": "Rattata",
-                        "level": "2",
-                        "rate": "30%"
+                        "level": "2-4",
+                        "rate": "55%"
                     },
                     {
-                        "species": "Ekans",
-                        "level": "2",
-                        "rate": "15%"
-                    },
-                    {
-                        "species": "Sandshrew",
-                        "level": "2",
-                        "rate": "15%"
-                    },
-                    {
-                        "species": "Pichu",
-                        "level": "4",
-                        "rate": "5%"
+                        "species": "Geodude",
+                        "level": "2-3",
+                        "rate": "45%"
                     }
                 ],
                 "Headbutt A": [
@@ -310,17 +265,7 @@ window.hgimproved_encounters = {
                     {
                         "species": "Aipom",
                         "level": "2-3",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Caterpie",
-                        "level": "2-3",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Weedle",
-                        "level": "2-3",
-                        "rate": "5%"
+                        "rate": "20%"
                     }
                 ],
                 "Headbutt B": [
@@ -454,22 +399,17 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Ledyba",
+                        "species": "Pidgey",
                         "level": "2-4",
-                        "rate": "25%"
+                        "rate": "40%"
                     },
                     {
-                        "species": "Pidgey",
+                        "species": "Ledyba",
                         "level": "2",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Caterpie",
-                        "level": "2",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Sentret",
                         "level": "4",
                         "rate": "20%"
                     },
@@ -477,90 +417,45 @@ window.hgimproved_encounters = {
                         "species": "Metapod",
                         "level": "4",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Venonat",
-                        "level": "4",
-                        "rate": "4%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "4",
-                        "rate": "1%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Ledyba",
-                        "level": "2-4",
-                        "rate": "25%"
-                    },
-                    {
                         "species": "Pidgey",
-                        "level": "2",
-                        "rate": "20%"
+                        "level": "2-4",
+                        "rate": "50%"
                     },
                     {
                         "species": "Caterpie",
-                        "level": "2",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Sentret",
-                        "level": "4",
-                        "rate": "20%"
+                        "level": "2-4",
+                        "rate": "35%"
                     },
                     {
                         "species": "Metapod",
                         "level": "4",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Venonat",
-                        "level": "4",
-                        "rate": "4%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "4",
-                        "rate": "1%"
+                        "rate": "15%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Spinarak",
-                        "level": "2-4",
-                        "rate": "25%"
-                    },
-                    {
                         "species": "Hoothoot",
-                        "level": "2",
-                        "rate": "20%"
+                        "level": "4",
+                        "rate": "30%"
                     },
                     {
-                        "species": "Weedle",
+                        "species": "Spinarak",
                         "level": "2",
-                        "rate": "20%"
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Caterpie",
+                        "level": "2-4",
+                        "rate": "30%"
                     },
                     {
                         "species": "Rattata",
                         "level": "4",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Kakuna",
-                        "level": "4",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Venonat",
-                        "level": "4",
-                        "rate": "4%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "4",
-                        "rate": "1%"
                     }
                 ],
                 "Surfing": [
@@ -657,128 +552,78 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Ledyba",
-                        "level": "3-5",
-                        "rate": "25%"
-                    },
-                    {
                         "species": "Pidgey",
                         "level": "3",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Hoppip",
+                        "species": "Ledyba",
                         "level": "3",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Oddish",
-                        "level": "3",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Bellsprout",
                         "level": "3",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Metapod",
                         "level": "5",
-                        "rate": "10%"
+                        "rate": "15%"
                     },
                     {
-                        "species": "Venonat",
+                        "species": "Caterpie",
                         "level": "5",
-                        "rate": "4%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "5",
-                        "rate": "1%"
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Ledyba",
+                        "species": "Caterpie",
                         "level": "3-5",
-                        "rate": "25%"
+                        "rate": "35%"
                     },
                     {
                         "species": "Pidgey",
                         "level": "3",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Hoppip",
-                        "level": "3",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Oddish",
-                        "level": "3",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Bellsprout",
                         "level": "3",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Metapod",
                         "level": "5",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Venonat",
-                        "level": "5",
-                        "rate": "4%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "5",
-                        "rate": "1%"
+                        "rate": "15%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Spinarak",
-                        "level": "3-5",
-                        "rate": "25%"
+                        "level": "3",
+                        "rate": "30%"
                     },
                     {
-                        "species": "Hoothoot",
+                        "species": "Caterpie",
                         "level": "3",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Hoppip",
-                        "level": "3",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Oddish",
-                        "level": "3",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Bellsprout",
                         "level": "3",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
-                        "species": "Kakuna",
+                        "species": "Rattata",
                         "level": "5",
                         "rate": "10%"
                     },
                     {
-                        "species": "Venonat",
+                        "species": "Hoothoot",
                         "level": "5",
-                        "rate": "4%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "5",
-                        "rate": "1%"
+                        "rate": "10%"
                     }
                 ],
                 "Surfing": [
@@ -876,32 +721,17 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Geodude",
-                        "level": "3",
-                        "rate": "30%"
+                        "level": "2-4",
+                        "rate": "60%"
                     },
                     {
                         "species": "Zubat",
-                        "level": "3",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Sandshrew",
-                        "level": "4",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Slugma",
-                        "level": "4",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "4",
-                        "rate": "10%"
+                        "level": "2",
+                        "rate": "30%"
                     },
                     {
                         "species": "Delibird",
-                        "level": "4",
+                        "level": "3",
                         "rate": "5%"
                     },
                     {
@@ -913,32 +743,17 @@ window.hgimproved_encounters = {
                 "Grass (Day)": [
                     {
                         "species": "Geodude",
-                        "level": "3",
-                        "rate": "30%"
+                        "level": "2-4",
+                        "rate": "60%"
                     },
                     {
                         "species": "Zubat",
-                        "level": "3",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Sandshrew",
-                        "level": "4",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Slugma",
-                        "level": "4",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "4",
-                        "rate": "10%"
+                        "level": "2",
+                        "rate": "30%"
                     },
                     {
                         "species": "Delibird",
-                        "level": "4",
+                        "level": "3",
                         "rate": "5%"
                     },
                     {
@@ -950,32 +765,17 @@ window.hgimproved_encounters = {
                 "Grass (Night)": [
                     {
                         "species": "Geodude",
-                        "level": "3",
-                        "rate": "30%"
+                        "level": "2-4",
+                        "rate": "60%"
                     },
                     {
                         "species": "Zubat",
-                        "level": "3",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Sandshrew",
-                        "level": "4",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Slugma",
-                        "level": "4",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "4",
-                        "rate": "10%"
+                        "level": "2",
+                        "rate": "30%"
                     },
                     {
                         "species": "Delibird",
-                        "level": "4",
+                        "level": "3",
                         "rate": "5%"
                     },
                     {
@@ -1133,14 +933,14 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Hoppip",
+                        "species": "Bellsprout",
                         "level": "6",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Rattata",
-                        "level": "6",
-                        "rate": "20%"
+                        "level": "4",
+                        "rate": "30%"
                     },
                     {
                         "species": "Mareep",
@@ -1148,41 +948,31 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
-                        "species": "Magby",
+                        "species": "Hoppip",
                         "level": "6",
                         "rate": "10%"
                     },
                     {
                         "species": "Elekid",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Bellsprout",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Nidoran-M",
-                        "level": "6",
+                        "level": "5",
                         "rate": "5%"
                     },
                     {
-                        "species": "Nidoran-F",
-                        "level": "6",
+                        "species": "Magby",
+                        "level": "5",
                         "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Hoppip",
+                        "species": "Bellsprout",
                         "level": "6",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Rattata",
-                        "level": "6",
-                        "rate": "20%"
+                        "level": "4",
+                        "rate": "30%"
                     },
                     {
                         "species": "Mareep",
@@ -1190,60 +980,50 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
-                        "species": "Magby",
+                        "species": "Hoppip",
                         "level": "6",
-                        "rate": "15%"
+                        "rate": "10%"
                     },
                     {
                         "species": "Elekid",
-                        "level": "6",
-                        "rate": "15%"
+                        "level": "5",
+                        "rate": "5%"
                     },
                     {
-                        "species": "Bellsprout",
-                        "level": "6",
-                        "rate": "10%"
+                        "species": "Magby",
+                        "level": "5",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Hoppip",
+                        "species": "Wooper",
                         "level": "6",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Rattata",
+                        "level": "4",
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Bellsprout",
                         "level": "6",
                         "rate": "20%"
                     },
                     {
                         "species": "Mareep",
                         "level": "6",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Magby",
-                        "level": "6",
                         "rate": "10%"
                     },
                     {
                         "species": "Elekid",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Wooper",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Nidoran-M",
-                        "level": "6",
+                        "level": "5",
                         "rate": "5%"
                     },
                     {
-                        "species": "Nidoran-F",
-                        "level": "6",
+                        "species": "Magby",
+                        "level": "5",
                         "rate": "5%"
                     }
                 ],
@@ -1373,126 +1153,36 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Natu",
-                        "level": "24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Abra",
-                        "level": "24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Drowzee",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Exeggcute",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Slowpoke",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Smoochum",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Wobbuffet",
-                        "level": "24",
-                        "rate": "10%"
+                        "level": "18-24",
+                        "rate": "90%"
                     },
                     {
                         "species": "Smeargle",
-                        "level": "24",
+                        "level": "20-22",
                         "rate": "10%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Natu",
-                        "level": "24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Abra",
-                        "level": "24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Drowzee",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Exeggcute",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Slowpoke",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Smoochum",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Wobbuffet",
-                        "level": "24",
-                        "rate": "10%"
+                        "level": "18-24",
+                        "rate": "90%"
                     },
                     {
                         "species": "Smeargle",
-                        "level": "24",
+                        "level": "20-22",
                         "rate": "10%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Natu",
-                        "level": "24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Abra",
-                        "level": "24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Drowzee",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Exeggcute",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Slowpoke",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Smoochum",
-                        "level": "24",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Wobbuffet",
-                        "level": "24",
-                        "rate": "10%"
+                        "level": "18-24",
+                        "rate": "90%"
                     },
                     {
                         "species": "Smeargle",
-                        "level": "24",
+                        "level": "20-22",
                         "rate": "10%"
                     }
                 ],
@@ -1558,83 +1248,28 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Gastly",
-                        "level": "3",
-                        "rate": "40%"
-                    },
-                    {
                         "species": "Rattata",
-                        "level": "4",
-                        "rate": "30%"
-                    },
-                    {
-                        "species": "Bellsprout",
-                        "level": "5",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Hoothoot",
-                        "level": "6",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Misdreavus",
-                        "level": "5",
-                        "rate": "5%"
+                        "level": "3-6",
+                        "rate": "100%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Gastly",
-                        "level": "3",
-                        "rate": "40%"
-                    },
-                    {
                         "species": "Rattata",
-                        "level": "4",
-                        "rate": "30%"
-                    },
-                    {
-                        "species": "Bellsprout",
-                        "level": "5",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Hoothoot",
-                        "level": "6",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Misdreavus",
-                        "level": "5",
-                        "rate": "5%"
+                        "level": "3-6",
+                        "rate": "100%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Gastly",
-                        "level": "3",
-                        "rate": "40%"
+                        "level": "3-6",
+                        "rate": "85%"
                     },
                     {
                         "species": "Rattata",
-                        "level": "4",
-                        "rate": "30%"
-                    },
-                    {
-                        "species": "Bellsprout",
-                        "level": "5",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Hoothoot",
-                        "level": "6",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Misdreavus",
-                        "level": "5",
-                        "rate": "5%"
+                        "level": "3-5",
+                        "rate": "15%"
                     }
                 ]
             }
@@ -1646,42 +1281,22 @@ window.hgimproved_encounters = {
                     {
                         "species": "Geodude",
                         "level": "6",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Sandshrew",
                         "level": "6",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Zubat",
                         "level": "5-7",
-                        "rate": "15%"
+                        "rate": "25%"
                     },
                     {
-                        "species": "Wooper",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Nidoran-M",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Nidoran-F",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Cubone",
+                        "species": "Rattata",
                         "level": "4",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Machop",
-                        "level": "4",
-                        "rate": "5%"
+                        "rate": "10%"
                     },
                     {
                         "species": "Onix",
@@ -1693,42 +1308,22 @@ window.hgimproved_encounters = {
                     {
                         "species": "Geodude",
                         "level": "6",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Sandshrew",
                         "level": "6",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Zubat",
                         "level": "5-7",
-                        "rate": "15%"
+                        "rate": "25%"
                     },
                     {
-                        "species": "Wooper",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Nidoran-M",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Nidoran-F",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Cubone",
+                        "species": "Rattata",
                         "level": "4",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Machop",
-                        "level": "4",
-                        "rate": "5%"
+                        "rate": "10%"
                     },
                     {
                         "species": "Onix",
@@ -1740,42 +1335,22 @@ window.hgimproved_encounters = {
                     {
                         "species": "Geodude",
                         "level": "6",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Sandshrew",
                         "level": "6",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Zubat",
                         "level": "5-7",
-                        "rate": "15%"
+                        "rate": "25%"
                     },
                     {
-                        "species": "Wooper",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Nidoran-M",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Nidoran-F",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Cubone",
+                        "species": "Rattata",
                         "level": "4",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Machop",
-                        "level": "4",
-                        "rate": "5%"
+                        "rate": "10%"
                     },
                     {
                         "species": "Onix",
@@ -1845,32 +1420,17 @@ window.hgimproved_encounters = {
                     {
                         "species": "Geodude",
                         "level": "8",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Sandshrew",
                         "level": "8",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Zubat",
-                        "level": "7",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Cubone",
-                        "level": "8",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Diglett",
-                        "level": "8",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Machop",
-                        "level": "7",
-                        "rate": "10%"
+                        "level": "7-9",
+                        "rate": "25%"
                     },
                     {
                         "species": "Onix",
@@ -1879,40 +1439,25 @@ window.hgimproved_encounters = {
                     },
                     {
                         "species": "Smoochum",
-                        "level": "6-8",
-                        "rate": "10%"
+                        "level": "6",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Geodude",
                         "level": "8",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Sandshrew",
                         "level": "8",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Zubat",
-                        "level": "7",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Cubone",
-                        "level": "8",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Diglett",
-                        "level": "8",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Machop",
-                        "level": "7",
-                        "rate": "10%"
+                        "level": "7-9",
+                        "rate": "25%"
                     },
                     {
                         "species": "Onix",
@@ -1921,40 +1466,25 @@ window.hgimproved_encounters = {
                     },
                     {
                         "species": "Smoochum",
-                        "level": "6-8",
-                        "rate": "10%"
+                        "level": "6",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Geodude",
                         "level": "8",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Sandshrew",
                         "level": "8",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Zubat",
-                        "level": "7",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Cubone",
-                        "level": "8",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Diglett",
-                        "level": "8",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Machop",
-                        "level": "7",
-                        "rate": "10%"
+                        "level": "7-9",
+                        "rate": "25%"
                     },
                     {
                         "species": "Onix",
@@ -1963,8 +1493,8 @@ window.hgimproved_encounters = {
                     },
                     {
                         "species": "Smoochum",
-                        "level": "6-8",
-                        "rate": "10%"
+                        "level": "6",
+                        "rate": "5%"
                     }
                 ],
                 "Surfing": [
@@ -2027,142 +1557,97 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Sandslash",
+                        "species": "Zubat",
                         "level": "22",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Raticate",
                         "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Onix",
-                        "level": "22",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Golbat",
                         "level": "22",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
-                        "species": "Larvitar",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Quagsire",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "20-22",
+                        "species": "Geodude",
+                        "level": "21",
                         "rate": "10%"
                     },
                     {
                         "species": "Smoochum",
-                        "level": "21",
+                        "level": "20",
                         "rate": "5%"
                     },
                     {
-                        "species": "Graveler",
-                        "level": "21",
+                        "species": "Onix",
+                        "level": "23",
                         "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Sandslash",
+                        "species": "Zubat",
                         "level": "22",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Raticate",
                         "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Onix",
-                        "level": "22",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Golbat",
                         "level": "22",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
-                        "species": "Larvitar",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Quagsire",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "20-22",
+                        "species": "Geodude",
+                        "level": "21",
                         "rate": "10%"
                     },
                     {
                         "species": "Smoochum",
-                        "level": "21",
+                        "level": "20",
                         "rate": "5%"
                     },
                     {
-                        "species": "Graveler",
-                        "level": "21",
+                        "species": "Onix",
+                        "level": "23",
                         "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Sandslash",
+                        "species": "Zubat",
                         "level": "22",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Raticate",
                         "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Onix",
-                        "level": "22",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Golbat",
                         "level": "22",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
-                        "species": "Larvitar",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Quagsire",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "20-22",
+                        "species": "Geodude",
+                        "level": "21",
                         "rate": "10%"
                     },
                     {
                         "species": "Smoochum",
-                        "level": "21",
+                        "level": "20",
                         "rate": "5%"
                     },
                     {
-                        "species": "Graveler",
-                        "level": "21",
+                        "species": "Onix",
+                        "level": "23",
                         "rate": "5%"
                     }
                 ],
@@ -2230,33 +1715,18 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Hoppip",
-                        "level": "6",
-                        "rate": "20%"
+                        "level": "6-8",
+                        "rate": "35%"
                     },
                     {
                         "species": "Rattata",
                         "level": "7",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Ledyba",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Pichu",
-                        "level": "7",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Spearow",
                         "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Snubbull",
-                        "level": "6",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Cleffa",
@@ -2266,11 +1736,6 @@ window.hgimproved_encounters = {
                     {
                         "species": "Igglybuff",
                         "level": "6",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "8",
                         "rate": "5%"
                     },
                     {
@@ -2281,34 +1746,19 @@ window.hgimproved_encounters = {
                 ],
                 "Grass (Day)": [
                     {
+                        "species": "Hoppip",
+                        "level": "6-8",
+                        "rate": "35%"
+                    },
+                    {
                         "species": "Rattata",
                         "level": "7",
-                        "rate": "25%"
-                    },
-                    {
-                        "species": "Hoppip",
-                        "level": "6",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Ledyba",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Pichu",
-                        "level": "7",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Spearow",
                         "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Snubbull",
-                        "level": "6",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Cleffa",
@@ -2321,8 +1771,8 @@ window.hgimproved_encounters = {
                         "rate": "5%"
                     },
                     {
-                        "species": "Psyduck",
-                        "level": "8",
+                        "species": "Zubat",
+                        "level": "4",
                         "rate": "5%"
                     }
                 ],
@@ -2330,27 +1780,12 @@ window.hgimproved_encounters = {
                     {
                         "species": "Rattata",
                         "level": "6-7",
-                        "rate": "30%"
+                        "rate": "50%"
                     },
                     {
                         "species": "Zubat",
-                        "level": "4-6",
-                        "rate": "25%"
-                    },
-                    {
-                        "species": "Spinarak",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Pichu",
-                        "level": "7",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Snubbull",
-                        "level": "6",
-                        "rate": "10%"
+                        "level": "6-8",
+                        "rate": "40%"
                     },
                     {
                         "species": "Cleffa",
@@ -2360,11 +1795,6 @@ window.hgimproved_encounters = {
                     {
                         "species": "Igglybuff",
                         "level": "6",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "8",
                         "rate": "5%"
                     }
                 ],
@@ -2383,16 +1813,6 @@ window.hgimproved_encounters = {
                         "species": "Aipom",
                         "level": "3-5",
                         "rate": "20%"
-                    },
-                    {
-                        "species": "Caterpie",
-                        "level": "3-5",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Weedle",
-                        "level": "3-5",
-                        "rate": "5%"
                     }
                 ],
                 "Headbutt B": [
@@ -2426,17 +1846,7 @@ window.hgimproved_encounters = {
                     {
                         "species": "Aipom",
                         "level": "3-5",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Caterpie",
-                        "level": "3-5",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Weedle",
-                        "level": "3-5",
-                        "rate": "5%"
+                        "rate": "20%"
                     }
                 ],
                 "Headbutt B": [
@@ -2458,128 +1868,38 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Slowpoke",
-                        "level": "5-6",
-                        "rate": "40%"
-                    },
-                    {
-                        "species": "Wooper",
-                        "level": "5",
-                        "rate": "10%"
-                    },
-                    {
                         "species": "Zubat",
-                        "level": "6",
-                        "rate": "10%"
+                        "level": "5-8",
+                        "rate": "85%"
                     },
                     {
-                        "species": "Grimer",
-                        "level": "7",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Poliwag",
-                        "level": "7",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Marill",
-                        "level": "8",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "8",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "8",
-                        "rate": "5%"
+                        "species": "Slowpoke",
+                        "level": "6-8",
+                        "rate": "15%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Slowpoke",
-                        "level": "5-6",
-                        "rate": "40%"
-                    },
-                    {
-                        "species": "Wooper",
-                        "level": "5",
-                        "rate": "10%"
-                    },
-                    {
                         "species": "Zubat",
-                        "level": "6",
-                        "rate": "10%"
+                        "level": "5-8",
+                        "rate": "85%"
                     },
                     {
-                        "species": "Grimer",
-                        "level": "7",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Poliwag",
-                        "level": "7",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Marill",
-                        "level": "8",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "8",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "8",
-                        "rate": "5%"
+                        "species": "Slowpoke",
+                        "level": "6-8",
+                        "rate": "15%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Slowpoke",
-                        "level": "5-6",
-                        "rate": "40%"
-                    },
-                    {
-                        "species": "Wooper",
-                        "level": "5",
-                        "rate": "10%"
-                    },
-                    {
                         "species": "Zubat",
-                        "level": "6",
-                        "rate": "10%"
+                        "level": "5-8",
+                        "rate": "85%"
                     },
                     {
-                        "species": "Grimer",
-                        "level": "7",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Poliwag",
-                        "level": "7",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Marill",
-                        "level": "8",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "8",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "8",
-                        "rate": "5%"
+                        "species": "Slowpoke",
+                        "level": "6-8",
+                        "rate": "15%"
                     }
                 ],
                 "Surfing": [
@@ -2637,126 +1957,51 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Slowpoke",
-                        "level": "21-23",
-                        "rate": "40%"
+                        "species": "Zubat",
+                        "level": "19-23",
+                        "rate": "80%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "21",
-                        "rate": "10%"
+                        "species": "Slowpoke",
+                        "level": "21-23",
+                        "rate": "15%"
                     },
                     {
                         "species": "Golbat",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Grimer",
-                        "level": "19",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Poliwag",
-                        "level": "19",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Azumarill",
-                        "level": "21",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "23",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Shellder",
                         "level": "23",
                         "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Slowpoke",
-                        "level": "21-23",
-                        "rate": "40%"
+                        "species": "Zubat",
+                        "level": "19-23",
+                        "rate": "80%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "21",
-                        "rate": "10%"
+                        "species": "Slowpoke",
+                        "level": "21-23",
+                        "rate": "15%"
                     },
                     {
                         "species": "Golbat",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Grimer",
-                        "level": "19",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Poliwag",
-                        "level": "19",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Azumarill",
-                        "level": "21",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "23",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Shellder",
                         "level": "23",
                         "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Slowpoke",
-                        "level": "21-23",
-                        "rate": "40%"
+                        "species": "Zubat",
+                        "level": "19-23",
+                        "rate": "80%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "21",
-                        "rate": "10%"
+                        "species": "Slowpoke",
+                        "level": "21-23",
+                        "rate": "15%"
                     },
                     {
                         "species": "Golbat",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Grimer",
-                        "level": "19",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Poliwag",
-                        "level": "19",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Azumarill",
-                        "level": "21",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "23",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Shellder",
                         "level": "23",
                         "rate": "5%"
                     }
@@ -2822,107 +2067,62 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Caterpie",
-                        "level": "5",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Weedle",
-                        "level": "5",
-                        "rate": "20%"
+                        "level": "5-6",
+                        "rate": "50%"
                     },
                     {
                         "species": "Metapod",
                         "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Kakuna",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Sunkern",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Tangela",
-                        "level": "6",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Paras",
-                        "level": "5",
-                        "rate": "10%"
+                        "level": "5-6",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Venonat",
+                        "species": "Zubat",
                         "level": "5",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "6",
                         "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Zubat",
+                        "species": "Caterpie",
+                        "level": "5-6",
+                        "rate": "60%"
+                    },
+                    {
+                        "species": "Metapod",
                         "level": "5-6",
                         "rate": "30%"
                     },
                     {
-                        "species": "Caterpie",
-                        "level": "5",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Weedle",
-                        "level": "5",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Metapod",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Kakuna",
-                        "level": "6",
-                        "rate": "10%"
-                    },
-                    {
                         "species": "Paras",
+                        "level": "6",
+                        "rate": "5%"
+                    },
+                    {
+                        "species": "Zubat",
                         "level": "5",
-                        "rate": "10%"
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Oddish",
                         "level": "5-6",
-                        "rate": "30%"
-                    },
-                    {
-                        "species": "Bellsprout",
-                        "level": "5-6",
-                        "rate": "30%"
+                        "rate": "60%"
                     },
                     {
                         "species": "Zubat",
                         "level": "5-6",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Tangela",
-                        "level": "6",
-                        "rate": "10%"
+                        "rate": "25%"
                     },
                     {
                         "species": "Paras",
-                        "level": "5",
-                        "rate": "10%"
+                        "level": "5-6",
+                        "rate": "15%"
                     }
                 ],
                 "Surfing": [
@@ -3034,34 +2234,14 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
+                        "species": "Drowzee",
+                        "level": "10-12",
+                        "rate": "50%"
+                    },
+                    {
                         "species": "Rattata",
                         "level": "11-13",
-                        "rate": "25%"
-                    },
-                    {
-                        "species": "Drowzee",
-                        "level": "10",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Abra",
-                        "level": "10",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Snubbull",
-                        "level": "11",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Ponyta",
-                        "level": "12",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Teddiursa",
-                        "level": "12",
-                        "rate": "10%"
+                        "rate": "35%"
                     },
                     {
                         "species": "Clefairy",
@@ -3081,34 +2261,14 @@ window.hgimproved_encounters = {
                 ],
                 "Grass (Day)": [
                     {
+                        "species": "Drowzee",
+                        "level": "10-12",
+                        "rate": "50%"
+                    },
+                    {
                         "species": "Rattata",
                         "level": "11-13",
-                        "rate": "25%"
-                    },
-                    {
-                        "species": "Drowzee",
-                        "level": "10",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Abra",
-                        "level": "10",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Snubbull",
-                        "level": "11",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Ponyta",
-                        "level": "12",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Teddiursa",
-                        "level": "12",
-                        "rate": "10%"
+                        "rate": "35%"
                     },
                     {
                         "species": "Clefairy",
@@ -3128,34 +2288,14 @@ window.hgimproved_encounters = {
                 ],
                 "Grass (Night)": [
                     {
+                        "species": "Drowzee",
+                        "level": "10-12",
+                        "rate": "50%"
+                    },
+                    {
                         "species": "Rattata",
                         "level": "11-13",
-                        "rate": "25%"
-                    },
-                    {
-                        "species": "Drowzee",
-                        "level": "10",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Abra",
-                        "level": "10",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Snubbull",
-                        "level": "11",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Ponyta",
-                        "level": "12",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Teddiursa",
-                        "level": "12",
-                        "rate": "10%"
+                        "rate": "35%"
                     },
                     {
                         "species": "Clefairy",
@@ -3299,12 +2439,7 @@ window.hgimproved_encounters = {
                     {
                         "species": "Drowzee",
                         "level": "14",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "14",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Abra",
@@ -3327,7 +2462,7 @@ window.hgimproved_encounters = {
                         "rate": "4%"
                     },
                     {
-                        "species": "Scyther",
+                        "species": "Yanma",
                         "level": "12",
                         "rate": "1%"
                     }
@@ -3344,14 +2479,9 @@ window.hgimproved_encounters = {
                         "rate": "30%"
                     },
                     {
-                        "species": "Yanma",
-                        "level": "14",
-                        "rate": "10%"
-                    },
-                    {
                         "species": "Drowzee",
                         "level": "14",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Abra",
@@ -3374,7 +2504,7 @@ window.hgimproved_encounters = {
                         "rate": "4%"
                     },
                     {
-                        "species": "Scyther",
+                        "species": "Yanma",
                         "level": "12",
                         "rate": "1%"
                     }
@@ -3391,14 +2521,9 @@ window.hgimproved_encounters = {
                         "rate": "30%"
                     },
                     {
-                        "species": "Yanma",
-                        "level": "14",
-                        "rate": "10%"
-                    },
-                    {
                         "species": "Drowzee",
                         "level": "14",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Abra",
@@ -3421,7 +2546,7 @@ window.hgimproved_encounters = {
                         "rate": "4%"
                     },
                     {
-                        "species": "Scyther",
+                        "species": "Yanma",
                         "level": "12",
                         "rate": "1%"
                     }
@@ -3525,44 +2650,24 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
+                        "species": "Metapod",
+                        "level": "10",
+                        "rate": "20%"
+                    },
+                    {
                         "species": "Weedle",
                         "level": "10",
                         "rate": "20%"
                     },
                     {
-                        "species": "Yanma",
+                        "species": "Kakuna",
                         "level": "10",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Venonat",
-                        "level": "10",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Spinarak",
-                        "level": "10",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Ledyba",
-                        "level": "10",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Pidgey",
-                        "level": "12",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Pinsir",
-                        "level": "12",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Scyther",
-                        "level": "12",
-                        "rate": "5%"
+                        "level": "10-14",
+                        "rate": "20%"
                     }
                 ],
                 "Grass (Day)": [
@@ -3572,43 +2677,28 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
+                        "species": "Metapod",
+                        "level": "10",
+                        "rate": "20%"
+                    },
+                    {
                         "species": "Weedle",
                         "level": "10",
                         "rate": "20%"
                     },
                     {
-                        "species": "Yanma",
+                        "species": "Kakuna",
                         "level": "10",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Venonat",
-                        "level": "10",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Spinarak",
-                        "level": "10",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Ledyba",
-                        "level": "10",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Sunkern",
-                        "level": "12",
-                        "rate": "10%"
+                        "level": "10-12",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Pinsir",
-                        "level": "12",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Scyther",
-                        "level": "12",
+                        "species": "Pidgey",
+                        "level": "14",
                         "rate": "5%"
                     }
                 ],
@@ -3882,25 +2972,15 @@ window.hgimproved_encounters = {
                     {
                         "species": "Nidoran-M",
                         "level": "12-13",
-                        "rate": "10%"
+                        "rate": "15%"
                     },
                     {
                         "species": "Nidoran-F",
                         "level": "12-13",
-                        "rate": "10%"
+                        "rate": "15%"
                     },
                     {
                         "species": "Stantler",
-                        "level": "13",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Ponyta",
-                        "level": "13",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Slugma",
                         "level": "13",
                         "rate": "5%"
                     }
@@ -3924,25 +3004,15 @@ window.hgimproved_encounters = {
                     {
                         "species": "Nidoran-M",
                         "level": "12-13",
-                        "rate": "10%"
+                        "rate": "15%"
                     },
                     {
                         "species": "Nidoran-F",
                         "level": "12-13",
-                        "rate": "10%"
+                        "rate": "15%"
                     },
                     {
                         "species": "Stantler",
-                        "level": "13",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Ponyta",
-                        "level": "13",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Slugma",
                         "level": "13",
                         "rate": "5%"
                     }
@@ -3966,25 +3036,15 @@ window.hgimproved_encounters = {
                     {
                         "species": "Nidoran-M",
                         "level": "12-13",
-                        "rate": "10%"
+                        "rate": "15%"
                     },
                     {
                         "species": "Nidoran-F",
                         "level": "12-13",
-                        "rate": "10%"
+                        "rate": "15%"
                     },
                     {
                         "species": "Stantler",
-                        "level": "13",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Ponyta",
-                        "level": "13",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Slugma",
                         "level": "13",
                         "rate": "5%"
                     }
@@ -4036,8 +3096,8 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Ledyba",
-                        "level": "13",
-                        "rate": "30%"
+                        "level": "13-15",
+                        "rate": "40%"
                     },
                     {
                         "species": "Stantler",
@@ -4058,22 +3118,12 @@ window.hgimproved_encounters = {
                         "species": "Pidgey",
                         "level": "14",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Farfetch'd",
-                        "level": "15",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Tangela",
-                        "level": "15",
-                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Vulpix",
-                        "level": "13-15",
+                        "species": "Pidgey",
+                        "level": "13-14",
                         "rate": "40%"
                     },
                     {
@@ -4092,21 +3142,16 @@ window.hgimproved_encounters = {
                         "rate": "10%"
                     },
                     {
-                        "species": "Farfetch'd",
+                        "species": "Pidgeotto",
                         "level": "15",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Tangela",
-                        "level": "15",
-                        "rate": "5%"
+                        "rate": "10%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Spinarak",
-                        "level": "13",
-                        "rate": "30%"
+                        "level": "13-15",
+                        "rate": "40%"
                     },
                     {
                         "species": "Stantler",
@@ -4127,16 +3172,6 @@ window.hgimproved_encounters = {
                         "species": "Hoothoot",
                         "level": "14",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Farfetch'd",
-                        "level": "15",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Tangela",
-                        "level": "15",
-                        "rate": "5%"
                     }
                 ],
                 "Headbutt A": [
@@ -4277,113 +3312,83 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Magby",
-                        "level": "13",
-                        "rate": "20%"
+                        "species": "Rattata",
+                        "level": "13-15",
+                        "rate": "50%"
                     },
                     {
                         "species": "Koffing",
-                        "level": "14",
-                        "rate": "20%"
+                        "level": "14-16",
+                        "rate": "25%"
                     },
                     {
                         "species": "Houndour",
-                        "level": "13-14",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Grimer",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Rattata",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gastly",
                         "level": "14",
                         "rate": "10%"
                     },
                     {
-                        "species": "Misdreavus",
-                        "level": "15-16",
+                        "species": "Zubat",
+                        "level": "14",
                         "rate": "10%"
+                    },
+                    {
+                        "species": "Raticate",
+                        "level": "15",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Magby",
-                        "level": "13",
-                        "rate": "20%"
+                        "species": "Rattata",
+                        "level": "13-15",
+                        "rate": "50%"
                     },
                     {
                         "species": "Koffing",
-                        "level": "14",
-                        "rate": "20%"
+                        "level": "14-16",
+                        "rate": "25%"
                     },
                     {
                         "species": "Houndour",
-                        "level": "13-14",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Grimer",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Rattata",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gastly",
                         "level": "14",
                         "rate": "10%"
                     },
                     {
-                        "species": "Misdreavus",
-                        "level": "15-16",
+                        "species": "Zubat",
+                        "level": "14",
                         "rate": "10%"
+                    },
+                    {
+                        "species": "Raticate",
+                        "level": "15",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Magby",
-                        "level": "13",
-                        "rate": "20%"
+                        "species": "Rattata",
+                        "level": "13-15",
+                        "rate": "50%"
                     },
                     {
                         "species": "Koffing",
-                        "level": "14",
-                        "rate": "20%"
+                        "level": "14-16",
+                        "rate": "25%"
                     },
                     {
                         "species": "Houndour",
-                        "level": "13-14",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Grimer",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Rattata",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gastly",
                         "level": "14",
                         "rate": "10%"
                     },
                     {
-                        "species": "Misdreavus",
-                        "level": "15-16",
+                        "species": "Zubat",
+                        "level": "14",
                         "rate": "10%"
+                    },
+                    {
+                        "species": "Raticate",
+                        "level": "15",
+                        "rate": "5%"
                     }
                 ]
             }
@@ -4393,113 +3398,83 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Magmar",
-                        "level": "14",
-                        "rate": "20%"
+                        "species": "Koffing",
+                        "level": "14-16",
+                        "rate": "40%"
                     },
                     {
-                        "species": "Koffing",
-                        "level": "16",
-                        "rate": "20%"
+                        "species": "Rattata",
+                        "level": "14-16",
+                        "rate": "40%"
                     },
                     {
                         "species": "Houndour",
                         "level": "14",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Grimer",
-                        "level": "16",
                         "rate": "10%"
                     },
                     {
-                        "species": "Slugma",
+                        "species": "Zubat",
                         "level": "15",
-                        "rate": "10%"
+                        "rate": "5%"
                     },
                     {
-                        "species": "Haunter",
-                        "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Misdreavus",
-                        "level": "14-15",
-                        "rate": "10%"
+                        "species": "Magmar",
+                        "level": "14",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Magmar",
-                        "level": "14",
-                        "rate": "20%"
+                        "species": "Koffing",
+                        "level": "14-16",
+                        "rate": "40%"
                     },
                     {
-                        "species": "Koffing",
-                        "level": "16",
-                        "rate": "20%"
+                        "species": "Rattata",
+                        "level": "14-16",
+                        "rate": "35%"
                     },
                     {
                         "species": "Houndour",
                         "level": "14",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Grimer",
-                        "level": "16",
                         "rate": "10%"
                     },
                     {
-                        "species": "Slugma",
+                        "species": "Magmar",
+                        "level": "14",
+                        "rate": "10%"
+                    },
+                    {
+                        "species": "Zubat",
                         "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Haunter",
-                        "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Misdreavus",
-                        "level": "14-15",
-                        "rate": "10%"
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Magmar",
-                        "level": "14",
-                        "rate": "20%"
+                        "species": "Koffing",
+                        "level": "14-16",
+                        "rate": "40%"
                     },
                     {
-                        "species": "Koffing",
-                        "level": "16",
-                        "rate": "20%"
+                        "species": "Rattata",
+                        "level": "14-16",
+                        "rate": "40%"
                     },
                     {
                         "species": "Houndour",
                         "level": "14",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Grimer",
-                        "level": "16",
                         "rate": "10%"
                     },
                     {
-                        "species": "Slugma",
+                        "species": "Zubat",
                         "level": "15",
-                        "rate": "10%"
+                        "rate": "5%"
                     },
                     {
-                        "species": "Haunter",
-                        "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Misdreavus",
-                        "level": "14-15",
-                        "rate": "10%"
+                        "species": "Magmar",
+                        "level": "14",
+                        "rate": "5%"
                     }
                 ]
             }
@@ -4510,80 +3485,25 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Rattata",
-                        "level": "20",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Gastly",
-                        "level": "21",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Misdreavus",
-                        "level": "20-22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Murkrow",
-                        "level": "21-22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Golbat",
-                        "level": "22-24",
-                        "rate": "20%"
+                        "level": "20-24",
+                        "rate": "100%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Rattata",
-                        "level": "20",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Gastly",
-                        "level": "21",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Misdreavus",
-                        "level": "20-22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Murkrow",
-                        "level": "21-22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Golbat",
-                        "level": "22-24",
-                        "rate": "20%"
+                        "level": "20-24",
+                        "rate": "100%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Rattata",
-                        "level": "20",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Gastly",
-                        "level": "21",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Misdreavus",
+                        "species": "Gaslty",
                         "level": "20-22",
-                        "rate": "20%"
+                        "rate": "80%"
                     },
                     {
-                        "species": "Murkrow",
-                        "level": "21-22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Golbat",
+                        "species": "Rattata",
                         "level": "22-24",
                         "rate": "20%"
                     }
@@ -4606,13 +3526,8 @@ window.hgimproved_encounters = {
                     },
                     {
                         "species": "Magnemite",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Skarmory",
                         "level": "16",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Rattata",
@@ -4658,13 +3573,8 @@ window.hgimproved_encounters = {
                     },
                     {
                         "species": "Magnemite",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Skarmory",
                         "level": "16",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Rattata",
@@ -4710,26 +3620,16 @@ window.hgimproved_encounters = {
                     },
                     {
                         "species": "Magnemite",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Skarmory",
                         "level": "16",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Rattata",
                         "level": "16",
-                        "rate": "10%"
+                        "rate": "15%"
                     },
                     {
                         "species": "Pichu",
-                        "level": "16",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Farfetch'd",
                         "level": "16",
                         "rate": "5%"
                     },
@@ -4795,33 +3695,23 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
+                        "species": "Raticate",
+                        "level": "17",
+                        "rate": "30%"
+                    },
+                    {
                         "species": "Meowth",
                         "level": "16",
                         "rate": "20%"
                     },
                     {
-                        "species": "Raticate",
-                        "level": "17",
+                        "species": "Magnemite",
+                        "level": "16",
                         "rate": "20%"
                     },
                     {
-                        "species": "Skarmory",
+                        "species": "Rattata",
                         "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Magnemite",
-                        "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Voltorb",
-                        "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Lickitung",
-                        "level": "17",
                         "rate": "10%"
                     },
                     {
@@ -4835,45 +3725,35 @@ window.hgimproved_encounters = {
                         "rate": "5%"
                     },
                     {
-                        "species": "Tauros",
+                        "species": "Miltank",
                         "level": "15",
                         "rate": "5%"
                     },
                     {
-                        "species": "Miltank",
+                        "species": "Tauros",
                         "level": "15",
                         "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
+                        "species": "Raticate",
+                        "level": "17",
+                        "rate": "30%"
+                    },
+                    {
                         "species": "Meowth",
                         "level": "16",
                         "rate": "20%"
                     },
                     {
-                        "species": "Raticate",
-                        "level": "17",
+                        "species": "Magnemite",
+                        "level": "16",
                         "rate": "20%"
                     },
                     {
-                        "species": "Skarmory",
+                        "species": "Rattata",
                         "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Magnemite",
-                        "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Voltorb",
-                        "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Lickitung",
-                        "level": "17",
                         "rate": "10%"
                     },
                     {
@@ -4887,46 +3767,36 @@ window.hgimproved_encounters = {
                         "rate": "5%"
                     },
                     {
-                        "species": "Tauros",
+                        "species": "Miltank",
                         "level": "15",
                         "rate": "5%"
                     },
                     {
-                        "species": "Miltank",
+                        "species": "Tauros",
                         "level": "15",
                         "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
+                        "species": "Raticate",
+                        "level": "17",
+                        "rate": "30%"
+                    },
+                    {
                         "species": "Meowth",
                         "level": "16",
                         "rate": "20%"
                     },
                     {
-                        "species": "Raticate",
-                        "level": "17",
+                        "species": "Magnemite",
+                        "level": "16",
                         "rate": "20%"
                     },
                     {
-                        "species": "Skarmory",
+                        "species": "Rattata",
                         "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Magnemite",
-                        "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Voltorb",
-                        "level": "16",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Lickitung",
-                        "level": "17",
-                        "rate": "10%"
+                        "rate": "15%"
                     },
                     {
                         "species": "Electabuzz",
@@ -4934,17 +3804,12 @@ window.hgimproved_encounters = {
                         "rate": "5%"
                     },
                     {
-                        "species": "Farfetch'd",
-                        "level": "16",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Tauros",
+                        "species": "Miltank",
                         "level": "15",
                         "rate": "5%"
                     },
                     {
-                        "species": "Miltank",
+                        "species": "Tauros",
                         "level": "15",
                         "rate": "5%"
                     }
@@ -5304,128 +4169,73 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Flaaffy",
-                        "level": "15",
-                        "rate": "25%"
-                    },
-                    {
                         "species": "Mankey",
                         "level": "15",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Teddiursa",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
+                        "species": "Mareep",
                         "level": "13",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gligar",
-                        "level": "14",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Spearow",
-                        "level": "16",
-                        "rate": "10%"
+                        "level": "14-16",
+                        "rate": "30%"
                     },
                     {
-                        "species": "Zubat",
-                        "level": "14",
+                        "species": "Flaaffy",
+                        "level": "15-17",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Mr. Mime",
-                        "level": "16",
-                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Flaaffy",
-                        "level": "15",
-                        "rate": "25%"
-                    },
-                    {
                         "species": "Mankey",
                         "level": "15",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Teddiursa",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
+                        "species": "Mareep",
                         "level": "13",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gligar",
-                        "level": "14",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Spearow",
-                        "level": "16",
-                        "rate": "10%"
+                        "level": "14-16",
+                        "rate": "30%"
                     },
                     {
-                        "species": "Zubat",
-                        "level": "14",
+                        "species": "Flaaffy",
+                        "level": "15-17",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Mr. Mime",
-                        "level": "16",
-                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Flaaffy",
-                        "level": "15",
-                        "rate": "25%"
-                    },
-                    {
                         "species": "Mankey",
                         "level": "15",
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Mareep",
+                        "level": "13",
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Zubat",
+                        "level": "14",
                         "rate": "20%"
                     },
                     {
-                        "species": "Teddiursa",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "13",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gligar",
-                        "level": "14",
+                        "species": "Flaaffy",
+                        "level": "15-17",
                         "rate": "10%"
                     },
                     {
                         "species": "Murkrow",
                         "level": "16",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Zubat",
-                        "level": "14",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Mr. Mime",
-                        "level": "16",
-                        "rate": "5%"
                     }
                 ],
                 "Surfing": [
@@ -5518,107 +4328,62 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Zubat",
-                        "level": "13",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Marill",
-                        "level": "15",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Natu",
-                        "level": "15",
-                        "rate": "20%"
+                        "level": "13-15",
+                        "rate": "60%"
                     },
                     {
                         "species": "Machop",
                         "level": "14",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
-                        "species": "Poliwag",
-                        "level": "14",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Diglett",
-                        "level": "14",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Gligar",
-                        "level": "14",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Slugma",
-                        "level": "14",
-                        "rate": "5%"
+                        "species": "Rattata",
+                        "level": "14-16",
+                        "rate": "14%"
                     },
                     {
                         "species": "Geodude",
-                        "level": "16",
+                        "level": "14",
                         "rate": "5%"
+                    },
+                    {
+                        "species": "Marill",
+                        "level": "15",
+                        "rate": "1%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Zubat",
-                        "level": "13",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Marill",
-                        "level": "15",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Natu",
-                        "level": "15",
-                        "rate": "20%"
+                        "level": "13-15",
+                        "rate": "60%"
                     },
                     {
                         "species": "Machop",
                         "level": "14",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
-                        "species": "Poliwag",
-                        "level": "14",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Diglett",
-                        "level": "14",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Gligar",
-                        "level": "14",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Slugma",
-                        "level": "14",
-                        "rate": "5%"
+                        "species": "Rattata",
+                        "level": "14-16",
+                        "rate": "14%"
                     },
                     {
                         "species": "Geodude",
-                        "level": "16",
+                        "level": "14",
                         "rate": "5%"
+                    },
+                    {
+                        "species": "Marill",
+                        "level": "15",
+                        "rate": "1%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Zubat",
-                        "level": "13",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Marill",
-                        "level": "15",
-                        "rate": "20%"
+                        "level": "13-15",
+                        "rate": "40%"
                     },
                     {
                         "species": "Misdreavus",
@@ -5628,32 +4393,22 @@ window.hgimproved_encounters = {
                     {
                         "species": "Machop",
                         "level": "14",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
-                        "species": "Poliwag",
-                        "level": "14",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Diglett",
-                        "level": "14",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Gligar",
-                        "level": "14",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Slugma",
-                        "level": "14",
-                        "rate": "5%"
+                        "species": "Rattata",
+                        "level": "14-16",
+                        "rate": "14%"
                     },
                     {
                         "species": "Geodude",
-                        "level": "16",
+                        "level": "14",
                         "rate": "5%"
+                    },
+                    {
+                        "species": "Marill",
+                        "level": "15",
+                        "rate": "1%"
                     }
                 ],
                 "Surfing": [
@@ -5717,87 +4472,57 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Geodude",
-                        "level": "13",
-                        "rate": "20%"
+                        "level": "13-15",
+                        "rate": "50%"
                     },
                     {
                         "species": "Machop",
-                        "level": "13",
-                        "rate": "20%"
+                        "level": "13-15",
+                        "rate": "35%"
                     },
                     {
-                        "species": "Natu",
-                        "level": "15",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Rhyhorn",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gligar",
+                        "species": "Rattata",
                         "level": "14",
                         "rate": "10%"
                     },
                     {
-                        "species": "Phanpy",
-                        "level": "14-15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Onix",
-                        "level": "15",
-                        "rate": "10%"
+                        "species": "Zubat",
+                        "level": "14",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Geodude",
-                        "level": "13",
-                        "rate": "20%"
+                        "level": "13-15",
+                        "rate": "50%"
                     },
                     {
                         "species": "Machop",
-                        "level": "13",
-                        "rate": "20%"
+                        "level": "13-15",
+                        "rate": "35%"
                     },
                     {
-                        "species": "Natu",
-                        "level": "15",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Rhyhorn",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gligar",
+                        "species": "Rattata",
                         "level": "14",
                         "rate": "10%"
                     },
                     {
-                        "species": "Phanpy",
-                        "level": "14-15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Onix",
-                        "level": "15",
-                        "rate": "10%"
+                        "species": "Zubat",
+                        "level": "14",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Geodude",
-                        "level": "13",
-                        "rate": "20%"
+                        "level": "13-15",
+                        "rate": "40%"
                     },
                     {
                         "species": "Machop",
-                        "level": "13",
-                        "rate": "20%"
+                        "level": "13-15",
+                        "rate": "25%"
                     },
                     {
                         "species": "Misdreavus",
@@ -5805,24 +4530,14 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
-                        "species": "Rhyhorn",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gligar",
+                        "species": "Rattata",
                         "level": "14",
                         "rate": "10%"
                     },
                     {
-                        "species": "Phanpy",
-                        "level": "14-15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Onix",
-                        "level": "15",
-                        "rate": "10%"
+                        "species": "Zubat",
+                        "level": "14",
+                        "rate": "5%"
                     }
                 ]
             }
@@ -5834,46 +4549,31 @@ window.hgimproved_encounters = {
                     {
                         "species": "Graveler",
                         "level": "31",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Machoke",
                         "level": "32",
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Geodude",
+                        "level": "31",
                         "rate": "20%"
+                    },
+                    {
+                        "species": "Raticate",
+                        "level": "30",
+                        "rate": "10%"
                     },
                     {
                         "species": "Golbat",
-                        "level": "31-32",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Rhyhorn",
-                        "level": "31",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Slugma",
-                        "level": "31",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gligar",
                         "level": "30",
                         "rate": "5%"
                     },
                     {
-                        "species": "Phanpy",
-                        "level": "30",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Onix",
+                        "species": "Machop",
                         "level": "28",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Pupitar",
-                        "level": "30",
                         "rate": "5%"
                     }
                 ],
@@ -5881,46 +4581,31 @@ window.hgimproved_encounters = {
                     {
                         "species": "Graveler",
                         "level": "31",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Machoke",
                         "level": "32",
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Geodude",
+                        "level": "31",
                         "rate": "20%"
+                    },
+                    {
+                        "species": "Raticate",
+                        "level": "30",
+                        "rate": "10%"
                     },
                     {
                         "species": "Golbat",
-                        "level": "31-32",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Rhyhorn",
-                        "level": "31",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Slugma",
-                        "level": "31",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gligar",
                         "level": "30",
                         "rate": "5%"
                     },
                     {
-                        "species": "Phanpy",
-                        "level": "30",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Onix",
+                        "species": "Machop",
                         "level": "28",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Pupitar",
-                        "level": "30",
                         "rate": "5%"
                     }
                 ],
@@ -5928,46 +4613,36 @@ window.hgimproved_encounters = {
                     {
                         "species": "Graveler",
                         "level": "31",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Machoke",
                         "level": "32",
-                        "rate": "20%"
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Geodude",
+                        "level": "31",
+                        "rate": "10%"
                     },
                     {
                         "species": "Misdreavus",
                         "level": "31-32",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Rhyhorn",
-                        "level": "31",
                         "rate": "10%"
                     },
                     {
-                        "species": "Slugma",
-                        "level": "31",
+                        "species": "Raticate",
+                        "level": "30",
                         "rate": "10%"
                     },
                     {
-                        "species": "Gligar",
+                        "species": "Golbat",
                         "level": "30",
                         "rate": "5%"
                     },
                     {
-                        "species": "Phanpy",
-                        "level": "30",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Onix",
+                        "species": "Machop",
                         "level": "28",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Pupitar",
-                        "level": "30",
                         "rate": "5%"
                     }
                 ],
@@ -6032,28 +4707,13 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Zubat",
-                        "level": "15",
-                        "rate": "20%"
+                        "level": "15-17",
+                        "rate": "60%"
                     },
                     {
-                        "species": "Gligar",
+                        "species": "Rattata",
                         "level": "16",
                         "rate": "20%"
-                    },
-                    {
-                        "species": "Natu",
-                        "level": "16",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Larvitar",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "16",
-                        "rate": "10%"
                     },
                     {
                         "species": "Machop",
@@ -6068,34 +4728,24 @@ window.hgimproved_encounters = {
                     {
                         "species": "Raticate",
                         "level": "16",
-                        "rate": "5%"
+                        "rate": "4%"
+                    },
+                    {
+                        "species": "Larvitar",
+                        "level": "16",
+                        "rate": "1%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Zubat",
-                        "level": "15",
-                        "rate": "20%"
+                        "level": "15-17",
+                        "rate": "60%"
                     },
                     {
-                        "species": "Gligar",
+                        "species": "Rattata",
                         "level": "16",
                         "rate": "20%"
-                    },
-                    {
-                        "species": "Natu",
-                        "level": "16",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Larvitar",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
-                        "level": "16",
-                        "rate": "10%"
                     },
                     {
                         "species": "Machop",
@@ -6110,32 +4760,27 @@ window.hgimproved_encounters = {
                     {
                         "species": "Raticate",
                         "level": "16",
-                        "rate": "5%"
+                        "rate": "4%"
+                    },
+                    {
+                        "species": "Larvitar",
+                        "level": "16",
+                        "rate": "1%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Zubat",
-                        "level": "15",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Gligar",
-                        "level": "16",
-                        "rate": "20%"
+                        "level": "15-17",
+                        "rate": "50%"
                     },
                     {
                         "species": "Misdreavus",
-                        "level": "16",
+                        "level": "16-17",
                         "rate": "20%"
                     },
                     {
-                        "species": "Larvitar",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
+                        "species": "Rattata",
                         "level": "16",
                         "rate": "10%"
                     },
@@ -6152,7 +4797,12 @@ window.hgimproved_encounters = {
                     {
                         "species": "Raticate",
                         "level": "16",
-                        "rate": "5%"
+                        "rate": "4%"
+                    },
+                    {
+                        "species": "Larvitar",
+                        "level": "16",
+                        "rate": "1%"
                     }
                 ],
                 "Surfing": [
@@ -6217,12 +4867,12 @@ window.hgimproved_encounters = {
                     {
                         "species": "Flaaffy",
                         "level": "15",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Girafarig",
                         "level": "15",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Clefairy",
@@ -6235,23 +4885,13 @@ window.hgimproved_encounters = {
                         "rate": "10%"
                     },
                     {
-                        "species": "Mr. Mime",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Hoppip",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Sandshrew",
+                        "species": "Mareep",
                         "level": "15",
                         "rate": "10%"
                     },
                     {
                         "species": "Venonat",
-                        "level": "16",
+                        "level": "15",
                         "rate": "5%"
                     },
                     {
@@ -6263,13 +4903,13 @@ window.hgimproved_encounters = {
                 "Grass (Day)": [
                     {
                         "species": "Flaaffy",
-                        "level": "15",
-                        "rate": "20%"
+                        "level": "15-17",
+                        "rate": "40%"
                     },
                     {
                         "species": "Girafarig",
                         "level": "15",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Clefairy",
@@ -6282,41 +4922,26 @@ window.hgimproved_encounters = {
                         "rate": "10%"
                     },
                     {
-                        "species": "Mr. Mime",
+                        "species": "Mareep",
                         "level": "15",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Hoppip",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Sandshrew",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Venonat",
-                        "level": "16",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Pidgeotto",
-                        "level": "17",
-                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Flaaffy",
                         "level": "15",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Girafarig",
                         "level": "15",
-                        "rate": "20%"
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Venonat",
+                        "level": "15",
+                        "rate": "15%"
                     },
                     {
                         "species": "Clefairy",
@@ -6329,24 +4954,9 @@ window.hgimproved_encounters = {
                         "rate": "10%"
                     },
                     {
-                        "species": "Mr. Mime",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Hoppip",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Sandshrew",
-                        "level": "15",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Venonat",
-                        "level": "16-17",
-                        "rate": "10%"
+                        "species": "Mareep",
+                        "level": "15-16",
+                        "rate": "5%"
                     }
                 ],
                 "Surfing": [
@@ -6726,6 +5336,11 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
+                        "species": "Ditto",
+                        "level": "35",
+                        "rate": "40%"
+                    },
+                    {
                         "species": "Farfetch'd",
                         "level": "34",
                         "rate": "20%"
@@ -6736,38 +5351,38 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
-                        "species": "Ditto",
-                        "level": "35",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "35",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Lickitung",
+                        "species": "Gloom",
                         "level": "32",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Tangela",
-                        "level": "31",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Eevee",
-                        "level": "35",
                         "rate": "5%"
+                    },
+                    {
+                        "species": "Spearow",
+                        "level": "31",
+                        "rate": "5%"
+                    },
+                    {
+                        "species": "Raticate",
+                        "level": "31-33",
+                        "rate": "5%"
+                    },
+                    {
+                        "species": "Fearow",
+                        "level": "35",
+                        "rate": "4%"
                     },
                     {
                         "species": "Porygon",
-                        "level": "31",
-                        "rate": "5%"
+                        "level": "35",
+                        "rate": "1%"
                     }
                 ],
                 "Grass (Day)": [
                     {
+                        "species": "Ditto",
+                        "level": "35",
+                        "rate": "40%"
+                    },
+                    {
                         "species": "Farfetch'd",
                         "level": "34",
                         "rate": "20%"
@@ -6778,37 +5393,37 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
-                        "species": "Ditto",
-                        "level": "35",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "35",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Lickitung",
+                        "species": "Gloom",
                         "level": "32",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Tangela",
-                        "level": "31",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Eevee",
-                        "level": "35",
                         "rate": "5%"
+                    },
+                    {
+                        "species": "Spearow",
+                        "level": "31",
+                        "rate": "5%"
+                    },
+                    {
+                        "species": "Raticate",
+                        "level": "31-33",
+                        "rate": "5%"
+                    },
+                    {
+                        "species": "Fearow",
+                        "level": "35",
+                        "rate": "4%"
                     },
                     {
                         "species": "Porygon",
-                        "level": "31",
-                        "rate": "5%"
+                        "level": "35",
+                        "rate": "1%"
                     }
                 ],
                 "Grass (Night)": [
+                    {
+                        "species": "Ditto",
+                        "level": "35",
+                        "rate": "40%"
+                    },
                     {
                         "species": "Noctowl",
                         "level": "34",
@@ -6820,34 +5435,29 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
-                        "species": "Ditto",
-                        "level": "35",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "35",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Lickitung",
+                        "species": "Gloom",
                         "level": "32",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Tangela",
-                        "level": "31",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Eevee",
-                        "level": "35",
                         "rate": "5%"
+                    },
+                    {
+                        "species": "Spearow",
+                        "level": "31",
+                        "rate": "5%"
+                    },
+                    {
+                        "species": "Raticate",
+                        "level": "31-33",
+                        "rate": "5%"
+                    },
+                    {
+                        "species": "Fearow",
+                        "level": "35",
+                        "rate": "4%"
                     },
                     {
                         "species": "Porygon",
-                        "level": "31",
-                        "rate": "5%"
+                        "level": "35",
+                        "rate": "1%"
                     }
                 ],
                 "Surfing": [
@@ -6979,9 +5589,9 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
-                        "species": "Gligar",
-                        "level": "20",
-                        "rate": "10%"
+                        "species": "Gloom",
+                        "level": "22-24",
+                        "rate": "20%"
                     },
                     {
                         "species": "Fearow",
@@ -6989,13 +5599,8 @@ window.hgimproved_encounters = {
                         "rate": "10%"
                     },
                     {
-                        "species": "Skiploom",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gloom",
-                        "level": "24",
+                        "species": "Hoppip",
+                        "level": "20",
                         "rate": "10%"
                     },
                     {
@@ -7010,13 +5615,18 @@ window.hgimproved_encounters = {
                     },
                     {
                         "species": "Girafarig",
-                        "level": "20-22",
+                        "level": "22",
                         "rate": "5%"
                     },
                     {
+                        "species": "Diglett",
+                        "level": "20",
+                        "rate": "4%"
+                    },
+                    {
                         "species": "Porygon",
-                        "level": "22",
-                        "rate": "5%"
+                        "level": "23",
+                        "rate": "1%"
                     }
                 ],
                 "Grass (Day)": [
@@ -7031,9 +5641,9 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
-                        "species": "Gligar",
-                        "level": "20",
-                        "rate": "10%"
+                        "species": "Gloom",
+                        "level": "22-24",
+                        "rate": "20%"
                     },
                     {
                         "species": "Fearow",
@@ -7041,13 +5651,8 @@ window.hgimproved_encounters = {
                         "rate": "10%"
                     },
                     {
-                        "species": "Skiploom",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Gloom",
-                        "level": "24",
+                        "species": "Hoppip",
+                        "level": "20",
                         "rate": "10%"
                     },
                     {
@@ -7062,20 +5667,25 @@ window.hgimproved_encounters = {
                     },
                     {
                         "species": "Girafarig",
-                        "level": "20-22",
+                        "level": "22",
                         "rate": "5%"
                     },
                     {
+                        "species": "Diglett",
+                        "level": "20",
+                        "rate": "4%"
+                    },
+                    {
                         "species": "Porygon",
-                        "level": "22",
-                        "rate": "5%"
+                        "level": "23",
+                        "rate": "1%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Murkrow",
-                        "level": "24",
-                        "rate": "20%"
+                        "level": "21-24",
+                        "rate": "30%"
                     },
                     {
                         "species": "Tauros",
@@ -7083,23 +5693,13 @@ window.hgimproved_encounters = {
                         "rate": "20%"
                     },
                     {
-                        "species": "Gligar",
-                        "level": "20",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Fearow",
-                        "level": "21",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Skiploom",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
                         "species": "Gloom",
-                        "level": "24",
+                        "level": "22-24",
+                        "rate": "20%"
+                    },
+                    {
+                        "species": "Hoppip",
+                        "level": "20",
                         "rate": "10%"
                     },
                     {
@@ -7114,13 +5714,18 @@ window.hgimproved_encounters = {
                     },
                     {
                         "species": "Girafarig",
-                        "level": "20-22",
+                        "level": "22",
                         "rate": "5%"
                     },
                     {
+                        "species": "Diglett",
+                        "level": "20",
+                        "rate": "4%"
+                    },
+                    {
                         "species": "Porygon",
-                        "level": "22",
-                        "rate": "5%"
+                        "level": "23",
+                        "rate": "1%"
                     }
                 ],
                 "Headbutt A": [
@@ -7226,112 +5831,67 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Krabby",
-                        "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
                         "level": "22-24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "22",
-                        "rate": "10%"
+                        "rate": "50%"
                     },
                     {
                         "species": "Zubat",
                         "level": "23",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Seel",
+                        "level": "22-24",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Slowpoke",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Golbat",
+                        "level": "23",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Krabby",
-                        "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
                         "level": "22-24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "22",
-                        "rate": "10%"
+                        "rate": "50%"
                     },
                     {
                         "species": "Zubat",
                         "level": "23",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Seel",
+                        "level": "22-24",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Slowpoke",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Golbat",
+                        "level": "23",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Krabby",
-                        "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
                         "level": "22-24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "22",
-                        "rate": "10%"
+                        "rate": "50%"
                     },
                     {
                         "species": "Zubat",
                         "level": "23",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Seel",
+                        "level": "22-24",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Slowpoke",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Golbat",
+                        "level": "23",
+                        "rate": "5%"
                     }
                 ],
                 "Surfing": [
@@ -7410,112 +5970,67 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Krabby",
-                        "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
                         "level": "22-24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "22",
-                        "rate": "10%"
+                        "rate": "50%"
                     },
                     {
                         "species": "Zubat",
                         "level": "23",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Seel",
+                        "level": "22-24",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Slowpoke",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Golbat",
+                        "level": "23",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Krabby",
-                        "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
                         "level": "22-24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "22",
-                        "rate": "10%"
+                        "rate": "50%"
                     },
                     {
                         "species": "Zubat",
                         "level": "23",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Seel",
+                        "level": "22-24",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Slowpoke",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Golbat",
+                        "level": "23",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Krabby",
-                        "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
                         "level": "22-24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "22",
-                        "rate": "10%"
+                        "rate": "50%"
                     },
                     {
                         "species": "Zubat",
                         "level": "23",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Seel",
+                        "level": "22-24",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Slowpoke",
-                        "level": "24",
-                        "rate": "10%"
+                        "species": "Golbat",
+                        "level": "23",
+                        "rate": "5%"
                     }
                 ],
                 "Surfing": [
@@ -7594,112 +6109,67 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Krabby",
-                        "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
                         "level": "23-25",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "23",
-                        "rate": "10%"
+                        "rate": "50%"
                     },
                     {
                         "species": "Zubat",
                         "level": "24",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "25",
-                        "rate": "10%"
+                        "species": "Seel",
+                        "level": "23-25",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Slowpoke",
-                        "level": "25",
-                        "rate": "10%"
+                        "species": "Golbat",
+                        "level": "24",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Krabby",
-                        "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
                         "level": "23-25",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "23",
-                        "rate": "10%"
+                        "rate": "50%"
                     },
                     {
                         "species": "Zubat",
                         "level": "24",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "25",
-                        "rate": "10%"
+                        "species": "Seel",
+                        "level": "23-25",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Slowpoke",
-                        "level": "25",
-                        "rate": "10%"
+                        "species": "Golbat",
+                        "level": "24",
+                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Krabby",
-                        "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Psyduck",
-                        "level": "24",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
                         "level": "23-25",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "23",
-                        "rate": "10%"
+                        "rate": "50%"
                     },
                     {
                         "species": "Zubat",
                         "level": "24",
-                        "rate": "10%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "25",
-                        "rate": "10%"
+                        "species": "Seel",
+                        "level": "23-25",
+                        "rate": "15%"
                     },
                     {
-                        "species": "Slowpoke",
-                        "level": "25",
-                        "rate": "10%"
+                        "species": "Golbat",
+                        "level": "24",
+                        "rate": "5%"
                     }
                 ]
             }
@@ -7709,17 +6179,17 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
+                        "species": "Weepinbell",
+                        "level": "22-24",
+                        "rate": "35%"
+                    },
+                    {
                         "species": "Tangela",
                         "level": "23",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Weepinbell",
-                        "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Ledian",
+                        "species": "Bellsprout",
                         "level": "22",
                         "rate": "20%"
                     },
@@ -7727,36 +6197,21 @@ window.hgimproved_encounters = {
                         "species": "Lickitung",
                         "level": "24-26",
                         "rate": "15%"
-                    },
-                    {
-                        "species": "Gloom",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Kangaskhan",
-                        "level": "24",
-                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
+                        "species": "Weepinbell",
+                        "level": "22-24",
+                        "rate": "35%"
+                    },
+                    {
                         "species": "Tangela",
                         "level": "23",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Weepinbell",
-                        "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Ledian",
+                        "species": "Bellsprout",
                         "level": "22",
                         "rate": "20%"
                     },
@@ -7764,36 +6219,21 @@ window.hgimproved_encounters = {
                         "species": "Lickitung",
                         "level": "24-26",
                         "rate": "15%"
-                    },
-                    {
-                        "species": "Gloom",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Kangaskhan",
-                        "level": "24",
-                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
+                        "species": "Weepinbell",
+                        "level": "22-24",
+                        "rate": "35%"
+                    },
+                    {
                         "species": "Tangela",
                         "level": "23",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Weepinbell",
-                        "level": "22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Ariados",
+                        "species": "Bellsprout",
                         "level": "22",
                         "rate": "20%"
                     },
@@ -7801,21 +6241,6 @@ window.hgimproved_encounters = {
                         "species": "Lickitung",
                         "level": "24-26",
                         "rate": "15%"
-                    },
-                    {
-                        "species": "Gloom",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Yanma",
-                        "level": "22",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Kangaskhan",
-                        "level": "24",
-                        "rate": "5%"
                     }
                 ],
                 "Surfing": [
@@ -7913,28 +6338,18 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Swinub",
-                        "level": "21",
-                        "rate": "20%"
+                        "level": "21-23",
+                        "rate": "40%"
                     },
                     {
                         "species": "Golbat",
                         "level": "22",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Delibird",
                         "level": "22",
                         "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
-                        "level": "21-22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "23",
-                        "rate": "10%"
                     },
                     {
                         "species": "Jynx",
@@ -7945,28 +6360,18 @@ window.hgimproved_encounters = {
                 "Grass (Day)": [
                     {
                         "species": "Swinub",
-                        "level": "21",
-                        "rate": "20%"
+                        "level": "21-23",
+                        "rate": "40%"
                     },
                     {
                         "species": "Golbat",
                         "level": "22",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Delibird",
                         "level": "22",
                         "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
-                        "level": "21-22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "23",
-                        "rate": "10%"
                     },
                     {
                         "species": "Jynx",
@@ -7977,28 +6382,18 @@ window.hgimproved_encounters = {
                 "Grass (Night)": [
                     {
                         "species": "Swinub",
-                        "level": "21",
-                        "rate": "20%"
+                        "level": "21-23",
+                        "rate": "40%"
                     },
                     {
                         "species": "Golbat",
                         "level": "22",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Delibird",
                         "level": "22",
                         "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
-                        "level": "21-22",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "23",
-                        "rate": "10%"
                     },
                     {
                         "species": "Jynx",
@@ -8014,18 +6409,13 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Swinub",
-                        "level": "22",
-                        "rate": "20%"
+                        "level": "22-24",
+                        "rate": "40%"
                     },
                     {
                         "species": "Golbat",
                         "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
-                        "level": "22-23",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Sneasel",
@@ -8036,33 +6426,18 @@ window.hgimproved_encounters = {
                         "species": "Jynx",
                         "level": "23",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Delibird",
-                        "level": "24",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "24",
-                        "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
                         "species": "Swinub",
-                        "level": "22",
-                        "rate": "20%"
+                        "level": "22-24",
+                        "rate": "40%"
                     },
                     {
                         "species": "Golbat",
                         "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
-                        "level": "22-23",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Sneasel",
@@ -8073,33 +6448,18 @@ window.hgimproved_encounters = {
                         "species": "Jynx",
                         "level": "23",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Delibird",
-                        "level": "24",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "24",
-                        "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
                         "species": "Swinub",
-                        "level": "22",
-                        "rate": "20%"
+                        "level": "22-24",
+                        "rate": "40%"
                     },
                     {
                         "species": "Golbat",
                         "level": "23",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Seel",
-                        "level": "22-23",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
                         "species": "Sneasel",
@@ -8110,16 +6470,6 @@ window.hgimproved_encounters = {
                         "species": "Jynx",
                         "level": "23",
                         "rate": "10%"
-                    },
-                    {
-                        "species": "Delibird",
-                        "level": "24",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Shellder",
-                        "level": "24",
-                        "rate": "5%"
                     }
                 ]
             }
@@ -8350,29 +6700,19 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Graveler",
-                        "level": "25",
+                        "species": "Geodude",
+                        "level": "23",
                         "rate": "30%"
                     },
                     {
-                        "species": "Golbat",
+                        "species": "Zubat",
                         "level": "23",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Rhyhorn",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Dunsparce",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
+                        "species": "Graveler",
                         "level": "25",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Wobbuffet",
@@ -8392,29 +6732,19 @@ window.hgimproved_encounters = {
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Graveler",
-                        "level": "25",
+                        "species": "Geodude",
+                        "level": "23",
                         "rate": "30%"
                     },
                     {
-                        "species": "Golbat",
+                        "species": "Zubat",
                         "level": "23",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Rhyhorn",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Dunsparce",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
+                        "species": "Graveler",
                         "level": "25",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Wobbuffet",
@@ -8434,29 +6764,19 @@ window.hgimproved_encounters = {
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Graveler",
-                        "level": "25",
+                        "species": "Geodude",
+                        "level": "23",
                         "rate": "30%"
                     },
                     {
-                        "species": "Golbat",
+                        "species": "Zubat",
                         "level": "23",
-                        "rate": "20%"
+                        "rate": "30%"
                     },
                     {
-                        "species": "Rhyhorn",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Dunsparce",
-                        "level": "23",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Phanpy",
+                        "species": "Graveler",
                         "level": "25",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Wobbuffet",
@@ -8527,127 +6847,11 @@ window.hgimproved_encounters = {
         {
             "name": "Dragon's Den",
             "encounters": {
-                "Grass (Morning)": [
-                    {
-                        "species": "Dratini",
-                        "level": "30",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Larvitar",
-                        "level": "30",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Rhydon",
-                        "level": "38",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Kangaskhan",
-                        "level": "38",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Cloyster",
-                        "level": "36",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Dragonair",
-                        "level": "37",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Pupitar",
-                        "level": "37",
-                        "rate": "5%"
-                    }
-                ],
-                "Grass (Day)": [
-                    {
-                        "species": "Dratini",
-                        "level": "30",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Larvitar",
-                        "level": "30",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Rhydon",
-                        "level": "38",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Kangaskhan",
-                        "level": "38",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Cloyster",
-                        "level": "36",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Dragonair",
-                        "level": "37",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Pupitar",
-                        "level": "37",
-                        "rate": "5%"
-                    }
-                ],
-                "Grass (Night)": [
-                    {
-                        "species": "Dratini",
-                        "level": "30",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Larvitar",
-                        "level": "30",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Rhydon",
-                        "level": "38",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Kangaskhan",
-                        "level": "38",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Cloyster",
-                        "level": "36",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Dragonair",
-                        "level": "37",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Pupitar",
-                        "level": "37",
-                        "rate": "5%"
-                    }
-                ],
                 "Surfing": [
                     {
                         "species": "Magikarp",
-                        "level": "10-20",
-                        "rate": "60%"
-                    },
-                    {
-                        "species": "Horsea",
-                        "level": "5-15",
-                        "rate": "30%"
+                        "level": "5-20",
+                        "rate": "90%"
                     },
                     {
                         "species": "Dratini",
@@ -8698,34 +6902,14 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Gligar",
-                        "level": "28",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Skarmory",
-                        "level": "28",
-                        "rate": "20%"
-                    },
-                    {
                         "species": "Doduo",
                         "level": "28-30",
-                        "rate": "20%"
+                        "rate": "50%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "28",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Azumarill",
-                        "level": "30",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Marowak",
-                        "level": "30",
-                        "rate": "5%"
+                        "species": "Raticate",
+                        "level": "28-30",
+                        "rate": "35%"
                     },
                     {
                         "species": "Tyrouge",
@@ -8740,39 +6924,24 @@ window.hgimproved_encounters = {
                     {
                         "species": "Sandslash",
                         "level": "30",
-                        "rate": "5%"
+                        "rate": "4%"
+                    },
+                    {
+                        "species": "Porygon",
+                        "level": "30",
+                        "rate": "1%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Gligar",
-                        "level": "28",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Skarmory",
-                        "level": "28",
-                        "rate": "20%"
-                    },
-                    {
                         "species": "Doduo",
                         "level": "28-30",
-                        "rate": "20%"
+                        "rate": "50%"
                     },
                     {
-                        "species": "Quagsire",
-                        "level": "28",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Azumarill",
-                        "level": "30",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Marowak",
-                        "level": "30",
-                        "rate": "5%"
+                        "species": "Raticate",
+                        "level": "28-30",
+                        "rate": "35%"
                     },
                     {
                         "species": "Tyrouge",
@@ -8787,39 +6956,24 @@ window.hgimproved_encounters = {
                     {
                         "species": "Sandslash",
                         "level": "30",
-                        "rate": "5%"
+                        "rate": "4%"
+                    },
+                    {
+                        "species": "Porygon",
+                        "level": "30",
+                        "rate": "1%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Gligar",
-                        "level": "28",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Skarmory",
-                        "level": "28",
-                        "rate": "20%"
-                    },
-                    {
-                        "species": "Doduo",
-                        "level": "28-30",
-                        "rate": "20%"
-                    },
-                    {
                         "species": "Quagsire",
-                        "level": "28",
-                        "rate": "10%"
+                        "level": "28-30",
+                        "rate": "50%"
                     },
                     {
-                        "species": "Azumarill",
-                        "level": "30",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Marowak",
-                        "level": "30",
-                        "rate": "5%"
+                        "species": "Raticate",
+                        "level": "28-30",
+                        "rate": "35%"
                     },
                     {
                         "species": "Tyrouge",
@@ -8834,7 +6988,12 @@ window.hgimproved_encounters = {
                     {
                         "species": "Sandslash",
                         "level": "30",
-                        "rate": "5%"
+                        "rate": "4%"
+                    },
+                    {
+                        "species": "Porygon",
+                        "level": "30",
+                        "rate": "1%"
                     }
                 ],
                 "Surfing": [
@@ -9111,12 +7270,17 @@ window.hgimproved_encounters = {
                 "Grass (Morning)": [
                     {
                         "species": "Doduo",
-                        "level": "28",
-                        "rate": "20%"
+                        "level": "28-30",
+                        "rate": "30%"
                     },
                     {
                         "species": "Sandslash",
                         "level": "28",
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Ponyta",
+                        "level": "32",
                         "rate": "20%"
                     },
                     {
@@ -9125,32 +7289,12 @@ window.hgimproved_encounters = {
                         "rate": "10%"
                     },
                     {
-                        "species": "Houndoom",
-                        "level": "28",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Electabuzz",
-                        "level": "32",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Magmar",
-                        "level": "32",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Primeape",
-                        "level": "30",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Scyther",
+                        "species": "Raticate",
                         "level": "30",
                         "rate": "5%"
                     },
                     {
-                        "species": "Pinsir",
+                        "species": "Dodrio",
                         "level": "30",
                         "rate": "5%"
                     }
@@ -9158,12 +7302,17 @@ window.hgimproved_encounters = {
                 "Grass (Day)": [
                     {
                         "species": "Doduo",
-                        "level": "28",
-                        "rate": "20%"
+                        "level": "28-30",
+                        "rate": "30%"
                     },
                     {
                         "species": "Sandslash",
                         "level": "28",
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Ponyta",
+                        "level": "32",
                         "rate": "20%"
                     },
                     {
@@ -9172,32 +7321,12 @@ window.hgimproved_encounters = {
                         "rate": "10%"
                     },
                     {
-                        "species": "Houndoom",
-                        "level": "28",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Electabuzz",
-                        "level": "32",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Magmar",
-                        "level": "32",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Primeape",
-                        "level": "30",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Scyther",
+                        "species": "Raticate",
                         "level": "30",
                         "rate": "5%"
                     },
                     {
-                        "species": "Pinsir",
+                        "species": "Dodrio",
                         "level": "30",
                         "rate": "5%"
                     }
@@ -9205,12 +7334,17 @@ window.hgimproved_encounters = {
                 "Grass (Night)": [
                     {
                         "species": "Doduo",
-                        "level": "28",
-                        "rate": "20%"
+                        "level": "28-30",
+                        "rate": "30%"
                     },
                     {
                         "species": "Sandslash",
                         "level": "28",
+                        "rate": "30%"
+                    },
+                    {
+                        "species": "Ponyta",
+                        "level": "32",
                         "rate": "20%"
                     },
                     {
@@ -9219,32 +7353,12 @@ window.hgimproved_encounters = {
                         "rate": "10%"
                     },
                     {
-                        "species": "Houndoom",
-                        "level": "28",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Electabuzz",
-                        "level": "32",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Magmar",
-                        "level": "32",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Primeape",
-                        "level": "30",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Scyther",
+                        "species": "Raticate",
                         "level": "30",
                         "rate": "5%"
                     },
                     {
-                        "species": "Pinsir",
+                        "species": "Dodrio",
                         "level": "30",
                         "rate": "5%"
                     }
@@ -9363,33 +7477,28 @@ window.hgimproved_encounters = {
             "encounters": {
                 "Grass (Morning)": [
                     {
-                        "species": "Muk",
+                        "species": "Graveler",
                         "level": "32",
                         "rate": "20%"
                     },
                     {
-                        "species": "Weezing",
+                        "species": "Golbat",
                         "level": "32",
                         "rate": "20%"
                     },
                     {
                         "species": "Ursaring",
                         "level": "33",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Donphan",
                         "level": "33",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
-                        "species": "Kangaskhan",
-                        "level": "33",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Rhyhorn",
-                        "level": "33",
+                        "species": "Onix",
+                        "level": "34-36",
                         "rate": "10%"
                     },
                     {
@@ -9398,50 +7507,35 @@ window.hgimproved_encounters = {
                         "rate": "5%"
                     },
                     {
-                        "species": "Kingler",
-                        "level": "34",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Sneasel",
-                        "level": "36",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Steelix",
+                        "species": "Rhyhorn",
                         "level": "35",
                         "rate": "5%"
                     }
                 ],
                 "Grass (Day)": [
                     {
-                        "species": "Muk",
+                        "species": "Graveler",
                         "level": "32",
                         "rate": "20%"
                     },
                     {
-                        "species": "Weezing",
+                        "species": "Golbat",
                         "level": "32",
                         "rate": "20%"
                     },
                     {
                         "species": "Ursaring",
                         "level": "33",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Donphan",
                         "level": "33",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
-                        "species": "Kangaskhan",
-                        "level": "33",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Rhyhorn",
-                        "level": "33",
+                        "species": "Onix",
+                        "level": "34-36",
                         "rate": "10%"
                     },
                     {
@@ -9450,50 +7544,35 @@ window.hgimproved_encounters = {
                         "rate": "5%"
                     },
                     {
-                        "species": "Kingler",
-                        "level": "34",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Sneasel",
-                        "level": "36",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Steelix",
+                        "species": "Rhyhorn",
                         "level": "35",
                         "rate": "5%"
                     }
                 ],
                 "Grass (Night)": [
                     {
-                        "species": "Muk",
+                        "species": "Graveler",
                         "level": "32",
                         "rate": "20%"
                     },
                     {
-                        "species": "Weezing",
+                        "species": "Golbat",
                         "level": "32",
                         "rate": "20%"
                     },
                     {
                         "species": "Ursaring",
                         "level": "33",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
                         "species": "Donphan",
                         "level": "33",
-                        "rate": "10%"
+                        "rate": "20%"
                     },
                     {
-                        "species": "Kangaskhan",
-                        "level": "33",
-                        "rate": "10%"
-                    },
-                    {
-                        "species": "Rhyhorn",
-                        "level": "33",
+                        "species": "Onix",
+                        "level": "34-36",
                         "rate": "10%"
                     },
                     {
@@ -9502,17 +7581,7 @@ window.hgimproved_encounters = {
                         "rate": "5%"
                     },
                     {
-                        "species": "Kingler",
-                        "level": "34",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Sneasel",
-                        "level": "36",
-                        "rate": "5%"
-                    },
-                    {
-                        "species": "Steelix",
+                        "species": "Rhyhorn",
                         "level": "35",
                         "rate": "5%"
                     }

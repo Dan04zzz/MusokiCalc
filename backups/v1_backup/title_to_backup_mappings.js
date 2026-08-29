@@ -1,12 +1,10 @@
 backupFiles = {
-	"Heart Gold Migliorato 2.0": "hgimproved",
-	"Heart Gold Migliorato": "hgimproved",
 	"Heart Gold Migliorato By Musoki": "hgimproved",
 	"Rosso Fuoco Migliorato By Musoki": "fireredimproved"
 }
 
 sourceTitleAliases = {
-	"hgimproved": "Heart Gold Migliorato 2.0",
+	"hgimproved": "Heart Gold Migliorato By Musoki",
 	"fireredimproved": "Rosso Fuoco Migliorato By Musoki"
 }
 

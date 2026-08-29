@@ -2,17 +2,17 @@
     const games = {
         "hgimproved": {
             id: "hgimproved",
-            title: "Heart Gold Migliorato 2.0",
+            title: "Heart Gold Migliorato",
             coverImage: "",
             description: "",
-            sourceTitle: "Heart Gold Migliorato 2.0",
+            sourceTitle: "Heart Gold Migliorato By Musoki",
             variants: [
                 {
-                    label: "Heart Gold Migliorato 2.0",
+                    label: "Heart Gold Migliorato",
                     source: "?data=hgimproved",
                     coverImage: "",
                     description: "",
-                    sourceTitle: "Heart Gold Migliorato 2.0"
+                    sourceTitle: "Heart Gold Migliorato By Musoki"
                 }
             ]
         },

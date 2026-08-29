@@ -1,5 +1,5 @@
 backup_data = {
-    "title": "Heart Gold Migliorato 2.0",
+    "title": "Heart Gold Migliorato",
     "formatted_sets": {
         "Hoothoot": {
             "Lvl 11 Falkner Gym Leader ": {
@@ -11,12 +11,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -40,8 +40,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 12 Elder Li - Sprout Tower ": {
-                "level": 12,
+            "Lvl 11 Elder Li - Sprout Tower ": {
+                "level": 11,
                 "tr_id": 31,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -49,12 +49,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sa": 6,
-                    "sd": 6,
-                    "sp": 6
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -64,7 +64,7 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Impish",
+                "nature": "Sassy",
                 "moves": [
                     "Growl",
                     "Foresight",
@@ -89,12 +89,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -126,14 +126,14 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Oran Berry",
+                "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -167,12 +167,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -187,7 +187,7 @@ backup_data = {
                     "Quick Attack",
                     "Leer",
                     "Focus Energy",
-                    "U-turn"
+                    "U-Turn"
                 ],
                 "sub_index": 0,
                 "ability": "Technician",
@@ -207,12 +207,12 @@ backup_data = {
                 "form": 0,
                 "item": "Occa Berry",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -226,7 +226,7 @@ backup_data = {
                 "moves": [
                     "Light Screen",
                     "Reflect",
-                    "U-turn",
+                    "U-Turn",
                     "Supersonic"
                 ],
                 "sub_index": 1,
@@ -247,12 +247,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -277,46 +277,6 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Yanma": {
-            "Lvl 15 Bugsy Gym Leader ": {
-                "level": 15,
-                "tr_id": 2,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Hardy",
-                "moves": [
-                    "SonicBoom",
-                    "U-turn",
-                    "Protect",
-                    "Bug Bite"
-                ],
-                "sub_index": 3,
-                "ability": "Speed Boost",
-                "gender": "Male",
-                "location": "Johto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
         "Clefairy": {
             "Lvl 17 Whitney Gym Leader ": {
                 "level": 17,
@@ -327,12 +287,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -367,12 +327,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -407,12 +367,12 @@ backup_data = {
                 "form": 0,
                 "item": "Lum Berry",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -447,12 +407,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -485,12 +445,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -523,12 +483,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -561,12 +521,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -591,7 +551,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Stantler": {
+        "Misdreavus": {
             "Lvl 23 Morty Gym Leader ": {
                 "level": 23,
                 "tr_id": 4,
@@ -599,14 +559,14 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "None",
+                "item": "Lum Berry",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -616,17 +576,55 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Lonely",
+                "nature": "Serious",
                 "moves": [
-                    "Stomp",
-                    "Hypnosis",
+                    "Shadow Ball",
+                    "Mean Look",
                     "Confuse Ray",
-                    "Shadow Ball"
+                    "Icy Wind"
                 ],
                 "sub_index": 1,
-                "ability": "Intimidate",
+                "ability": "Levitate",
                 "gender": "Male",
                 "location": "Johto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 35 Eusine - Cianwood City (OPTIONAL) ": {
+                "level": 35,
+                "tr_id": 32,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Sitrus Berry",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Modest",
+                "moves": [
+                    "Psybeam",
+                    "Shadow Ball",
+                    "Mean Look",
+                    "Confuse Ray"
+                ],
+                "sub_index": 3,
+                "ability": "Levitate",
+                "gender": "Male",
+                "location": "Mini Boss Fight Obligatory",
                 "spriteId": null,
                 "orientation": null
             }
@@ -641,12 +639,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -679,12 +677,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -698,7 +696,7 @@ backup_data = {
                 "moves": [
                     "Shadow Ball",
                     "Thunderbolt",
-                    "Focus Blast",
+                    "Dream Eater",
                     "Hypnosis"
                 ],
                 "sub_index": 1,
@@ -717,12 +715,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -736,7 +734,7 @@ backup_data = {
                 "moves": [
                     "Shadow Ball",
                     "Thunderbolt",
-                    "Focus Blast",
+                    "Dream Eater",
                     "Hypnosis"
                 ],
                 "sub_index": 1,
@@ -755,12 +753,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -774,7 +772,7 @@ backup_data = {
                 "moves": [
                     "Shadow Ball",
                     "Thunderbolt",
-                    "Focus Blast",
+                    "Dream Eater",
                     "Hypnosis"
                 ],
                 "sub_index": 1,
@@ -793,12 +791,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -831,12 +829,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -869,12 +867,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -900,19 +898,19 @@ backup_data = {
             },
             "Lvl 50 Karen Elite4 ": {
                 "level": 50,
-                "tr_id": 53,
+                "tr_id": 42,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -937,48 +935,10 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Mismagius": {
-            "Lvl 25 Morty Gym Leader ": {
-                "level": 25,
-                "tr_id": 4,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Lum Berry",
-                "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Docile",
-                "moves": [
-                    "Shadow Ball",
-                    "Shock Wave",
-                    "Mean Look",
-                    "Confuse Ray"
-                ],
-                "sub_index": 3,
-                "ability": "Levitate",
-                "gender": "Male",
-                "location": "Johto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 48 Ace Trainer Reena - Route 27 ": {
-                "level": 48,
-                "tr_id": 43,
+        "Primeape": {
+            "Lvl 29 Chuck Gym Leader ": {
+                "level": 29,
+                "tr_id": 5,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
@@ -1000,52 +960,11 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Adamant",
-                "moves": [
-                    "Shadow Ball",
-                    "Charge Beam",
-                    "Destiny Bond",
-                    "Energy Ball"
-                ],
-                "sub_index": 3,
-                "ability": "Levitate",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Primeape": {
-            "Lvl 29 Chuck Gym Leader ": {
-                "level": 29,
-                "tr_id": 5,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
                 "nature": "Lonely",
                 "moves": [
                     "Brick Break",
                     "Rock Slide",
-                    "Bulk Up",
-                    "Aerial Ace"
+                    "Bulk Up"
                 ],
                 "sub_index": 0,
                 "ability": "Vital Spirit",
@@ -1063,14 +982,14 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Sitrus Berry",
+                "item": "Leftovers",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1103,12 +1022,12 @@ backup_data = {
                 "form": 0,
                 "item": "Focus Sash",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1132,9 +1051,9 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Ace Trainer Jake - Route 26 ": {
-                "level": 48,
-                "tr_id": 48,
+            "Lvl 50 Bruno Elite4 ": {
+                "level": 50,
+                "tr_id": 41,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
@@ -1156,44 +1075,6 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Docile",
-                "moves": [
-                    "Close Combat",
-                    "Mach Punch",
-                    "Endeavor",
-                    "Sucker Punch"
-                ],
-                "sub_index": 0,
-                "ability": "Technician",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 50 Bruno Elite4 ": {
-                "level": 50,
-                "tr_id": 52,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
                 "nature": "Careful",
                 "moves": [
                     "Sucker Punch",
@@ -1203,84 +1084,6 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
-                "gender": "Male",
-                "location": "Pok\u00e9mon League",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Heracross": {
-            "Lvl 30 Chuck Gym Leader ": {
-                "level": 30,
-                "tr_id": 5,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Adamant",
-                "moves": [
-                    "Night Slash",
-                    "Brick Break",
-                    "Counter",
-                    "Bulk Up"
-                ],
-                "sub_index": 2,
-                "ability": "Guts",
-                "gender": "Male",
-                "location": "Johto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 50 Bruno Elite4 ": {
-                "level": 50,
-                "tr_id": 52,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Relaxed",
-                "moves": [
-                    "Close Combat",
-                    "Megahorn",
-                    "Shadow Claw",
-                    "Rock Slide"
-                ],
-                "sub_index": 3,
-                "ability": "Guts",
                 "gender": "Male",
                 "location": "Pok\u00e9mon League",
                 "spriteId": null,
@@ -1319,7 +1122,7 @@ backup_data = {
                     "Hypnosis",
                     "Bulk Up"
                 ],
-                "sub_index": 3,
+                "sub_index": 2,
                 "ability": "Water Absorb",
                 "gender": "Male",
                 "location": "Johto Gym Leader",
@@ -1337,12 +1140,12 @@ backup_data = {
                 "form": 0,
                 "item": "Focus Sash",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1377,12 +1180,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1396,8 +1199,7 @@ backup_data = {
                 "moves": [
                     "Thunder Wave",
                     "Thunderbolt",
-                    "Flash Cannon",
-                    "Signal Beam"
+                    "Flash Cannon"
                 ],
                 "sub_index": 1,
                 "ability": "Magnet Pull",
@@ -1406,9 +1208,9 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Ace Trainer Megan - Route 27 ": {
-                "level": 48,
-                "tr_id": 39,
+            "Lvl 37 Rival - Goldenrod Tunnel (Player Chooses Chikorita) ": {
+                "level": 37,
+                "tr_id": 15,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
@@ -1430,17 +1232,93 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Quirky",
+                "nature": "Adamant",
                 "moves": [
-                    "Discharge",
-                    "Signal Beam",
-                    "Flash Cannon",
-                    "Tri Attack"
+                    "Thunderbolt",
+                    "Magnet Bomb",
+                    "Metal Sound",
+                    "Thunder Wave"
                 ],
-                "sub_index": 3,
+                "sub_index": 1,
                 "ability": "Magnet Pull",
                 "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
+                "location": "Rival",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 37 Rival - Goldenrod Tunnel (Player Chooses Cyndaquil) ": {
+                "level": 37,
+                "tr_id": 16,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Docile",
+                "moves": [
+                    "Thunderbolt",
+                    "Magnet Bomb",
+                    "Metal Sound",
+                    "Thunder Wave"
+                ],
+                "sub_index": 1,
+                "ability": "Magnet Pull",
+                "gender": "Male",
+                "location": "Rival",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 37 Rival - Goldenrod Tunnel (Player Chooses Totodile) ": {
+                "level": 37,
+                "tr_id": 17,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Quiet",
+                "moves": [
+                    "Thunderbolt",
+                    "Magnet Bomb",
+                    "Metal Sound",
+                    "Thunder Wave"
+                ],
+                "sub_index": 1,
+                "ability": "Magnet Pull",
+                "gender": "Male",
+                "location": "Rival",
                 "spriteId": null,
                 "orientation": null
             }
@@ -1455,12 +1333,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1474,7 +1352,7 @@ backup_data = {
                 "moves": [
                     "Aerial Ace",
                     "Steel Wing",
-                    "Toxic",
+                    "Stealth Rock",
                     "Roost"
                 ],
                 "sub_index": 2,
@@ -1495,12 +1373,12 @@ backup_data = {
                 "form": 0,
                 "item": "Occa Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1525,19 +1403,19 @@ backup_data = {
             },
             "Lvl 50 Bruno Elite4 ": {
                 "level": 50,
-                "tr_id": 52,
+                "tr_id": 41,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1563,19 +1441,19 @@ backup_data = {
             },
             "Lvl 57 Brock Gym Leader ": {
                 "level": 57,
-                "tr_id": 55,
+                "tr_id": 44,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Passho Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1610,12 +1488,12 @@ backup_data = {
                 "form": 0,
                 "item": "Icy Rock",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1650,12 +1528,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1668,9 +1546,9 @@ backup_data = {
                 "nature": "Docile",
                 "moves": [
                     "Ice Punch",
-                    "Brick Break",
+                    "Ice Shard",
                     "Feint Attack",
-                    "Aerial Ace"
+                    "Brick Break"
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
@@ -1688,12 +1566,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1726,12 +1604,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1764,12 +1642,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1804,12 +1682,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1842,12 +1720,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1882,12 +1760,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1910,44 +1788,6 @@ backup_data = {
                 "location": "Johto Gym Leader",
                 "spriteId": null,
                 "orientation": null
-            },
-            "Lvl 48 Ace Trainer Joyce - Route 26 ": {
-                "level": 48,
-                "tr_id": 46,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Relaxed",
-                "moves": [
-                    "Ancient Power",
-                    "Ice Fang",
-                    "Earthquake",
-                    "Ice Shard"
-                ],
-                "sub_index": 3,
-                "ability": "Oblivious",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
             }
         },
         "Dragonair": {
@@ -1960,12 +1800,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -1998,12 +1838,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2038,12 +1878,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2076,12 +1916,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2107,19 +1947,19 @@ backup_data = {
             },
             "Lvl 53 Lance Champion ": {
                 "level": 53,
-                "tr_id": 54,
+                "tr_id": 43,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2145,19 +1985,19 @@ backup_data = {
             },
             "Lvl 68 Blue Gym Leader ": {
                 "level": 68,
-                "tr_id": 62,
+                "tr_id": 51,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Wacan Berry",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2192,12 +2032,12 @@ backup_data = {
                 "form": 0,
                 "item": "Leftovers",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2222,19 +2062,19 @@ backup_data = {
             },
             "Lvl 56 Misty Gym Leader ": {
                 "level": 56,
-                "tr_id": 56,
+                "tr_id": 45,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2260,19 +2100,19 @@ backup_data = {
             },
             "Lvl 86 Red Trainer - Mt. Silver ": {
                 "level": 86,
-                "tr_id": 63,
+                "tr_id": 52,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "NeverMelt Ice",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2307,12 +2147,12 @@ backup_data = {
                 "form": 0,
                 "item": "Scope Lens",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2345,12 +2185,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2383,12 +2223,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2423,12 +2263,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2461,12 +2301,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2499,12 +2339,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2537,12 +2377,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2575,12 +2415,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2613,12 +2453,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2642,8 +2482,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 11 Elder Li - Sprout Tower ": {
-                "level": 11,
+            "Lvl 10 Elder Li - Sprout Tower ": {
+                "level": 10,
                 "tr_id": 31,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -2651,12 +2491,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sa": 6,
-                    "sd": 6,
-                    "sp": 6
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2666,11 +2506,11 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Rash",
+                "nature": "Impish",
                 "moves": [
                     "Hypnosis",
                     "Lick",
-                    "HP Fighting",
+                    "Spite",
                     "Mean Look"
                 ],
                 "sub_index": 1,
@@ -2691,12 +2531,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2729,12 +2569,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2767,12 +2607,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2796,8 +2636,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 15 Executive Proton - Slowpoke Well ": {
-                "level": 15,
+            "Lvl 13 Executive Proton - Slowpoke Well ": {
+                "level": 13,
                 "tr_id": 24,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -2805,12 +2645,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2820,9 +2660,9 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Careful",
+                "nature": "Naughty",
                 "moves": [
-                    "Giga Drain",
+                    "Leech Life",
                     "Supersonic",
                     "Bite",
                     "Pluck"
@@ -2845,12 +2685,12 @@ backup_data = {
                 "form": 0,
                 "item": "Oran Berry",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2883,12 +2723,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2923,12 +2763,12 @@ backup_data = {
                 "form": 0,
                 "item": "Oran Berry",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -2961,12 +2801,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3001,12 +2841,12 @@ backup_data = {
                 "form": 0,
                 "item": "Oran Berry",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3039,12 +2879,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3079,12 +2919,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3098,7 +2938,7 @@ backup_data = {
                 "moves": [
                     "Thunder Wave",
                     "Thunder Shock",
-                    "Magnet Bomb",
+                    "Supersonic",
                     "Sonic Boom"
                 ],
                 "sub_index": 1,
@@ -3117,12 +2957,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3136,7 +2976,7 @@ backup_data = {
                 "moves": [
                     "Thunder Wave",
                     "Thunder Shock",
-                    "Magnet Bomb",
+                    "Supersonic",
                     "Sonic Boom"
                 ],
                 "sub_index": 1,
@@ -3155,12 +2995,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3174,7 +3014,7 @@ backup_data = {
                 "moves": [
                     "Thunder Wave",
                     "Thunder Shock",
-                    "Magnet Bomb",
+                    "Supersonic",
                     "Sonic Boom"
                 ],
                 "sub_index": 1,
@@ -3195,12 +3035,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3233,12 +3073,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3271,12 +3111,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 14,
-                    "at": 14,
-                    "df": 14,
-                    "sa": 14,
-                    "sd": 14,
-                    "sp": 14
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3309,12 +3149,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3326,7 +3166,7 @@ backup_data = {
                 },
                 "nature": "Serious",
                 "moves": [
-                    "U-turn",
+                    "U-Turn",
                     "Bite",
                     "Roost",
                     "Fly"
@@ -3347,12 +3187,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3364,7 +3204,7 @@ backup_data = {
                 },
                 "nature": "Modest",
                 "moves": [
-                    "U-turn",
+                    "U-Turn",
                     "Bite",
                     "Roost",
                     "Fly"
@@ -3385,12 +3225,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3402,7 +3242,7 @@ backup_data = {
                 },
                 "nature": "Relaxed",
                 "moves": [
-                    "U-turn",
+                    "U-Turn",
                     "Bite",
                     "Roost",
                     "Fly"
@@ -3423,12 +3263,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3440,473 +3280,91 @@ backup_data = {
                 },
                 "nature": "Gentle",
                 "moves": [
-                    "U-turn",
+                    "U-Turn",
                     "Roost",
                     "Fly",
                     "Confuse Ray"
-                ],
-                "sub_index": 0,
-                "ability": "Inner Focus",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 48 Rival - Victory Road (Player Chooses Cyndaquil) ": {
-                "level": 48,
-                "tr_id": 19,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Adamant",
-                "moves": [
-                    "U-turn",
-                    "Roost",
-                    "Fly",
-                    "Confuse Ray"
-                ],
-                "sub_index": 0,
-                "ability": "Inner Focus",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 48 Rival - Victory Road (Player Chooses Totodile) ": {
-                "level": 48,
-                "tr_id": 20,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Impish",
-                "moves": [
-                    "U-turn",
-                    "Roost",
-                    "Fly",
-                    "Confuse Ray"
-                ],
-                "sub_index": 0,
-                "ability": "Inner Focus",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Magnezone": {
-            "Lvl 37 Rival - Goldenrod Tunnel (Player Chooses Chikorita) ": {
-                "level": 37,
-                "tr_id": 15,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Adamant",
-                "moves": [
-                    "Thunderbolt",
-                    "Mirror Shot",
-                    "Metal Sound",
-                    "Thunder Wave"
-                ],
-                "sub_index": 1,
-                "ability": "Magnet Pull",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 37 Rival - Goldenrod Tunnel (Player Chooses Cyndaquil) ": {
-                "level": 37,
-                "tr_id": 16,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Docile",
-                "moves": [
-                    "Thunderbolt",
-                    "Mirror Shot",
-                    "Metal Sound",
-                    "Thunder Wave"
-                ],
-                "sub_index": 1,
-                "ability": "Magnet Pull",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 37 Rival - Goldenrod Tunnel (Player Chooses Totodile) ": {
-                "level": 37,
-                "tr_id": 17,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Quiet",
-                "moves": [
-                    "Thunderbolt",
-                    "Mirror Shot",
-                    "Metal Sound",
-                    "Thunder Wave"
-                ],
-                "sub_index": 1,
-                "ability": "Magnet Pull",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 48 Rival - Victory Road (Player Chooses Chikorita) ": {
-                "level": 48,
-                "tr_id": 18,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Adamant",
-                "moves": [
-                    "Thunderbolt",
-                    "Thunder Wave",
-                    "Flash Cannon",
-                    "Tri Attack"
-                ],
-                "sub_index": 3,
-                "ability": "Magnet Pull",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 48 Rival - Victory Road (Player Chooses Cyndaquil) ": {
-                "level": 48,
-                "tr_id": 19,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Timid",
-                "moves": [
-                    "Thunderbolt",
-                    "Thunder Wave",
-                    "Flash Cannon",
-                    "Tri Attack"
-                ],
-                "sub_index": 3,
-                "ability": "Magnet Pull",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 48 Rival - Victory Road (Player Chooses Totodile) ": {
-                "level": 48,
-                "tr_id": 20,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Quirky",
-                "moves": [
-                    "Thunderbolt",
-                    "Thunder Wave",
-                    "Flash Cannon",
-                    "Tri Attack"
-                ],
-                "sub_index": 3,
-                "ability": "Magnet Pull",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 56 Rival - Mt. Moon (Player Chooses Chikorita) ": {
-                "level": 56,
-                "tr_id": 21,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Calm",
-                "moves": [
-                    "Thunderbolt",
-                    "Thunder Wave",
-                    "Flash Cannon",
-                    "Signal beam"
-                ],
-                "sub_index": 3,
-                "ability": "Magnet Pull",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 56 Rival - Mt. Moon (Player Chooses Cyndaquil) ": {
-                "level": 56,
-                "tr_id": 22,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Hardy",
-                "moves": [
-                    "Thunderbolt",
-                    "Thunder Wave",
-                    "Flash Cannon",
-                    "Signal beam"
-                ],
-                "sub_index": 3,
-                "ability": "Magnet Pull",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 56 Rival - Mt. Moon (Player Chooses Totodile) ": {
-                "level": 56,
-                "tr_id": 23,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lax",
-                "moves": [
-                    "Thunderbolt",
-                    "Thunder Wave",
-                    "Flash Cannon",
-                    "Signal beam"
-                ],
-                "sub_index": 3,
-                "ability": "Magnet Pull",
-                "gender": "Male",
-                "location": "Rival",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 58 Lt. Surge Gym Leader ": {
-                "level": 58,
-                "tr_id": 57,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Impish",
-                "moves": [
-                    "Flash Cannon",
-                    "Double Team",
-                    "Thunder Wave",
-                    "Thunderbolt"
                 ],
                 "sub_index": 2,
-                "ability": "Magnet Pull",
+                "ability": "Inner Focus",
                 "gender": "Male",
-                "location": "Kanto Gym Leader",
+                "location": "Rival",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 48 Rival - Victory Road (Player Chooses Cyndaquil) ": {
+                "level": 48,
+                "tr_id": 19,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Adamant",
+                "moves": [
+                    "U-Turn",
+                    "Roost",
+                    "Fly",
+                    "Confuse Ray"
+                ],
+                "sub_index": 2,
+                "ability": "Inner Focus",
+                "gender": "Male",
+                "location": "Rival",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 48 Rival - Victory Road (Player Chooses Totodile) ": {
+                "level": 48,
+                "tr_id": 20,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Impish",
+                "moves": [
+                    "U-Turn",
+                    "Roost",
+                    "Fly",
+                    "Confuse Ray"
+                ],
+                "sub_index": 2,
+                "ability": "Inner Focus",
+                "gender": "Male",
+                "location": "Rival",
                 "spriteId": null,
                 "orientation": null
             }
@@ -3921,12 +3379,12 @@ backup_data = {
                 "form": 0,
                 "item": "Charcoal",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3959,12 +3417,12 @@ backup_data = {
                 "form": 0,
                 "item": "Charcoal",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -3997,12 +3455,12 @@ backup_data = {
                 "form": 0,
                 "item": "Charcoal",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4037,12 +3495,12 @@ backup_data = {
                 "form": 0,
                 "item": "Mystic Water",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4075,12 +3533,12 @@ backup_data = {
                 "form": 0,
                 "item": "Mystic Water",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4113,12 +3571,12 @@ backup_data = {
                 "form": 0,
                 "item": "Mystic Water",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4144,19 +3602,19 @@ backup_data = {
             },
             "Lvl 53 Lance Champion ": {
                 "level": 53,
-                "tr_id": 54,
+                "tr_id": 43,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4191,12 +3649,12 @@ backup_data = {
                 "form": 0,
                 "item": "Miracle Seed",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4229,12 +3687,12 @@ backup_data = {
                 "form": 0,
                 "item": "Miracle Seed",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4267,12 +3725,12 @@ backup_data = {
                 "form": 0,
                 "item": "Miracle Seed",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4307,12 +3765,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4329,7 +3787,7 @@ backup_data = {
                     "Aerial Ace",
                     "Swords Dance"
                 ],
-                "sub_index": 2,
+                "sub_index": 0,
                 "ability": "Pressure",
                 "gender": "Male",
                 "location": "Rival",
@@ -4345,12 +3803,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4367,7 +3825,7 @@ backup_data = {
                     "Aerial Ace",
                     "Swords Dance"
                 ],
-                "sub_index": 2,
+                "sub_index": 0,
                 "ability": "Pressure",
                 "gender": "Male",
                 "location": "Rival",
@@ -4383,12 +3841,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4405,7 +3863,7 @@ backup_data = {
                     "Aerial Ace",
                     "Swords Dance"
                 ],
-                "sub_index": 2,
+                "sub_index": 0,
                 "ability": "Pressure",
                 "gender": "Male",
                 "location": "Rival",
@@ -4421,12 +3879,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4459,12 +3917,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4497,12 +3955,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4528,19 +3986,19 @@ backup_data = {
             },
             "Lvl 50 Karen Elite4 ": {
                 "level": 50,
-                "tr_id": 53,
+                "tr_id": 42,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4554,13 +4012,281 @@ backup_data = {
                 "moves": [
                     "Ice Punch",
                     "Night Slash",
-                    "Brick Break",
-                    "Swords Dance"
+                    "Ice Shard",
+                    "Fake Out"
                 ],
                 "sub_index": 1,
                 "ability": "Pressure",
                 "gender": "Male",
                 "location": "Pok\u00e9mon League",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Magnezone": {
+            "Lvl 48 Rival - Victory Road (Player Chooses Chikorita) ": {
+                "level": 48,
+                "tr_id": 18,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Adamant",
+                "moves": [
+                    "Thunderbolt",
+                    "Thunder Wave",
+                    "Flash Cannon",
+                    "Tri Attack"
+                ],
+                "sub_index": 3,
+                "ability": "Magnet Pull",
+                "gender": "Male",
+                "location": "Rival",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 48 Rival - Victory Road (Player Chooses Cyndaquil) ": {
+                "level": 48,
+                "tr_id": 19,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Timid",
+                "moves": [
+                    "Thunderbolt",
+                    "Thunder Wave",
+                    "Flash Cannon",
+                    "Tri Attack"
+                ],
+                "sub_index": 3,
+                "ability": "Magnet Pull",
+                "gender": "Male",
+                "location": "Rival",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 48 Rival - Victory Road (Player Chooses Totodile) ": {
+                "level": 48,
+                "tr_id": 20,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Quirky",
+                "moves": [
+                    "Thunderbolt",
+                    "Thunder Wave",
+                    "Flash Cannon",
+                    "Tri Attack"
+                ],
+                "sub_index": 3,
+                "ability": "Magnet Pull",
+                "gender": "Male",
+                "location": "Rival",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 56 Rival - Mt. Moon (Player Chooses Chikorita) ": {
+                "level": 56,
+                "tr_id": 21,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Calm",
+                "moves": [
+                    "Thunderbolt",
+                    "Thunder Wave",
+                    "Flash Cannon",
+                    "Signal beam"
+                ],
+                "sub_index": 3,
+                "ability": "Magnet Pull",
+                "gender": "Male",
+                "location": "Rival",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 56 Rival - Mt. Moon (Player Chooses Cyndaquil) ": {
+                "level": 56,
+                "tr_id": 22,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Hardy",
+                "moves": [
+                    "Thunderbolt",
+                    "Thunder Wave",
+                    "Flash Cannon",
+                    "Signal beam"
+                ],
+                "sub_index": 3,
+                "ability": "Magnet Pull",
+                "gender": "Male",
+                "location": "Rival",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 56 Rival - Mt. Moon (Player Chooses Totodile) ": {
+                "level": 56,
+                "tr_id": 23,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Lax",
+                "moves": [
+                    "Thunderbolt",
+                    "Thunder Wave",
+                    "Flash Cannon",
+                    "Signal beam"
+                ],
+                "sub_index": 3,
+                "ability": "Magnet Pull",
+                "gender": "Male",
+                "location": "Rival",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 58 Lt. Surge Gym Leader ": {
+                "level": 58,
+                "tr_id": 46,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Impish",
+                "moves": [
+                    "Flash Cannon",
+                    "Double Team",
+                    "Thunder Wave",
+                    "Thunderbolt"
+                ],
+                "sub_index": 2,
+                "ability": "Magnet Pull",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
                 "spriteId": null,
                 "orientation": null
             }
@@ -4575,12 +4301,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4613,12 +4339,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4651,12 +4377,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4682,19 +4408,19 @@ backup_data = {
             },
             "Lvl 60 Erika Gym Leader ": {
                 "level": 60,
-                "tr_id": 58,
+                "tr_id": 47,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4729,12 +4455,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4767,12 +4493,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4796,14 +4522,14 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Ace Trainer Brian - Route 27 ": {
-                "level": 48,
-                "tr_id": 41,
+            "Lvl 68 Blaine Gym Leader ": {
+                "level": 68,
+                "tr_id": 50,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "None",
+                "item": "White Herb",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -4811,44 +4537,6 @@ backup_data = {
                     "sa": 31,
                     "sd": 31,
                     "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Gentle",
-                "moves": [
-                    "Flamethrower",
-                    "Psychic",
-                    "Earthquake",
-                    "Rock Tomb"
-                ],
-                "sub_index": 0,
-                "ability": "Flame Body",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 68 Blaine Gym Leader ": {
-                "level": 68,
-                "tr_id": 61,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "White Herb",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
                 },
                 "evs": {
                     "hp": 0,
@@ -4883,12 +4571,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4900,7 +4588,7 @@ backup_data = {
                 },
                 "nature": "Gentle",
                 "moves": [
-                    "U-turn",
+                    "U-Turn",
                     "Roost",
                     "Fly",
                     "Confuse Ray"
@@ -4921,12 +4609,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4938,7 +4626,7 @@ backup_data = {
                 },
                 "nature": "Relaxed",
                 "moves": [
-                    "U-turn",
+                    "U-Turn",
                     "Roost",
                     "Fly",
                     "Confuse Ray"
@@ -4959,12 +4647,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -4976,7 +4664,7 @@ backup_data = {
                 },
                 "nature": "Mild",
                 "moves": [
-                    "U-turn",
+                    "U-Turn",
                     "Roost",
                     "Fly",
                     "Confuse Ray"
@@ -4995,14 +4683,14 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Leftovers",
+                "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5026,9 +4714,47 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Ace Trainer Gaven - Route 26 ": {
-                "level": 48,
-                "tr_id": 47,
+            "Lvl 52 Koga Elite4 ": {
+                "level": 52,
+                "tr_id": 40,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Black Sludge",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Quiet",
+                "moves": [
+                    "Double Team",
+                    "Brave Bird",
+                    "Toxic",
+                    "Roost"
+                ],
+                "sub_index": 4,
+                "ability": "Inner Focus",
+                "gender": "Male",
+                "location": "Pok\u00e9mon League",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 62 Janine Gym Leader ": {
+                "level": 62,
+                "tr_id": 48,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
@@ -5050,86 +4776,10 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Docile",
-                "moves": [
-                    "Brave Bird",
-                    "U-turn",
-                    "Cross Poison",
-                    "Roost"
-                ],
-                "sub_index": 1,
-                "ability": "Inner Focus",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 52 Koga Elite4 ": {
-                "level": 52,
-                "tr_id": 51,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Black Sludge",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Quiet",
-                "moves": [
-                    "Double Team",
-                    "Brave Bird",
-                    "Heat Wave",
-                    "Roost"
-                ],
-                "sub_index": 4,
-                "ability": "Inner Focus",
-                "gender": "Male",
-                "location": "Pok\u00e9mon League",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 62 Janine Gym Leader ": {
-                "level": 62,
-                "tr_id": 59,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
                 "nature": "Mild",
                 "moves": [
                     "Air Slash",
-                    "U-turn",
+                    "U-Turn",
                     "Confuse Ray",
                     "Roost"
                 ],
@@ -5142,8 +4792,8 @@ backup_data = {
             }
         },
         "Koffing": {
-            "Lvl 15 Executive Proton - Slowpoke Well ": {
-                "level": 15,
+            "Lvl 14 Executive Proton - Slowpoke Well ": {
+                "level": 14,
                 "tr_id": 24,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -5151,12 +4801,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5189,14 +4839,14 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Oran Berry",
+                "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5222,8 +4872,8 @@ backup_data = {
             }
         },
         "Tangela": {
-            "Lvl 35 Executive Petrel - Team Rocket HQ ": {
-                "level": 35,
+            "Lvl 34 Executive Petrel - Team Rocket HQ ": {
+                "level": 34,
                 "tr_id": 25,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -5231,12 +4881,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5246,7 +4896,7 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Bashful",
+                "nature": "Relaxed",
                 "moves": [
                     "Mega Drain",
                     "Stun Spore",
@@ -5262,8 +4912,8 @@ backup_data = {
             }
         },
         "Raticate": {
-            "Lvl 35 Executive Petrel - Team Rocket HQ ": {
-                "level": 35,
+            "Lvl 34 Executive Petrel - Team Rocket HQ ": {
+                "level": 34,
                 "tr_id": 25,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -5271,12 +4921,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5286,7 +4936,7 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Jolly",
+                "nature": "Quirky",
                 "moves": [
                     "Hyper Fang",
                     "Sucker Punch",
@@ -5309,12 +4959,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5340,21 +4990,21 @@ backup_data = {
             }
         },
         "Weezing": {
-            "Lvl 37 Executive Petrel - Team Rocket HQ ": {
-                "level": 37,
+            "Lvl 36 Executive Petrel - Team Rocket HQ ": {
+                "level": 36,
                 "tr_id": 25,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Sitrus Berry",
+                "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5364,7 +5014,7 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Bashful",
+                "nature": "Naughty",
                 "moves": [
                     "Sludge",
                     "Smokescreen",
@@ -5387,12 +5037,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5418,19 +5068,19 @@ backup_data = {
             },
             "Lvl 62 Janine Gym Leader ": {
                 "level": 62,
-                "tr_id": 59,
+                "tr_id": 48,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5465,12 +5115,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5501,14 +5151,14 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Expert Belt",
+                "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5543,12 +5193,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5582,12 +5232,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sa": 18,
-                    "sd": 18,
-                    "sp": 18
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5622,12 +5272,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 3,
-                    "at": 3,
-                    "df": 3,
-                    "sa": 3,
-                    "sd": 3,
-                    "sp": 3
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5662,12 +5312,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 3,
-                    "at": 3,
-                    "df": 3,
-                    "sa": 3,
-                    "sd": 3,
-                    "sp": 3
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5698,14 +5348,14 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Light Clay",
+                "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5717,8 +5367,8 @@ backup_data = {
                 },
                 "nature": "Naive",
                 "moves": [
-                    "Psychic",
-                    "Brick Break",
+                    "Psybeam",
+                    "Shadow Ball",
                     "Reflect",
                     "Light Screen"
                 ],
@@ -5729,8 +5379,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 30 Eusine - Cianwood City ": {
-                "level": 30,
+            "Lvl 33 Eusine - Cianwood City (OPTIONAL) ": {
+                "level": 33,
                 "tr_id": 32,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -5738,12 +5388,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5753,7 +5403,7 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Modest",
+                "nature": "Bashful",
                 "moves": [
                     "Reflect",
                     "Light Screen",
@@ -5778,12 +5428,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5795,9 +5445,9 @@ backup_data = {
                 },
                 "nature": "Careful",
                 "moves": [
-                    "Explosion",
+                    "Self-Destruct",
                     "Thunderbolt",
-                    "Rollout",
+                    "Light Screen",
                     "Magnet Rise"
                 ],
                 "sub_index": 0,
@@ -5809,19 +5459,19 @@ backup_data = {
             },
             "Lvl 58 Lt. Surge Gym Leader ": {
                 "level": 58,
-                "tr_id": 57,
+                "tr_id": 46,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5856,12 +5506,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5896,12 +5546,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -5924,44 +5574,6 @@ backup_data = {
                 "location": "Team Rocket",
                 "spriteId": null,
                 "orientation": null
-            },
-            "Lvl 48 Ace Trainer Joyce - Route 26 ": {
-                "level": 48,
-                "tr_id": 46,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Hardy",
-                "moves": [
-                    "Ancient Power",
-                    "Air Slash",
-                    "Signal Beam",
-                    "Giga Drain"
-                ],
-                "sub_index": 2,
-                "ability": "Tinted Lens",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
             }
         },
         "Vileplume": {
@@ -5974,12 +5586,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6014,12 +5626,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6045,19 +5657,19 @@ backup_data = {
             },
             "Lvl 50 Karen Elite4 ": {
                 "level": 50,
-                "tr_id": 53,
+                "tr_id": 42,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Scope Lens",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6092,12 +5704,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6130,44 +5742,6 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Muscle Band",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Rash",
-                "moves": [
-                    "Thunder Punch",
-                    "Fire Punch",
-                    "Ice Punch",
-                    "Low Kick"
-                ],
-                "sub_index": 2,
-                "ability": "Motor Drive",
-                "gender": "Male",
-                "location": "Team Rocket",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 48 Ace Trainer Blake - Route 27 ": {
-                "level": 48,
-                "tr_id": 40,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
                 "item": "None",
                 "ivs": {
                     "hp": 31,
@@ -6189,31 +5763,31 @@ backup_data = {
                 "moves": [
                     "Thunder Punch",
                     "Fire Punch",
-                    "Ice Punch",
-                    "Brick Break"
+                    "Low Kick",
+                    "Light Screen"
                 ],
-                "sub_index": 0,
+                "sub_index": 2,
                 "ability": "Motor Drive",
                 "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
+                "location": "Team Rocket",
                 "spriteId": null,
                 "orientation": null
             },
             "Lvl 60 Lt. Surge Gym Leader ": {
                 "level": 60,
-                "tr_id": 57,
+                "tr_id": 46,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Expert Belt",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6238,84 +5812,6 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Gliscor": {
-            "Lvl 40 Executive Archer - Goldenrod Radio Tower ": {
-                "level": 40,
-                "tr_id": 30,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Brave",
-                "moves": [
-                    "Earthquake",
-                    "Aerial Ace",
-                    "U-turn",
-                    "Rock Slide"
-                ],
-                "sub_index": 3,
-                "ability": "Hyper Cutter",
-                "gender": "Male",
-                "location": "Team Rocket",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 48 Ace Trainer Gaven - Route 26 ": {
-                "level": 48,
-                "tr_id": 47,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Hasty",
-                "moves": [
-                    "Earthquake",
-                    "Roost",
-                    "Ice Fang",
-                    "Aerial Ace"
-                ],
-                "sub_index": 3,
-                "ability": "Hyper Cutter",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
         "Houndoom": {
             "Lvl 42 Executive Archer - Goldenrod Radio Tower ": {
                 "level": 42,
@@ -6326,12 +5822,12 @@ backup_data = {
                 "form": 0,
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6348,16 +5844,16 @@ backup_data = {
                     "Thunder Fang",
                     "Will-O-Wisp"
                 ],
-                "sub_index": 4,
+                "sub_index": 3,
                 "ability": "Early Bird",
                 "gender": "Male",
                 "location": "Team Rocket",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Ace Trainer Gaven - Route 26 ": {
-                "level": 48,
-                "tr_id": 47,
+            "Lvl 50 Karen Elite4 ": {
+                "level": 50,
+                "tr_id": 42,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
@@ -6370,44 +5866,6 @@ backup_data = {
                     "sa": 31,
                     "sd": 31,
                     "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Quirky",
-                "moves": [
-                    "Flamethrower",
-                    "Dark Pulse",
-                    "Sludge Bomb",
-                    "Thunder Fang"
-                ],
-                "sub_index": 2,
-                "ability": "Flash Fire",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 50 Karen Elite4 ": {
-                "level": 50,
-                "tr_id": 53,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
                 },
                 "evs": {
                     "hp": 0,
@@ -6433,19 +5891,19 @@ backup_data = {
             },
             "Lvl 66 Blaine Gym Leader ": {
                 "level": 66,
-                "tr_id": 61,
+                "tr_id": 50,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6471,8 +5929,8 @@ backup_data = {
             }
         },
         "Bellsprout": {
-            "Lvl 11 Elder Li - Sprout Tower ": {
-                "level": 11,
+            "Lvl 10 Elder Li - Sprout Tower ": {
+                "level": 10,
                 "tr_id": 31,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -6480,12 +5938,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sa": 6,
-                    "sd": 6,
-                    "sp": 6
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6495,12 +5953,10 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Quirky",
+                "nature": "Relaxed",
                 "moves": [
                     "Vine Whip",
-                    "Growth",
-                    "Acid",
-                    "Wrap"
+                    "Growth"
                 ],
                 "sub_index": 0,
                 "ability": "Chlorophyll",
@@ -6511,8 +5967,8 @@ backup_data = {
             }
         },
         "Jumpluff": {
-            "Lvl 30 Eusine - Cianwood City ": {
-                "level": 30,
+            "Lvl 33 Eusine - Cianwood City (OPTIONAL) ": {
+                "level": 33,
                 "tr_id": 32,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -6520,12 +5976,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6535,7 +5991,7 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Quiet",
+                "nature": "Lonely",
                 "moves": [
                     "Leech Seed",
                     "Synthesis",
@@ -6551,19 +6007,19 @@ backup_data = {
             },
             "Lvl 60 Erika Gym Leader ": {
                 "level": 60,
-                "tr_id": 58,
+                "tr_id": 47,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Heat Rock",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6575,7 +6031,7 @@ backup_data = {
                 },
                 "nature": "Serious",
                 "moves": [
-                    "U-turn",
+                    "U-Turn",
                     "Sleep Powder",
                     "Sunny Day",
                     "Giga Drain"
@@ -6589,8 +6045,8 @@ backup_data = {
             }
         },
         "Lanturn": {
-            "Lvl 30 Eusine - Cianwood City ": {
-                "level": 30,
+            "Lvl 33 Eusine - Cianwood City (OPTIONAL) ": {
+                "level": 33,
                 "tr_id": 32,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -6598,12 +6054,12 @@ backup_data = {
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6613,7 +6069,7 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Rash",
+                "nature": "Adamant",
                 "moves": [
                     "Bubble Beam",
                     "Shock Wave",
@@ -6629,19 +6085,19 @@ backup_data = {
             },
             "Lvl 56 Misty Gym Leader ": {
                 "level": 56,
-                "tr_id": 56,
+                "tr_id": 45,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6666,46 +6122,6 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Misdreavus": {
-            "Lvl 31 Eusine - Cianwood City ": {
-                "level": 31,
-                "tr_id": 32,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Sitrus Berry",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Adamant",
-                "moves": [
-                    "Psybeam",
-                    "Shadow Ball",
-                    "Mean Look",
-                    "Confuse Ray"
-                ],
-                "sub_index": 3,
-                "ability": "Levitate",
-                "gender": "Male",
-                "location": "Mini Boss Fight Obligatory",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
         "Hitmonlee": {
             "Lvl 45 Kiyo - Mt. Mortar (OPTIONAL POST WATERFALL) ": {
                 "level": 45,
@@ -6716,12 +6132,12 @@ backup_data = {
                 "form": 0,
                 "item": "Scope Lens",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6756,12 +6172,12 @@ backup_data = {
                 "form": 0,
                 "item": "Black Belt",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6787,21 +6203,21 @@ backup_data = {
             }
         },
         "Umbreon": {
-            "Lvl 47 Kimono Girl Zuki - Ecruteak City ": {
-                "level": 47,
+            "Lvl 46 Kimono Girl Zuki - Ecruteak City ": {
+                "level": 46,
                 "tr_id": 34,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "BlackGlasses",
+                "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6811,12 +6227,12 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Lax",
+                "nature": "Naive",
                 "moves": [
-                    "Toxic",
+                    "Last Resort",
                     "Dark Pulse",
-                    "Double Team",
-                    "Psychic"
+                    "Confuse Ray",
+                    "Shadow Ball"
                 ],
                 "sub_index": 0,
                 "ability": "Synchronize",
@@ -6827,19 +6243,19 @@ backup_data = {
             },
             "Lvl 52 Karen Elite4 ": {
                 "level": 52,
-                "tr_id": 53,
+                "tr_id": 42,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Leftovers",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6865,21 +6281,21 @@ backup_data = {
             }
         },
         "Espeon": {
-            "Lvl 47 Kimono Girl Naoko - Ecruteak City ": {
-                "level": 47,
+            "Lvl 46 Kimono Girl Naoko - Ecruteak City ": {
+                "level": 46,
                 "tr_id": 35,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "TwistedSpoon",
+                "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6889,12 +6305,12 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Impish",
+                "nature": "Jolly",
                 "moves": [
-                    "Future Sight",
+                    "Last Resort",
                     "Psychic",
-                    "Grass Knot",
-                    "Shadow Ball"
+                    "Psych Up",
+                    "Swift"
                 ],
                 "sub_index": 0,
                 "ability": "Synchronize",
@@ -6903,59 +6319,21 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Psychic Vernon - Route 26 ": {
-                "level": 48,
-                "tr_id": 45,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sa": 6,
-                    "sd": 6,
-                    "sp": 6
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Brave",
-                "moves": [
-                    "Swift",
-                    "Signal Beam",
-                    "Psychic",
-                    "Future Sight"
-                ],
-                "sub_index": 0,
-                "ability": "Synchronize",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
             "Lvl 52 Will Elite4 ": {
                 "level": 52,
-                "tr_id": 50,
+                "tr_id": 39,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Lum Berry",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -6981,19 +6359,19 @@ backup_data = {
             },
             "Lvl 63 Sabrina Gym Leader ": {
                 "level": 63,
-                "tr_id": 60,
+                "tr_id": 49,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -7019,21 +6397,21 @@ backup_data = {
             }
         },
         "Flareon": {
-            "Lvl 47 Kimono Girl Miki - Ecruteak City ": {
-                "level": 47,
+            "Lvl 46 Kimono Girl Miki - Ecruteak City ": {
+                "level": 46,
                 "tr_id": 36,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Charcoal",
+                "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -7043,11 +6421,11 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Bashful",
+                "nature": "Careful",
                 "moves": [
-                    "Iron Tail",
-                    "Flare Blitz",
-                    "Flamethrower",
+                    "Last Resort",
+                    "Fire Blast",
+                    "Quick Attack",
                     "Will-O-Wisp"
                 ],
                 "sub_index": 0,
@@ -7059,19 +6437,19 @@ backup_data = {
             },
             "Lvl 66 Blaine Gym Leader ": {
                 "level": 66,
-                "tr_id": 61,
+                "tr_id": 50,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -7097,21 +6475,21 @@ backup_data = {
             }
         },
         "Jolteon": {
-            "Lvl 47 Kimono Girl Sajo - Ecruteak City ": {
-                "level": 47,
+            "Lvl 46 Kimono Girl Sajo - Ecruteak City ": {
+                "level": 46,
                 "tr_id": 37,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Magnet",
+                "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -7121,9 +6499,9 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Bold",
+                "nature": "Timid",
                 "moves": [
-                    "Shadow Ball",
+                    "Last Resort",
                     "Thunderbolt",
                     "Double Team",
                     "Thunder Wave"
@@ -7137,19 +6515,19 @@ backup_data = {
             },
             "Lvl 58 Lt. Surge Gym Leader ": {
                 "level": 58,
-                "tr_id": 57,
+                "tr_id": 46,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Wise Glasses",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -7175,21 +6553,21 @@ backup_data = {
             }
         },
         "Vaporeon": {
-            "Lvl 47 Kimono Girl Kuni - Ecruteak City ": {
-                "level": 47,
+            "Lvl 46 Kimono Girl Kuni - Ecruteak City ": {
+                "level": 46,
                 "tr_id": 38,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
-                "item": "Mystic Water",
+                "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -7199,12 +6577,12 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Quiet",
+                "nature": "Sassy",
                 "moves": [
-                    "Yawn",
+                    "Last Resort",
                     "Surf",
-                    "Wish",
-                    "Ice Beam"
+                    "Quick Attack",
+                    "Aurora Beam"
                 ],
                 "sub_index": 0,
                 "ability": "Water Absorb",
@@ -7215,19 +6593,19 @@ backup_data = {
             },
             "Lvl 56 Misty Gym Leader ": {
                 "level": 56,
-                "tr_id": 56,
+                "tr_id": 45,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Leftovers",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -7252,954 +6630,22 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Tentacruel": {
-            "Lvl 48 Ace Trainer Megan - Route 27 ": {
-                "level": 48,
-                "tr_id": 39,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lax",
-                "moves": [
-                    "Surf",
-                    "Poison Jab",
-                    "Mirror Coat",
-                    "Toxic"
-                ],
-                "sub_index": 0,
-                "ability": "Clear Body",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 50 Koga Elite4 ": {
-                "level": 50,
-                "tr_id": 51,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Adamant",
-                "moves": [
-                    "Toxic Spikes",
-                    "Sludge Bomb",
-                    "Surf",
-                    "Confuse Ray"
-                ],
-                "sub_index": 0,
-                "ability": "Clear Body",
-                "gender": "Male",
-                "location": "Pok\u00e9mon League",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 62 Janine Gym Leader ": {
-                "level": 62,
-                "tr_id": 59,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Black Sludge",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Naughty",
-                "moves": [
-                    "Surf",
-                    "Ice Beam",
-                    "Sludge Bomb",
-                    "Toxic Spikes"
-                ],
-                "sub_index": 2,
-                "ability": "Liquid Ooze",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Rhydon": {
-            "Lvl 48 Ace Trainer Megan - Route 27 ": {
-                "level": 48,
-                "tr_id": 39,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lax",
-                "moves": [
-                    "Earthquake",
-                    "Double-Edge",
-                    "Rock Slide",
-                    "Hammer Arm"
-                ],
-                "sub_index": 1,
-                "ability": "Rock Head",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Venusaur": {
-            "Lvl 48 Ace Trainer Megan - Route 27 ": {
-                "level": 48,
-                "tr_id": 39,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Gentle",
-                "moves": [
-                    "Giga Drain",
-                    "Sleep Powder",
-                    "Earthquake",
-                    "Synthesis"
-                ],
-                "sub_index": 2,
-                "ability": "Overgrow",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 86 Red Trainer - Mt. Silver ": {
-                "level": 86,
-                "tr_id": 63,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Miracle Seed",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lonely",
-                "moves": [
-                    "Sludge Bomb",
-                    "Giga Drain",
-                    "Sleep Powder",
-                    "Frenzy Plant"
-                ],
-                "sub_index": 3,
-                "ability": "Overgrow",
-                "gender": "Male",
-                "location": "Red Mt. Silver",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Quagsire": {
-            "Lvl 48 Ace Trainer Blake - Route 27 ": {
-                "level": 48,
-                "tr_id": 40,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Impish",
-                "moves": [
-                    "Recover",
-                    "Waterfall",
-                    "Yawn",
-                    "Earthquake"
-                ],
-                "sub_index": 1,
-                "ability": "Water Absorb",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 56 Misty Gym Leader ": {
-                "level": 56,
-                "tr_id": 56,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Serious",
-                "moves": [
-                    "Waterfall",
-                    "Recover",
-                    "Earthquake",
-                    "Yawn"
-                ],
-                "sub_index": 1,
-                "ability": "Water Absorb",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Exeggutor": {
-            "Lvl 48 Ace Trainer Blake - Route 27 ": {
-                "level": 48,
-                "tr_id": 40,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Hasty",
-                "moves": [
-                    "Ancient Power",
-                    "Psychic",
-                    "Sleep Powder",
-                    "Leaf Storm"
-                ],
-                "sub_index": 2,
-                "ability": "Chlorophyll",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 47 Psychic Eli - Route 27 ": {
-                "level": 47,
-                "tr_id": 42,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sa": 6,
-                    "sd": 6,
-                    "sp": 6
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Bashful",
-                "moves": [
-                    "Stomp",
-                    "Egg Bomb",
-                    "Wood Hammer",
-                    "Leaf Storm"
-                ],
-                "sub_index": 2,
-                "ability": "Chlorophyll",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 50 Will Elite4 ": {
-                "level": 50,
-                "tr_id": 50,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Zoom Lens",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Docile",
-                "moves": [
-                    "Leaf Storm",
-                    "Psychic",
-                    "Wood Hammer",
-                    "Hypnosis"
-                ],
-                "sub_index": 2,
-                "ability": "Chlorophyll",
-                "gender": "Male",
-                "location": "Pok\u00e9mon League",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 62 Erika Gym Leader ": {
-                "level": 62,
-                "tr_id": 58,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "White Herb",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Naughty",
-                "moves": [
-                    "Psychic",
-                    "Giga Drain",
-                    "Leaf Storm",
-                    "Sleep Powder"
-                ],
-                "sub_index": 4,
-                "ability": "Chlorophyll",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 68 Blue Gym Leader ": {
-                "level": 68,
-                "tr_id": 62,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Hasty",
-                "moves": [
-                    "Leaf Storm",
-                    "Psychic",
-                    "Sunny Day",
-                    "Explosion"
-                ],
-                "sub_index": 4,
-                "ability": "Chlorophyll",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Charizard": {
-            "Lvl 48 Ace Trainer Blake - Route 27 ": {
-                "level": 48,
-                "tr_id": 40,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Docile",
-                "moves": [
-                    "Flamethrower",
-                    "Aerial Ace",
-                    "Will-O-Wisp",
-                    "Dragon Claw"
-                ],
-                "sub_index": 3,
-                "ability": "Blaze",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 53 Lance Champion ": {
-                "level": 53,
-                "tr_id": 54,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Sassy",
-                "moves": [
-                    "Shadow Claw",
-                    "Air Slash",
-                    "Dragon Pulse",
-                    "Flamethrower"
-                ],
-                "sub_index": 4,
-                "ability": "Blaze",
-                "gender": "Male",
-                "location": "Pok\u00e9mon League",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 86 Red Trainer - Mt. Silver ": {
-                "level": 86,
-                "tr_id": 63,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Charcoal",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Quiet",
-                "moves": [
-                    "Flamethrower",
-                    "Air Slash",
-                    "Blast Burn",
-                    "Dragon Pulse"
-                ],
-                "sub_index": 4,
-                "ability": "Blaze",
-                "gender": "Male",
-                "location": "Red Mt. Silver",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Donphan": {
-            "Lvl 48 Ace Trainer Brian - Route 27 ": {
-                "level": 48,
-                "tr_id": 41,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lonely",
-                "moves": [
-                    "Ice Fang",
-                    "Earthquake",
-                    "Counter",
-                    "Fire Fang"
-                ],
-                "sub_index": 1,
-                "ability": "Sturdy",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 50 Bruno Elite4 ": {
-                "level": 50,
-                "tr_id": 52,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Leftovers",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Quiet",
-                "moves": [
-                    "Earthquake",
-                    "Stealth Rock",
-                    "Thunder Fang",
-                    "Fire Fang"
-                ],
-                "sub_index": 2,
-                "ability": "Sturdy",
-                "gender": "Male",
-                "location": "Pok\u00e9mon League",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Slowbro": {
-            "Lvl 48 Ace Trainer Brian - Route 27 ": {
-                "level": 48,
-                "tr_id": 41,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Sassy",
-                "moves": [
-                    "Psychic",
-                    "Surf",
-                    "Ice Beam",
-                    "Slack Off"
-                ],
-                "sub_index": 2,
-                "ability": "Oblivious",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Ampharos": {
-            "Lvl 48 Ace Trainer Brian - Route 27 ": {
-                "level": 48,
-                "tr_id": 41,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lax",
-                "moves": [
-                    "Thunderbolt",
-                    "Magnet Rise",
-                    "Signal Beam",
-                    "Dragon Pulse"
-                ],
-                "sub_index": 3,
-                "ability": "Static",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Starmie": {
-            "Lvl 47 Psychic Eli - Route 27 ": {
-                "level": 47,
-                "tr_id": 42,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sa": 6,
-                    "sd": 6,
-                    "sp": 6
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Serious",
-                "moves": [
-                    "Recover",
-                    "Swift",
-                    "Rapid Spin",
-                    "Confuse Ray"
-                ],
-                "sub_index": 0,
-                "ability": "Illuminate",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 48 Ace Trainer Reena - Route 27 ": {
-                "level": 48,
-                "tr_id": 43,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lonely",
-                "moves": [
-                    "Surf",
-                    "Psychic",
-                    "Thunderbolt",
-                    "Recover"
-                ],
-                "sub_index": 2,
-                "ability": "Natural Cure",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 58 Misty Gym Leader ": {
-                "level": 58,
-                "tr_id": 56,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Wise Glasses",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Sassy",
-                "moves": [
-                    "Psychic",
-                    "Thunderbolt",
-                    "Surf",
-                    "Recover"
-                ],
-                "sub_index": 4,
-                "ability": "Natural Cure",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
         "Girafarig": {
-            "Lvl 47 Psychic Eli - Route 27 ": {
-                "level": 47,
-                "tr_id": 42,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sa": 6,
-                    "sd": 6,
-                    "sp": 6
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Careful",
-                "moves": [
-                    "Double Hit",
-                    "Psychic",
-                    "Zen Headbutt",
-                    "Crunch"
-                ],
-                "sub_index": 1,
-                "ability": "Inner Focus",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
             "Lvl 50 Will Elite4 ": {
                 "level": 50,
-                "tr_id": 50,
+                "tr_id": 39,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -8224,1000 +6670,22 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Arcanine": {
-            "Lvl 48 Ace Trainer Reena - Route 27 ": {
-                "level": 48,
-                "tr_id": 43,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Hardy",
-                "moves": [
-                    "Extreme Speed",
-                    "Iron Head",
-                    "Crunch",
-                    "Flamethrower"
-                ],
-                "sub_index": 0,
-                "ability": "Intimidate",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 68 Blue Gym Leader ": {
-                "level": 68,
-                "tr_id": 62,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Relaxed",
-                "moves": [
-                    "Morning Sun",
-                    "Dragon Pulse",
-                    "Flare Blitz",
-                    "Extreme Speed"
-                ],
-                "sub_index": 1,
-                "ability": "Intimidate",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Nidoqueen": {
-            "Lvl 48 Ace Trainer Reena - Route 27 ": {
-                "level": 48,
-                "tr_id": 43,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Hardy",
-                "moves": [
-                    "Poison Jab",
-                    "Ice Beam",
-                    "Earthquake",
-                    "Thunderbolt"
-                ],
-                "sub_index": 1,
-                "ability": "Rivarly",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 62 Janine Gym Leader ": {
-                "level": 62,
-                "tr_id": 59,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Gentle",
-                "moves": [
-                    "Earthquake",
-                    "Poison Jab",
-                    "Body Slam",
-                    "Superpower"
-                ],
-                "sub_index": 3,
-                "ability": "Rivarly",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Qwilfish": {
-            "Lvl 47 Fisherman Scott - Route 26 ": {
-                "level": 47,
-                "tr_id": 44,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sa": 6,
-                    "sd": 6,
-                    "sp": 6
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lax",
-                "moves": [
-                    "Brine",
-                    "Pin Missile",
-                    "Take Down",
-                    "Aqua Tail"
-                ],
-                "sub_index": 0,
-                "ability": "Swift Swim",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 47* Fisherman Scott - Route 26 ": {
-                "level": 47,
-                "tr_id": 44,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sa": 6,
-                    "sd": 6,
-                    "sp": 6
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lax",
-                "moves": [
-                    "Brine",
-                    "Pin Missile",
-                    "Take Down",
-                    "Aqua Tail"
-                ],
-                "sub_index": 1,
-                "ability": "Swift Swim",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Seaking": {
-            "Lvl 47 Fisherman Scott - Route 26 ": {
-                "level": 47,
-                "tr_id": 44,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sa": 6,
-                    "sd": 6,
-                    "sp": 6
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lax",
-                "moves": [
-                    "Aqua Ring",
-                    "Fury Attack",
-                    "Waterfall",
-                    "Horn Drill"
-                ],
-                "sub_index": 2,
-                "ability": "Water Veil",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Raichu": {
-            "Lvl 48 Ace Trainer Joyce - Route 26 ": {
-                "level": 48,
-                "tr_id": 46,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Brave",
-                "moves": [
-                    "Encore",
-                    "Thunderbolt",
-                    "Signal Beam",
-                    "Nasty Plot"
-                ],
-                "sub_index": 0,
-                "ability": "Static",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 58 Lt. Surge Gym Leader ": {
-                "level": 58,
-                "tr_id": 57,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Hardy",
-                "moves": [
-                    "Thunderbolt",
-                    "Grass Knot",
-                    "Focus Blast",
-                    "Quick Attack"
-                ],
-                "sub_index": 0,
-                "ability": "Static",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Blastoise": {
-            "Lvl 48 Ace Trainer Joyce - Route 26 ": {
-                "level": 48,
-                "tr_id": 46,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Adamant",
-                "moves": [
-                    "Surf",
-                    "Ice Beam",
-                    "Whirpool",
-                    "Attract"
-                ],
-                "sub_index": 1,
-                "ability": "Torrent",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 86 Red Trainer - Mt. Silver ": {
-                "level": 86,
-                "tr_id": 63,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Mystic Water",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Impish",
-                "moves": [
-                    "Focus Blast",
-                    "Hydro Cannon",
-                    "Blizzard",
-                    "Surf"
-                ],
-                "sub_index": 5,
-                "ability": "Torrent",
-                "gender": "Male",
-                "location": "Red Mt. Silver",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Ursaring": {
-            "Lvl 48 Ace Trainer Gaven - Route 26 ": {
-                "level": 48,
-                "tr_id": 47,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Modest",
-                "moves": [
-                    "Double-Edge",
-                    "Close Combat",
-                    "Shadow Claw",
-                    "Rock Slide"
-                ],
-                "sub_index": 0,
-                "ability": "Guts",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Golduck": {
-            "Lvl 48 Ace Trainer Jake - Route 26 ": {
-                "level": 48,
-                "tr_id": 48,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Quiet",
-                "moves": [
-                    "Psychic",
-                    "Nasty Plot",
-                    "Ice Beam",
-                    "Hydro Pump"
-                ],
-                "sub_index": 1,
-                "ability": "Cloud Nine",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Dugtrio": {
-            "Lvl 48 Ace Trainer Jake - Route 26 ": {
-                "level": 48,
-                "tr_id": 48,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Naughty",
-                "moves": [
-                    "Earthquake",
-                    "Rock Slide",
-                    "Aerial Ace",
-                    "Sucker Punch"
-                ],
-                "sub_index": 2,
-                "ability": "Arena Trap",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Scizor": {
-            "Lvl 48 Ace Trainer Jake - Route 26 ": {
-                "level": 48,
-                "tr_id": 48,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Brave",
-                "moves": [
-                    "Bullet Punch",
-                    "Night Slash",
-                    "U-turn",
-                    "Iron Head"
-                ],
-                "sub_index": 3,
-                "ability": "Technician",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 50 Koga Elite4 ": {
-                "level": 50,
-                "tr_id": 51,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Sassy",
-                "moves": [
-                    "Bullet Punch",
-                    "Swords Dance",
-                    "X-Scissor",
-                    "Brick Break"
-                ],
-                "sub_index": 1,
-                "ability": "Technician",
-                "gender": "Male",
-                "location": "Pok\u00e9mon League",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Rapidash": {
-            "Lvl 48 Ace Trainer Jamie - Route 26 ": {
-                "level": 48,
-                "tr_id": 49,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Rash",
-                "moves": [
-                    "Flare Blitz",
-                    "Bounce",
-                    "Will-O-Wisp",
-                    "Iron Head"
-                ],
-                "sub_index": 0,
-                "ability": "Flash Fire",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 66 Blaine Gym Leader ": {
-                "level": 66,
-                "tr_id": 61,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Heat Rock",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Quirky",
-                "moves": [
-                    "Sunny Day",
-                    "Flare Blitz",
-                    "Overheat",
-                    "Megahorn"
-                ],
-                "sub_index": 0,
-                "ability": "Flash Fire",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Porygon-Z": {
-            "Lvl 48 Ace Trainer Jamie - Route 26 ": {
-                "level": 48,
-                "tr_id": 49,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Mild",
-                "moves": [
-                    "Tri-Attack",
-                    "Ice Beam",
-                    "Shadow Ball",
-                    "Discharge"
-                ],
-                "sub_index": 1,
-                "ability": "Download",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Alakazam": {
-            "Lvl 48 Ace Trainer Jamie - Route 26 ": {
-                "level": 48,
-                "tr_id": 49,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Adamant",
-                "moves": [
-                    "Psychic",
-                    "Calm Mind",
-                    "Energy Ball",
-                    "Shadow Ball"
-                ],
-                "sub_index": 2,
-                "ability": "Synchronize",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 65 Sabrina Gym Leader ": {
-                "level": 65,
-                "tr_id": 60,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Twisted Spoon",
-                "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Quirky",
-                "moves": [
-                    "Psychic",
-                    "Focus Blast",
-                    "Energy Ball",
-                    "Disable"
-                ],
-                "sub_index": 4,
-                "ability": "Synchronize",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 68 Blue Gym Leader ": {
-                "level": 68,
-                "tr_id": 62,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Quiet",
-                "moves": [
-                    "Psychic",
-                    "Shadow Ball",
-                    "Energy Ball",
-                    "Focus Blast"
-                ],
-                "sub_index": 2,
-                "ability": "Inner Focus",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Machamp": {
-            "Lvl 48 Ace Trainer Jamie - Route 26 ": {
-                "level": 48,
-                "tr_id": 49,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "None",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Modest",
-                "moves": [
-                    "Dynamic Punch",
-                    "Fire Punch",
-                    "Ice Punch",
-                    "Thunder Punch"
-                ],
-                "sub_index": 3,
-                "ability": "No Guard",
-                "gender": "Male",
-                "location": "Route 27 / Route 26 Fight",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 52 Bruno Elite4 ": {
-                "level": 52,
-                "tr_id": 52,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Flame Orb",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Hardy",
-                "moves": [
-                    "Stone Edge",
-                    "Payback",
-                    "Ice Punch",
-                    "Cross Chop"
-                ],
-                "sub_index": 4,
-                "ability": "Guts",
-                "gender": "Male",
-                "location": "Pok\u00e9mon League",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 68 Blue Gym Leader ": {
-                "level": 68,
-                "tr_id": 62,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": 0,
-                "item": "Muscle Band",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lonely",
-                "moves": [
-                    "Dynamic Punch",
-                    "Earthquake",
-                    "Stone Edge",
-                    "Bullet Punch"
-                ],
-                "sub_index": 3,
-                "ability": "No Guard",
-                "gender": "Male",
-                "location": "Kanto Gym Leader",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
         "Slowking": {
             "Lvl 50 Will Elite4 ": {
                 "level": 50,
-                "tr_id": 50,
+                "tr_id": 39,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9243,19 +6711,19 @@ backup_data = {
             },
             "Lvl 63 Sabrina Gym Leader ": {
                 "level": 63,
-                "tr_id": 60,
+                "tr_id": 49,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9280,22 +6748,138 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Xatu": {
+        "Exeggutor": {
             "Lvl 50 Will Elite4 ": {
                 "level": 50,
-                "tr_id": 50,
+                "tr_id": 39,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Zoom Lens",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Docile",
+                "moves": [
+                    "Leaf Storm",
+                    "Psychic",
+                    "Wood Hammer",
+                    "Hypnosis"
+                ],
+                "sub_index": 2,
+                "ability": "Chlorophyll",
+                "gender": "Male",
+                "location": "Pok\u00e9mon League",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 62 Erika Gym Leader ": {
+                "level": 62,
+                "tr_id": 47,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "White Herb",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Naughty",
+                "moves": [
+                    "Psychic",
+                    "Giga Drain",
+                    "Leaf Storm",
+                    "Sleep Powder"
+                ],
+                "sub_index": 4,
+                "ability": "Chlorophyll",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 68 Blue Gym Leader ": {
+                "level": 68,
+                "tr_id": 51,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Hasty",
+                "moves": [
+                    "Leaf Storm",
+                    "Psychic",
+                    "Sunny Day",
+                    "Explosion"
+                ],
+                "sub_index": 4,
+                "ability": "Chlorophyll",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Xatu": {
+            "Lvl 50 Will Elite4 ": {
+                "level": 50,
+                "tr_id": 39,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9307,7 +6891,7 @@ backup_data = {
                 },
                 "nature": "Mild",
                 "moves": [
-                    "Air Slash",
+                    "Roost",
                     "Psychic",
                     "Ominous Wind",
                     "Silver Wind"
@@ -9320,22 +6904,140 @@ backup_data = {
                 "orientation": null
             }
         },
+        "Tentacruel": {
+            "Lvl 50 Koga Elite4 ": {
+                "level": 50,
+                "tr_id": 40,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Adamant",
+                "moves": [
+                    "Toxic Spikes",
+                    "Sludge Bomb",
+                    "Surf",
+                    "Confuse Ray"
+                ],
+                "sub_index": 0,
+                "ability": "Clear Body",
+                "gender": "Male",
+                "location": "Pok\u00e9mon League",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 62 Janine Gym Leader ": {
+                "level": 62,
+                "tr_id": 48,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Black Sludge",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Naughty",
+                "moves": [
+                    "Surf",
+                    "Ice Beam",
+                    "Sludge Bomb",
+                    "Toxic Spikes"
+                ],
+                "sub_index": 2,
+                "ability": "Liquid Ooze",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Scizor": {
+            "Lvl 50 Koga Elite4 ": {
+                "level": 50,
+                "tr_id": 40,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Sassy",
+                "moves": [
+                    "Bullet Punch",
+                    "Swords Dance",
+                    "X-Scissor",
+                    "Brick Break"
+                ],
+                "sub_index": 1,
+                "ability": "Technician",
+                "gender": "Male",
+                "location": "Pok\u00e9mon League",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
         "Nidoking": {
             "Lvl 50 Koga Elite4 ": {
                 "level": 50,
-                "tr_id": 51,
+                "tr_id": 40,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Expert Belt",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9363,19 +7065,19 @@ backup_data = {
         "Muk": {
             "Lvl 50 Koga Elite4 ": {
                 "level": 50,
-                "tr_id": 51,
+                "tr_id": 40,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9400,22 +7102,180 @@ backup_data = {
                 "orientation": null
             }
         },
+        "Donphan": {
+            "Lvl 50 Bruno Elite4 ": {
+                "level": 50,
+                "tr_id": 41,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Leftovers",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Quiet",
+                "moves": [
+                    "Earthquake",
+                    "Stealth Rock",
+                    "Thunder Fang",
+                    "Fire Fang"
+                ],
+                "sub_index": 2,
+                "ability": "Sturdy",
+                "gender": "Male",
+                "location": "Pok\u00e9mon League",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Heracross": {
+            "Lvl 50 Bruno Elite4 ": {
+                "level": 50,
+                "tr_id": 41,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Relaxed",
+                "moves": [
+                    "Close Combat",
+                    "Megahorn",
+                    "Shadow Claw",
+                    "Rock Slide"
+                ],
+                "sub_index": 3,
+                "ability": "Guts",
+                "gender": "Male",
+                "location": "Pok\u00e9mon League",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Machamp": {
+            "Lvl 52 Bruno Elite4 ": {
+                "level": 52,
+                "tr_id": 41,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Flame Orb",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Hardy",
+                "moves": [
+                    "Stone Edge",
+                    "Payback",
+                    "Ice Punch",
+                    "Cross Chop"
+                ],
+                "sub_index": 4,
+                "ability": "Guts",
+                "gender": "Male",
+                "location": "Pok\u00e9mon League",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 68 Blue Gym Leader ": {
+                "level": 68,
+                "tr_id": 51,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Muscle Band",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Lonely",
+                "moves": [
+                    "Dynamic Punch",
+                    "Earthquake",
+                    "Stone Edge",
+                    "Bullet Punch"
+                ],
+                "sub_index": 3,
+                "ability": "No Guard",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
         "Rhyperior": {
             "Lvl 53 Lance Champion ": {
                 "level": 53,
-                "tr_id": 54,
+                "tr_id": 43,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Passho Berry",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9443,19 +7303,19 @@ backup_data = {
         "Aerodactyl": {
             "Lvl 53 Lance Champion ": {
                 "level": 53,
-                "tr_id": 54,
+                "tr_id": 43,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9481,19 +7341,19 @@ backup_data = {
             },
             "Lvl 55 Brock Gym Leader ": {
                 "level": 55,
-                "tr_id": 55,
+                "tr_id": 44,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9518,22 +7378,100 @@ backup_data = {
                 "orientation": null
             }
         },
+        "Charizard": {
+            "Lvl 53 Lance Champion ": {
+                "level": 53,
+                "tr_id": 43,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Sassy",
+                "moves": [
+                    "Shadow Claw",
+                    "Air Slash",
+                    "Dragon Pulse",
+                    "Flamethrower"
+                ],
+                "sub_index": 4,
+                "ability": "Blaze",
+                "gender": "Male",
+                "location": "Pok\u00e9mon League",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 86 Red Trainer - Mt. Silver ": {
+                "level": 86,
+                "tr_id": 52,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Charcoal",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Quiet",
+                "moves": [
+                    "Flamethrower",
+                    "Air Slash",
+                    "Blast Burn",
+                    "Dragon Pulse"
+                ],
+                "sub_index": 4,
+                "ability": "Blaze",
+                "gender": "Male",
+                "location": "Red Mt. Silver",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
         "Dragonite": {
             "Lvl 55 Lance Champion ": {
                 "level": 55,
-                "tr_id": 54,
+                "tr_id": 43,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Persim Berry",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9561,19 +7499,19 @@ backup_data = {
         "Golem": {
             "Lvl 55 Brock Gym Leader ": {
                 "level": 55,
-                "tr_id": 55,
+                "tr_id": 44,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Focus Sash",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9601,19 +7539,19 @@ backup_data = {
         "Omastar": {
             "Lvl 55 Brock Gym Leader ": {
                 "level": 55,
-                "tr_id": 55,
+                "tr_id": 44,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9641,19 +7579,19 @@ backup_data = {
         "Kabutops": {
             "Lvl 55 Brock Gym Leader ": {
                 "level": 55,
-                "tr_id": 55,
+                "tr_id": 44,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9678,22 +7616,142 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Victreebel": {
-            "Lvl 60 Erika Gym Leader ": {
-                "level": 60,
-                "tr_id": 58,
+        "Quagsire": {
+            "Lvl 56 Misty Gym Leader ": {
+                "level": 56,
+                "tr_id": 45,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Serious",
+                "moves": [
+                    "Waterfall",
+                    "Recover",
+                    "Earthquake",
+                    "Yawn"
+                ],
+                "sub_index": 1,
+                "ability": "Water Absorb",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Starmie": {
+            "Lvl 58 Misty Gym Leader ": {
+                "level": 58,
+                "tr_id": 45,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Wise Glasses",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Sassy",
+                "moves": [
+                    "Psychic",
+                    "Thunderbolt",
+                    "Surf",
+                    "Recover"
+                ],
+                "sub_index": 4,
+                "ability": "Natural Cure",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Raichu": {
+            "Lvl 58 Lt. Surge Gym Leader ": {
+                "level": 58,
+                "tr_id": 46,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Hardy",
+                "moves": [
+                    "Thunderbolt",
+                    "Grass Knot",
+                    "Focus Blast",
+                    "Quick Attack"
+                ],
+                "sub_index": 0,
+                "ability": "Static",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Victreebel": {
+            "Lvl 60 Erika Gym Leader ": {
+                "level": 60,
+                "tr_id": 47,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9721,19 +7779,19 @@ backup_data = {
         "Leafeon": {
             "Lvl 60 Erika Gym Leader ": {
                 "level": 60,
-                "tr_id": 58,
+                "tr_id": 47,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9758,22 +7816,62 @@ backup_data = {
                 "orientation": null
             }
         },
+        "Nidoqueen": {
+            "Lvl 62 Janine Gym Leader ": {
+                "level": 62,
+                "tr_id": 48,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Gentle",
+                "moves": [
+                    "Earthquake",
+                    "Poison Jab",
+                    "Body Slam",
+                    "Superpower"
+                ],
+                "sub_index": 3,
+                "ability": "Rivarly",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
         "Venomoth": {
             "Lvl 64 Janine Gym Leader ": {
                 "level": 64,
-                "tr_id": 59,
+                "tr_id": 48,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Wise Glasses",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9801,19 +7899,19 @@ backup_data = {
         "Mr. Mime": {
             "Lvl 63 Sabrina Gym Leader ": {
                 "level": 63,
-                "tr_id": 60,
+                "tr_id": 49,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Light Clay",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9841,19 +7939,19 @@ backup_data = {
         "Wobbuffet": {
             "Lvl 63 Sabrina Gym Leader ": {
                 "level": 63,
-                "tr_id": 60,
+                "tr_id": 49,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9878,22 +7976,140 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Ninetales": {
-            "Lvl 66 Blaine Gym Leader ": {
-                "level": 66,
-                "tr_id": 61,
+        "Alakazam": {
+            "Lvl 65 Sabrina Gym Leader ": {
+                "level": 65,
+                "tr_id": 49,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Twisted Spoon",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Quirky",
+                "moves": [
+                    "Psychic",
+                    "Focus Blast",
+                    "Energy Ball",
+                    "Disable"
+                ],
+                "sub_index": 4,
+                "ability": "Synchronize",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 68 Blue Gym Leader ": {
+                "level": 68,
+                "tr_id": 51,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "None",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Quiet",
+                "moves": [
+                    "Psychic",
+                    "Shadow Ball",
+                    "Energy Ball",
+                    "Focus Blast"
+                ],
+                "sub_index": 2,
+                "ability": "Inner Focus",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Rapidash": {
+            "Lvl 66 Blaine Gym Leader ": {
+                "level": 66,
+                "tr_id": 50,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Heat Rock",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Quirky",
+                "moves": [
+                    "Sunny Day",
+                    "Flare Blitz",
+                    "Overheat",
+                    "Megahorn"
+                ],
+                "sub_index": 0,
+                "ability": "Flash Fire",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Ninetales": {
+            "Lvl 66 Blaine Gym Leader ": {
+                "level": 66,
+                "tr_id": 50,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9918,22 +8134,62 @@ backup_data = {
                 "orientation": null
             }
         },
+        "Arcanine": {
+            "Lvl 68 Blue Gym Leader ": {
+                "level": 68,
+                "tr_id": 51,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Relaxed",
+                "moves": [
+                    "Morning Sun",
+                    "Dragon Pulse",
+                    "Flare Blitz",
+                    "Extreme Speed"
+                ],
+                "sub_index": 1,
+                "ability": "Intimidate",
+                "gender": "Male",
+                "location": "Kanto Gym Leader",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
         "Tyranitar": {
             "Lvl 70 Blue Gym Leader ": {
                 "level": 70,
-                "tr_id": 62,
+                "tr_id": 51,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Chople Berry",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -9961,19 +8217,19 @@ backup_data = {
         "Pikachu": {
             "Lvl 88 Red Trainer - Mt. Silver ": {
                 "level": 88,
-                "tr_id": 63,
+                "tr_id": 52,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Light Ball",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -10001,19 +8257,19 @@ backup_data = {
         "Snorlax": {
             "Lvl 86 Red Trainer - Mt. Silver ": {
                 "level": 86,
-                "tr_id": 63,
+                "tr_id": 52,
                 "ai": 7,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": 0,
                 "item": "Leftovers",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
                 "evs": {
                     "hp": 0,
@@ -10032,6 +8288,86 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Immunity",
+                "gender": "Male",
+                "location": "Red Mt. Silver",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Venusaur": {
+            "Lvl 86 Red Trainer - Mt. Silver ": {
+                "level": 86,
+                "tr_id": 52,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Miracle Seed",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Lonely",
+                "moves": [
+                    "Sludge Bomb",
+                    "Giga Drain",
+                    "Sleep Powder",
+                    "Frenzy Plant"
+                ],
+                "sub_index": 3,
+                "ability": "Overgrow",
+                "gender": "Male",
+                "location": "Red Mt. Silver",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Blastoise": {
+            "Lvl 86 Red Trainer - Mt. Silver ": {
+                "level": 86,
+                "tr_id": 52,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": 0,
+                "item": "Mystic Water",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "evs": {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sa": 0,
+                    "sd": 0,
+                    "sp": 0
+                },
+                "nature": "Impish",
+                "moves": [
+                    "Focus Blast",
+                    "Hydro Cannon",
+                    "Blizzard",
+                    "Surf"
+                ],
+                "sub_index": 5,
+                "ability": "Torrent",
                 "gender": "Male",
                 "location": "Red Mt. Silver",
                 "spriteId": null,
@@ -10247,52 +8583,8 @@ backup_data = {
             "prev": 50
         },
         "52": {
-            "next": 53,
-            "prev": 51
-        },
-        "53": {
-            "next": 54,
-            "prev": 52
-        },
-        "54": {
-            "next": 55,
-            "prev": 53
-        },
-        "55": {
-            "next": 56,
-            "prev": 54
-        },
-        "56": {
-            "next": 57,
-            "prev": 55
-        },
-        "57": {
-            "next": 58,
-            "prev": 56
-        },
-        "58": {
-            "next": 59,
-            "prev": 57
-        },
-        "59": {
-            "next": 60,
-            "prev": 58
-        },
-        "60": {
-            "next": 61,
-            "prev": 59
-        },
-        "61": {
-            "next": 62,
-            "prev": 60
-        },
-        "62": {
-            "next": 63,
-            "prev": 61
-        },
-        "63": {
             "next": 0,
-            "prev": 62
+            "prev": 51
         }
     }
 };

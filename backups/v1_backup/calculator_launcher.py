@@ -109,7 +109,7 @@ class App:
 
         title_lbl = tk.Label(
             header_frame, 
-            text="Heart Gold Migliorato 2.0", 
+            text="Heart Gold Migliorato", 
             font=("Segoe UI", 16, "bold"), 
             bg=self.bg_color, 
             fg=self.text_color

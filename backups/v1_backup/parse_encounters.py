@@ -2,7 +2,6 @@ import openpyxl
 import re
 import json
 import datetime
-import os
 
 SPECIES_CORRECTIONS = {
     "Skamory": "Skarmory",
@@ -76,12 +75,14 @@ def clean_level(val):
     if val is None:
         return ""
     if isinstance(val, (datetime.datetime, datetime.date)):
+        # Excel date translation for DD/MM formats (e.g. 2-4 interpreted as 2nd of April, day=2, month=4)
         return f"{val.day}-{val.month}"
     
     val_str = str(val).strip()
     if not val_str:
         return ""
         
+    # Check if it matches a date-like string format
     date_match = re.match(r"(\d{4})-(\d{2})-(\d{2})", val_str)
     if date_match:
         day = int(date_match.group(3))
@@ -119,22 +120,24 @@ def clean_rate(val):
     return val_str
 
 def main():
-    candidates = [
-        "Docs/2.0/Pokémon Heart Gold MA MIGLIORATO 2.0 Encounters.xlsx",
-        "Pokémon Heart Gold MA MIGLIORATO 2.0 Encounters.xlsx",
-        "Pokémon Heart Gold MA MIGLIORATO Encounters.xlsx"
-    ]
-    encounters_path = next((p for p in candidates if os.path.exists(p)), None)
-    if not encounters_path:
-        raise FileNotFoundError("Could not find Heart Gold encounters Excel file.")
-    print(f"Loading Encounters from {encounters_path}...")
-    wb = openpyxl.load_workbook(encounters_path, read_only=True)
+    wb = openpyxl.load_workbook("Pokémon Heart Gold MA MIGLIORATO Encounters.xlsx", read_only=True)
     
     # 1. Parse Wild Pokémon
-    wild_sheet_name = next((s for s in wb.sheetnames if "wild" in s.lower()), wb.sheetnames[0])
-    wild_sheet = wb[wild_sheet_name]
+    wild_sheet = wb['Wild Pok\xe9mon' if 'Wild Pok\xe9mon' in wb.sheetnames else wb.sheetnames[0]]
     wild_rows = list(wild_sheet.iter_rows(values_only=True))
     
+    # Define row blocks for each encounter type (morning, day, night, etc.)
+    # We use 0-indexed row numbers:
+    # Row 3 to 14 (idx 3-14): Grass (Morning)
+    # Row 15 to 26 (idx 15-26): Grass (Day)
+    # Row 27 to 38 (idx 27-38): Grass (Night)
+    # Row 39 to 43 (idx 39-43): Surfing
+    # Row 44 to 48 (idx 44-48): Old Rod
+    # Row 49 to 53 (idx 49-53): Good Rod
+    # Row 54 to 58 (idx 54-58): Super Rod
+    # Row 59 to 63 (idx 59-63): Rock Smash
+    # Row 64 to 68 (idx 64-68): Headbutt Tree (Group A)
+    # Row 69 to 73 (idx 69-73): Headbutt Tree (Group B)
     encounter_types = [
         ("Grass (Morning)", 3, 15),
         ("Grass (Day)", 15, 27),
@@ -175,6 +178,7 @@ def main():
                         "rate": clean_rate(rate)
                     })
             if list_pokes:
+                # Map old/good/super road headers to rod headers
                 clean_label = label
                 if "Old Rod" in clean_label or "Old Road" in clean_label:
                     clean_label = "Old Rod"
@@ -191,63 +195,58 @@ def main():
             })
             
     # 2. Parse Gift, Static, Trade, Game Corner Sheet
-    gift_sheet_name = next((s for s in wb.sheetnames if "gift" in s.lower()), None)
-    if not gift_sheet_name and len(wb.sheetnames) > 1:
-        gift_sheet_name = wb.sheetnames[1]
-        
+    gift_sheet = wb['Gift, Static, Trade, Game Corne']
+    gift_rows = list(gift_sheet.iter_rows(values_only=True))
+    
     gifts = []
     statics = []
     trades = []
     game_corner = []
     
-    if gift_sheet_name:
-        gift_sheet = wb[gift_sheet_name]
-        gift_rows = list(gift_sheet.iter_rows(values_only=True))
-        
-        for r in range(3, len(gift_rows)):
-            row = gift_rows[r]
-            if r >= len(gift_rows):
-                break
-                
-            # Gift: col 0, 1, 2
-            if len(row) > 0 and row[0]:
-                gifts.append({
-                    "species": clean_species(row[0]),
-                    "location": str(row[1]).strip() if row[1] else "",
-                    "level": clean_level(row[2])
-                })
-                
-            # Static: col 3, 4, 5
-            if len(row) > 3 and row[3]:
-                statics.append({
-                    "species": clean_species(row[3]),
-                    "location": str(row[4]).strip() if row[4] else "",
-                    "level": clean_level(row[5])
-                })
-                
-            # Trade: col 6, 7, 8
-            if len(row) > 7 and row[7]:
-                trades.append({
-                    "give": clean_species(row[6]),
-                    "receive": clean_species(row[7]),
-                    "location": str(row[8]).strip() if row[8] else ""
-                })
-                
-            # Game Corner Col 9-11
-            if len(row) > 9 and row[9]:
-                game_corner.append({
-                    "species": clean_species(row[9]),
-                    "price": str(row[10]).strip() if row[10] else "",
-                    "level": clean_level(row[11])
-                })
-                
-            # Game Corner Col 12-14
-            if len(row) > 12 and row[12]:
-                game_corner.append({
-                    "species": clean_species(row[12]),
-                    "price": str(row[13]).strip() if row[13] else "",
-                    "level": clean_level(row[14])
-                })
+    for r in range(3, len(gift_rows)):
+        row = gift_rows[r]
+        if r >= len(gift_rows):
+            break
+            
+        # Gift: col 0, 1, 2
+        if len(row) > 0 and row[0]:
+            gifts.append({
+                "species": clean_species(row[0]),
+                "location": str(row[1]).strip() if row[1] else "",
+                "level": clean_level(row[2])
+            })
+            
+        # Static: col 3, 4, 5
+        if len(row) > 3 and row[3]:
+            statics.append({
+                "species": clean_species(row[3]),
+                "location": str(row[4]).strip() if row[4] else "",
+                "level": clean_level(row[5])
+            })
+            
+        # Trade: col 6, 7, 8
+        if len(row) > 7 and row[7]:
+            trades.append({
+                "give": clean_species(row[6]),
+                "receive": clean_species(row[7]),
+                "location": str(row[8]).strip() if row[8] else ""
+            })
+            
+        # Game Corner Col 9-11
+        if len(row) > 9 and row[9]:
+            game_corner.append({
+                "species": clean_species(row[9]),
+                "price": str(row[10]).strip() if row[10] else "",
+                "level": clean_level(row[11])
+            })
+            
+        # Game Corner Col 12-14
+        if len(row) > 12 and row[12]:
+            game_corner.append({
+                "species": clean_species(row[12]),
+                "price": str(row[13]).strip() if row[13] else "",
+                "level": clean_level(row[14])
+            })
             
     # Combine everything
     encounters_database = {
