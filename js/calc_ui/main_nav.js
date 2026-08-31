@@ -387,6 +387,10 @@
         if (dexTab) {
             dexTab.style.display = state.showDex ? "inline-flex" : "none";
         }
+        const trainersTab = document.getElementById("main-nav-trainers");
+        if (trainersTab) {
+            trainersTab.style.display = state.showDex ? "inline-flex" : "none";
+        }
 
         const battleLogTab = document.getElementById("main-nav-battle-log");
         if (battleLogTab) {
