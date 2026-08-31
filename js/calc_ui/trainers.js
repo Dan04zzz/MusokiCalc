@@ -324,7 +324,7 @@
             slot.innerHTML = `
                 <div class="custom-encounters-container">
                     <div class="encounters-header">
-                        <h2>Allenatori</h2>
+                        <h2>Trainers</h2>
                         <div class="encounters-search-bar">
                             <input type="text" class="encounters-search-input" placeholder="Cerca un Pokémon o un allenatore..." id="trainers-search-input">
                         </div>

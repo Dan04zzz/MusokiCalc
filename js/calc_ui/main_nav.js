@@ -211,6 +211,7 @@
         const dexView = document.getElementById("dex-view");
         const fragsheetShell = document.getElementById("fragsheet-shell");
         const boxView = document.getElementById("box-view");
+        const trainersView = document.getElementById("trainers-view");
         const savedMonsView = document.getElementById("saved-mons-view");
         const settingsView = document.getElementById("settings-view");
 
@@ -225,6 +226,9 @@
         }
         if (fragsheetShell) {
             fragsheetShell.style.display = (viewName === "fragsheet" || viewName === "battle-log") ? "block" : "none";
+        }
+        if (trainersView) {
+            trainersView.style.display = viewName === "trainers" ? "block" : "none";
         }
         if (boxView) {
             boxView.style.display = viewName === "box" ? "block" : "none";
