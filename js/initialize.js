@@ -955,7 +955,7 @@ function setGameSettings(title) {
   $('.unbound-effects').hide()
   $('#maxL').next().remove()
   $('#maxR').next().remove() 
-  if (title == "Renegade Platinum" || title == "Heart Gold Migliorato" || title == "Heart Gold Migliorato By Musoki") {
+  if (title == "Renegade Platinum" || title.includes("Heart Gold Migliorato")) {
     gameGen = 4
     settings.damageGen = 4
     if (!settings.noSwitch) {
