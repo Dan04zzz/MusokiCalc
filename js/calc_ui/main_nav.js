@@ -272,7 +272,7 @@
         if (requested === "battle-log" && !isBattleLogAvailable()) {
             return "fragsheet";
         }
-        if (["home", "calculator", "dex", "box", "fragsheet", "saved-mons", "battle-log", "settings"].includes(requested)) {
+        if (["home", "calculator", "dex", "trainers", "box", "fragsheet", "saved-mons", "battle-log", "settings"].includes(requested)) {
             return requested;
         }
         return "home";
