@@ -46,11 +46,11 @@
     function parseTrainersData() {
         locationsMap.clear();
         const trainersData = window.backup_data;
-        if (!trainersData || !trainersData.order || !window.SETDEX_BW) return false;
+        if (!trainersData || !trainersData.order || !setdex) return false;
 
         const trainerMap = {};
-        for (const speciesName in window.SETDEX_BW) {
-            const sets = window.SETDEX_BW[speciesName];
+        for (const speciesName in setdex) {
+            const sets = setdex[speciesName];
             for (const setName in sets) {
                 const setDetails = sets[setName];
                 if (setDetails.tr_id) {
